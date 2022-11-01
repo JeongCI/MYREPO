@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>order</title>
+	<!-- 반응형 웹페이지에 대한 화면 확대 뷰 -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- no-cache -->
+<meta http-equiv="Expires" content="1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="description" content="pcwk html 교육"/> <!-- 웹 페이지에 대한 개괄 설명 -->
+<meta name="keyword" content=""> <!-- 검색엔진 등에서 키워드 검색에 사용할 단어 -->
+<meta charset="UTF-8"> <!-- 웹페이지 인코딩 -->
+<link type="text/css" rel="stylesheet" href="index.css">
+
+<style type="text/css">
+
+/* 폰트*/
+ @font-face {
+                font-family: "cookie";
+                src: url("fonts/CookieRun Regular.ttf");
+            }
+p{font-family: "cookie";}
+p{font-size: 50px;}
+
+h1{font-family: "cookie";}
+h1{font-size: 18px;}
+
+h2{font-family: "cookie";}
+h2{font-size: 23px;}
+
+h3{font-family: "cookie";}
+h3{font-size: 23px;}
+h3{color: #ffffff;}
+h3{background-color: #00ff0000;}
+
+body{
+			margin: 0;
+			padding: 0;
+		}
+
+		#main {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 0.5;
+		}
+
+		#banner {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 1.5em;
+		top: 0.55em;
+		}
+
+		#main-menu,
+		#sub-menu{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			position: relative;
+			left: 70em;
+			top: 0.5em;
+		}
+
+		#main-menu > li {
+			float: left;
+			position: relative;
+			width: 10em;
+		}
+
+		#main-menu > li > a {
+			display: block;
+			padding: 0;
+			text-align: center;
+			background-color: rgba(255,255,255,0.1);
+			color: rgb(0,0,0);
+			text-decoration: none;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+			border-right: 2px solid rgba(0, 0, 0, 0.15);
+			border-left: 2px solid rgba(0, 0, 0, 0.15);
+			letter-spacing: 0.09em;
+		}
+
+		#main-menu > li > a:hover {
+			color:rgba(255, 64, 64, 0.5);
+		}
+
+		#sub-menu > li{
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			border: 2px solid rgba(0,0,0,0.15);
+			position: relative;
+		}
+
+		#sub-menu > li > a {
+			color:  rgba(0,0,0,0.9);
+			text-decoration: none;
+			text-align: center;
+			letter-spacing: 0.05em;
+			position: relative;
+		}
+
+		#sub-menu {
+			opacity: 0;
+			visibility: hidden;
+			position: relative;
+			left: 0.1%;
+			top: -15px;
+			z-index: 1;
+		}
+
+		#main-menu > li:hover #sub-menu {
+			opacity: 1;
+			visibility: visible;
+			background-color: rgba(250, 250, 250,0.1);
+			transition: all 0.25s ease-in;
+
+		}
+		
+
+		
+
+
+/* 만지지말것 */
+body
+{
+      background-image: url("image/elcar.jpg"); /* url(" ") 사이에 주소 넣어서 배경 바꾸기 */
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+}
+
+    .overlay{
+      display: none;
+      z-index: 1;
+      position: fixed;
+      width: 100%; height: 100%;
+      left: 0; top: 0;
+      background-color: rgba(0,0,0, 0.5);
+      overflow-x: hidden;
+    }
+
+</style>
+
+</head>
+<body>
+<div class =".overlay">
+		<div id="banner">
+		<a href="#" onclick="parent.view.location.href='first.html';"><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전기차뭐시기</h3>
+		</a>
+		</div>
+
+		<ul id="main-menu">
+			<li><a href="#"><h2>ORDER</h2></a>
+				<ul id="sub-menu">
+					<li><a href="first.html" target="view"><h1></h1></a></li>
+					<li><a href="order.html" target="view"><h1>주문 하기</h1></a></li>
+					<li><a href="first.html" target="view"><h1>주문 내역</h1></a></li>
+					<li><a href="first.html" target="view"><h1>주문 수정</h1></a></li>
+					<li><a href="first.html" target="view"><h1>주문 취소</h1></a></li>
+					<li><a href="first.html" target="view"><h1>영수증</h1></a></li>
+				</ul>
+				</li>
+				
+				<li><a href="#"><h2>직원 문의</h2></a>
+				</li>
+				
+				<li><a href="#"><h2>미니 게임</h2></a>
+				<ul id="sub-menu">
+					<li><a href="first.html" target="view"><h1></h1></a></li>
+					<li><a href="ali.html" target="view"><h1>악어 이빨</h1></a></li>
+					<li><a href="fortune.html" target="view"><h1>오늘의 운세</h1></a></li>
+				</ul>
+				</li>
+		
+				<li><a href="#"><h2>관리자 메뉴</h2></a></li>
+		
+				</ul>
+			</ul>
+</div>
+</body>
+</html>

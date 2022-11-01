@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+  table {
+  width: 40%;
+  border-collapse: collapse;
+  }
+  
+  td,th{
+    border: none;
+  }
+  
+   #btncol{
+  background-color: coral;
+  color: white;
+  border: 3px solid saddlebrown;
+  border-radius: 5px;
+ }
+  #btncol:hover{
+  background-color: black;
+  color: white;
+  border: 3px solid saddlebrown;
+  border-radius: 5px;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<h2> readonly: 입력된 내용을 수정할 수 없도록 만들어 주는 속성
+     disabled: 입력된 내용을 수정할 수 없도록 만들어 주는 속성(form 전송하면 변수가 누락됨)
+</h2>
+<!-- form -->
+  <form action="#" method="get">
+    <fieldset>
+      <legend>로그인</legend>
+        <table>
+          <tr>
+            <td align="right">이메일</td>        
+            <td><input type="email" name="userId" id="userId" value="jamesol@paran.com" readonly="readonly">
+            </td>        
+          </tr>
+          <tr>
+            <td align="right">이름</td>        
+            <td><input type="text" name="userPw" id="userPw" value="네오" disabled="disabled"></td>        
+          </tr>
+          <tr>
+          <td>
+          </td>
+            <td align="left">
+              <input type="submit" id="btncol" value="확인"> 
+              <input type="button" id="btncol" value="취소">
+            </td>
+          </tr>
+        </table>
+    </fieldset>
+  </form>
+<!-- form end -->
+</body>
+</html>

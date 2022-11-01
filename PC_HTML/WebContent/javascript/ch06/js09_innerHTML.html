@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+  div {
+    width:80px;
+    height:80px;
+    border:1px solid #000;
+    background-color: #ff0;
+    padding: 10px;
+  }
+  
+  .m1 {
+    color: #f00;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  function pOnLoad() {
+	  //console.log('pOnLoad()');
+	  let content = document.getElementById("content");
+	  content.innerHTML = '<p class="m1">식사 맛나게 하셨나요?</p>';
+  };
+</script>
+</head>
+<body onload="javascript:pOnLoad();">
+  <div id="content">
+    <!-- <p class="m1">식사 맛나게 하셨나요?</p> -->
+  </div>
+</body>
+</html>

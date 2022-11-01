@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+  form, div, input {
+    margin: 12px;
+    border: 1px solid red;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<h2>버블링</h2>
+<p>이벤트 버블링은 부모요소와 자식 요소 모두에 이벤트가 연결되어 있을 경우<br>
+   자식 요소의 이벤트를 실행 했을 대 부모요소의 이벤트도 같이 실행</p>
+  <form action="#" onclick="alert('form');">
+    <div onclick="event.stopPropagation();">
+      <input type="submit" onclick="alert('submit');" value="전송">
+    </div>
+  </form>
+</body>
+</html>

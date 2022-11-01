@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+	body, header, div, footer, h1m, p, ul, li {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	header {
+	 height: 40px;
+	 line-height: 40px;
+	 background-color: #75a7ff;
+	}
+	#container {
+	 width: 600px;
+	 margin: 0 auto;
+	 min-height: calc(100vh - 80px); /* 최소 화면 높이 100vh - 40px(header) -40px(footer) */
+	}
+	footer {
+	 height: 40px;
+	 background-color: #75a7ff;
+	 line-height: 40px;
+	 text-align: center;
+	}
+	.lnb {
+	 background-color: #004ecb;
+	}
+	.lnb li {
+	 display: inline;
+	}
+	.lnb li a {
+	 display: inline-block;
+	 text-align: center;
+	 padding: 5px 20px;
+	}
+	.content_area {
+	 background-color: #aab6fe;
+	}

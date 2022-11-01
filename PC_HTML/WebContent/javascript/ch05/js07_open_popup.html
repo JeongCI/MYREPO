@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script>
+   let myWindow;
+   
+   window.onload = function() {
+     const bt = document.getElementById("bt");
+     bt.onclick = function() {
+       //크롬, edge : scrollbars, resizable 먹지않음
+       //IE : 적용됨
+        //팝업창 열기
+        //target : _blank -> 팝업을 새창에서 연다.
+        //         _self  -> 현재 체이지에서 새창이 열린다.
+        //         _parent-> 부모창에서 팝업이 열린다.
+        //         _top   -> 현재 페이지에서 최상위 페이지에서 팝업이 열린다.
+       myWindow = window.open('https://cafe.daum.net/pcwk','PCWK','width=600, height=400, left=100, top=10, location=no');
+        //window.open('/PC_HTML/javascript/ch05/js07_eventBubble.html','PCWK','width=600, height=400, left=100, top=10')
+        //window.open('/PC_HTML/javascript/ch05/js07_eventBubble.html','PCWK','width=800, height=600, left=100, top=10')
+     };
+   };
+   
+   function closePopup(){
+     //console.log('closePopup');
+     myWindow.close();
+   }
+   
+</script>
+</head>
+<body>
+  <h2>window.open()</h2>
+  <hr/>
+  <button id="bt">새창열기</button>
+  <button onclick="javascript:closePopup();">닫기</button>
+</body>
+</html>

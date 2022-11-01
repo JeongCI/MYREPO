@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  window.onload = function() {
+	  let list01 = document.querySelector('#box01>ul>li');
+	  list01.style.background = "#ff6600";
+	  console.log(`list01:${list01}`);
+	  
+	  //li요소를 배열로 선택
+	  let list02 = document.querySelectorAll('#box02>ul>li');
+	  list02[2].style.background = "#ccc";
+	  console.log(`list02:${list02}`);
+	  
+  }
+</script>
+</head>
+<body>
+  <div id="box01">
+    <ul>
+      <li>내용1</li>
+      <li>내용2</li>
+      <li>내용3</li>
+    </ul>
+  </div>
+  
+  <div id="box02">
+    <ul>
+      <li>내용4</li>
+      <li>내용5</li>
+      <li>내용6</li>
+    </ul>
+  </div>
+  
+</body>
+</html>

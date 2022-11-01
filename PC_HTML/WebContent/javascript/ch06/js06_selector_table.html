@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+  table, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 600px;
+  }
+  
+  .t_center{
+    text-align: center;
+  }
+  
+  .t_right{
+    text-align: center;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  window.onload = function() {
+/* 	   let table = document.getElementById("tableList");
+	   let rows = table.querySelectorAll('tr');
+	   console.log(rows);
+	   
+	   let row1 = document.querySelectorAll("tableList>tbody>tr");
+	   console.log(row1); */
+	   
+	   let table = document.getElementById("tableList");
+	   let rows = table.querySelectorAll('tr');
+	   console.log(rows);
+	   console.clear();
+	   console.log(rows.length);
+	   
+	   //i=0 head부분은 선택되면 않되므로 제외
+	   for(let i=1; i <rows.length;i++) {
+		   let row = rows[i];
+		   console.log(`row.tagName:${row.tagName}`);
+		   
+		   
+		   row.onclick = function(event) {
+			   //console.log(`1:${i}`);
+			   
+			   //this -- tr
+			   let tdArray = this.children; //td전체를 배열로 return
+			   //innerText: <td>값</td> 값 출력
+			   console.log(`tdArray : ${tdArray[6].innerText}`);
+		   };
+		   
+	   }
+	   
+	   
+  };
+</script>
+</head>
+<body>
+  <div>
+    <table id="tableList">
+      <thead>
+        <tr>
+          <th>NO.</th>
+          <th>제목</th>
+          <th>글쓴이</th>
+          <th>작성일</th>
+          <th>추천</th>
+          <th>조회수</th>
+          <th style="display: none;">SEQ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>js01_screen</td>
+          <td class="t_center">이상무</td>
+          <td class="t_center">2022-10-21</td>
+          <td class="t_right">0</td>
+          <td class="t_right">1</td>
+          <td class="t_right" style="display: none;">101</td>
+        </tr>
+        
+        <tr>
+          <td>2</td>
+          <td>js01_history.html</td>
+          <td class="t_center">이상무</td>
+          <td class="t_center">2022-10-21</td>
+          <td class="t_right">0</td>
+          <td class="t_right">1</td>
+          <td class="t_right" style="display: none;">102</td>
+        </tr>
+        
+        <tr>
+          <td>3</td>
+          <td>js01_history.html</td>
+          <td class="t_center">이상무</td>
+          <td class="t_center">2022-10-21</td>
+          <td class="t_right">0</td>
+          <td class="t_right">1</td>
+          <td class="t_right" style="display: none;">103</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

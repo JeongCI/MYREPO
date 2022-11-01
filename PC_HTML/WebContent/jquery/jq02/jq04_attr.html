@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+</style>
+
+<title>제목</title>
+<script src="/PC_HTML/assets/js/jquery-3.6.1.min.js"></script>
+<!-- javascript -->
+<script type="text/javascript">
+  $(document).ready(function(){
+	  console.log($("#site>a:eq(0)").attr("href"));
+	  $("#site>a:eq(2)").attr("href", "https://www.google.com").text("google");
+	  $("#site>a").attr("title",function(){
+		  return "C Class Windows";
+	  });
+  });
+</script>
+</head>
+<body>
+  <h2>attr()</h2>
+  <hr>
+  
+  <div id="site">
+    <a href="https://cafe.daum.net/pcwk" target="_blank">PCWK</a>
+    <a href="https://www.naver.com" target="_blank">naver</a>
+    <a href="https://www.daum.net" target="_blank">daum</a>
+  </div>
+</body>
+</html>

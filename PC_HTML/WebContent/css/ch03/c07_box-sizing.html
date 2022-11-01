@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+  body, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url("/PC_HTML/assets/imgs/bg_grid.gif");
+  }
+  p {
+    width: 600px;
+    height: 100px;
+    padding: 30px;
+    background-color: rgba(255,255,0,0.5);
+    border: 10px solid rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+  }
+  
+  /* 여백과 테두리를 width에 포함: box-sizing: border-box 
+        기본: 600 + 30 + 30 + 10 + 10 = 680px, 100 + 30 + 30 + 10 = 180px*/
+  .sizing {
+    box-sizing: border-box;
+  }
+  
+  .sizing-list {
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  .sizing-list li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,100,0.3);
+  }
+  
+  .sizing-list li:nth-child(even) {
+    background-color: rgba(0,0,100,0.15);
+  }
+  
+  .sizing-list li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .sizing-list li a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+  <p>It's impossible not only starting good but also keeping it firm.</p>
+  <p class="sizing">It's impossible not only starting good but also keeping it firm.</p>
+  <ul class="sizing-list">
+    <li><a href="#">Company</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Customer</a></li>
+    <li><a href="#">Community</a></li>
+  </ul>
+</body>
+</html>

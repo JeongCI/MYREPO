@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	/* 10px 10px */
+  background-image: url("/PC_HTML/assets/imgs/bg_grid.png")
+}
+
+p {
+	 width: 100%; /* width에는 border포함 되지 않음. */
+	 min-width: 500px; /* 요소의 최소 넓이를 500px 이상 */
+	 background-color: rgba(255,0,0,0.5);
+	 border: 20px solid rgba(0,255,0,0.5);
+	}

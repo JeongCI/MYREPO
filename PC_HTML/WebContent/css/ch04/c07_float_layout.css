@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+  body, header, div, footer, ul, li, p, h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  body {
+    font: 14px "Malgun Gothic", "맑은고딕";
+  }
+  
+  a {
+    text-decoration: none;
+    color: #444;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #wrap {
+    background-color: #cfc;
+  }
+  
+  .clear:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  header {
+    background-color: crimson;
+  }
+  
+  header h1 {
+    float: left;
+    padding-right: 40px;
+  } 
+  
+  header .gnb {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  header .gnb li {
+    float: left;
+    border: 1px solid white;
+  }
+  
+  header .gnb li a {
+    width: 100px;
+    font-size: 16px;
+    display: block;
+    color: white;
+    letter-spacing: 2px;
+    text-align:center;
+  }
+  
+  .lnb {
+    width: 20%;
+    float: left;
+    background-color: #dfd;
+  }
+  
+  .lnb li a{
+    padding: 5px 20px;
+    display: block;
+  }
+  
+  .content_area {
+    width: 80%;
+    float: left;
+    background-color: forestgreen;
+  }
+  
+  .content_area p {
+    
+  }
+  
+  footer {
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+  }

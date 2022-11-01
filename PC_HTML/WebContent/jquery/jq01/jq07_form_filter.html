@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+  #vis {
+    display: none;
+  }
+</style>
+
+<title>제목</title>
+<script src="/PC_HTML/assets/js/jquery-3.6.1.min.js"></script>
+<!-- javascript -->
+<script type="text/javascript">
+  $(document).ready(function(){
+	  $("input:text").css("background","red");
+	  $("input:password").css("background","orange");
+	  $(":button").css("backgroundColor","yellow");
+	  $("input:checkbox + label").css("background","green");
+	  $("option:selected").css("background","blue");
+	  $("textarea").css("background","pink");
+	  
+	  console.log($('div:hidden').text());
+  });
+</script>
+</head>
+<body>
+  <div><input type="text"></div>
+  <div><input type="password"></div>
+  <div><button>확인</button></div>
+  <div><input type="checkbox" id="css" checked="checked"><label for="css">css</label></div>
+  
+  <div>
+    <select>
+      <option>과목선택</option>
+      <option>html</option>
+      <option>css</option>
+      <option>javascript</option>
+      <textarea cols="20" rows="5">javascript</textarea>
+    </select>
+  </div>
+  
+  <div id="vis">내용1</div>
+</body>
+</html>

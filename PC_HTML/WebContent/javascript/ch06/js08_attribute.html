@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+  div {
+    width:80px;
+    height:80px;
+    border:1px solid #000;
+    background-color: #f0f;
+    padding: 10px;
+  }
+  
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  window.onload = function() {
+	  let bt = document.getElementById("bt");
+	  
+	  bt.onclick = function() {
+		  //console.log('ok');
+		  let divE = document.createElement("div");
+		  let aE = document.createElement("a");
+		  let txt = document.createTextNode("PCWK cafe");
+		  
+		  aE.appendChild(txt);
+		  aE.setAttribute('href','https://cafe.daum.net/pcwk/Yte4/54');
+		  aE.setAttribute('target','_blank');
+		  divE.appendChild(aE);
+		  document.body.appendChild(divE);
+	  };
+  };
+</script>
+</head>
+<body>
+  <button id="bt">속성생성</button>
+<!--   <div>
+    <a href="https://cafe.daum.net/pcwk/Yte4/54">PCWK cafe</a>
+  </div> -->
+</body>
+</html>

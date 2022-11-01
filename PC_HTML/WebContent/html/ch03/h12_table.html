@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+  table {
+  width: 40%;
+  border-collapse: collapse;
+  }
+  
+  td,th{
+    border: none;
+  }
+  
+   #btncol{
+  background-color: coral;
+  color: white;
+  border: 3px solid saddlebrown;
+  border-radius: 5px;
+ }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<!-- form -->
+  <form action="#">
+    <fieldset>
+      <legend>회원가입</legend>
+        <table>
+          <tr>
+            <td align="right"">이름*</td>        
+            <td><input type="text" name="name" id="name" placeholder="이름" tabindex="1"></td>        
+          </tr>
+          <tr>
+            <td align="right">아이디*</td>        
+            <td><input type="text" name="userId" id="userId" placeholder="아이디">
+                <input type="button" id="btncol" value="중복체크">
+            </td>        
+          </tr>
+          <tr>
+            <td align="right">비밀번호*</td>        
+            <td><input type="text" name="userPw" id="userPw" placeholder="비밀번호"></td>        
+          </tr>
+          <tr>
+            <td align="right">비밀번호확인*</td>        
+            <td><input type="text" name="userPw" id="userPw" placeholder="비밀번호"></td>        
+          </tr>
+          <tr>
+            <td align="right">이메일</td>        
+            <td><input type="email" name="userEm" id="userEm" placeholder="이메일"></td>        
+          </tr>
+          <tr>
+            <td align="right">연락처</td>        
+            <td><input type="tel" name="userTel" id="userTel" placeholder="전화번호"></td>        
+          </tr>
+          <tr>
+            <td align="right">생년월일</td>        
+            <td>
+             <input type="text" name="year" placeholder="년도" id="year" size="4" maxlength="4">년
+             <input type="text" name="month" placeholder="월" id="month" size="2" maxlength="2">월
+             <input type="text" name="day" placeholder="일" id="day" size="2" maxlength="2">일
+            </td>        
+          </tr>
+          <tr>
+            <td align="right">성별</td>        
+            <td><select>
+              <option value="1">남</option>
+              <option value="2">여</option>
+            </select></td>        
+          </tr>
+          <tr>
+            <td colspan="2" align="right">
+              <input type="submit" id="btncol" value="확인"> 
+              <input type="button" id="btncol" value="취소">
+            </td>
+          </tr>
+        </table>
+    </fieldset>
+  </form>
+<!-- form end -->
+</body>
+</html>

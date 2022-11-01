@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+  body, h2, hr, table, tr, td{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 500px;
+    padding: 10px;
+  }
+  
+  .btn_area {
+    text-align: right;
+  }
+  
+  .btn {
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color:  rgb(0, 69, 162);
+    background-color: rgb(1, 53, 101);
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+    border-color: #e0e0e0;
+  }
+  
+  td {
+    padding: 3px;
+  }
+  
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<div class="container">
+  <h2>회원</h2>
+  <hr>
+  <form action="#">
+  <div class="btn_area">
+    <input type="reset" class="btn" value="초기화">
+    <input type="submit" class="btn" value="등록">
+  </div>
+  <table>
+  <tr>
+  <td colspan="2"><input type="text" class="bar" placeholder="회원아이디"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="text" class="bar" placeholder="이름"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="password" class="bar" placeholder="비번"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><select class="bar">
+                  <option class="bar">일반</option>
+                  <option class="bar">고급</option>
+                  <option class="bar">심화</option>
+               </select>
+  </td>
+  </tr>
+  <tr>
+  <td class="text">성별</td>
+  <td>
+  <input type="radio" >남
+  <input type="radio" checked>여
+  </td>
+  </tr>
+  <tr>
+  <td class="text">관심분야</td>
+  <td>
+  <input type="checkbox">자바
+  <input type="checkbox">웹
+  <input type="checkbox">오라클
+  <input type="checkbox">스프링
+  </td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="text" class="bar" placeholder="로그인수"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="text" class="bar" placeholder="추천수"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="email" class="bar" placeholder="이메일"></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input type="text" class="bar" placeholder="등록일" disabled="disabled"></td>
+  </tr>
+  </table>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body{
+  margin: 0;
+}
+a {
+	 text-decoration: none;
+	 color: #000000;
+	 font-weight: bold;
+}
+.navbar {
+	display: flex; /* 자식들이 왼쪽으로 차례대로 붙게 된다 */
+	justify-content: space-between; /* 자식들이 동일한 간격 유지 */
+	
+	padding: 10px 12px;
+	background-color: rgb(210,210,210);
+	border: 1px solid;
+}
+
+.logo {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.menu {
+	display: inline;
+	background-color: (235,235,235,1);
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu li a {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 5px 10px;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	text-align: center;
+	letter-spacing: 1px;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	background-color: rgb(180,180,180);
+}
+
+.menu li a:hover{
+	background-color: rgba(180,180,180,0.2);
+	 border-bottom: 2px solid crimson;
+  border-radius: 10px solid crimson;
+  color: crimson;
+}
+
+.icons {
+	display: inline;
+	list-style: none;
+}
+
+.icons li {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	width: 50px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.icons li > a:hover {
+	color: rgb(50,50,50);
+}

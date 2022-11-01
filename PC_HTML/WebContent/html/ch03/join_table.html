@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+  table {
+  width: 40%;
+  border-collapse: collapse;
+  }
+  
+  td,th{
+    border: none;
+  }
+  
+   #btncol{
+  background-color: coral;
+  color: white;
+  border: 3px solid saddlebrown;
+  border-radius: 5px;
+ }
+  #btncol:hover{
+  background-color: black;
+  color: white;
+  border: 3px solid saddlebrown;
+  border-radius: 5px;
+  }
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<h2> required: 적용된 input에 데이터가 비어있을 경우 경고 메시지 출력</h2>
+<!-- form -->
+  <form action="#">
+    <fieldset>
+      <legend>회원가입</legend>
+        <table>
+          <tr>
+            <td align="right">아이디*</td>        
+            <td><input type="text" name="userId" id="userId" placeholder="아이디" tabindex="1" required="required">
+                <input type="button" id="btncol" value="중복체크">
+            </td>        
+          </tr>
+          <tr>
+            <td align="right">비밀번호*</td>        
+            <td><input type="text" name="userPw" id="userPw" placeholder="비밀번호" tabindex="2"></td>        
+          </tr>
+          <tr>
+          <td></td>
+            <td align="left">
+              <input type="submit" id="btncol" value="확인"> 
+              <input type="button" id="btncol" value="취소">
+            </td>
+          </tr>
+        </table>
+    </fieldset>
+  </form>
+<!-- form end -->
+</body>
+</html>

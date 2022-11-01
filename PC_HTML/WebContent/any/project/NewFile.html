@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+
+<style>
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  
+</script>
+</head>
+<body>
+  <canvas id="canvas" width="300" height="300"><</canvas>
+  
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+        "GLTFLoader" : "https://unpkg.com/three@0.141.0/examples/jsm/
+        loaders/GLTFLoader.js"
+      }
+    }
+  </script>
+  
+  <script type="module">
+    import {GLTFLoader} from 'GLTFLoader';
+    import * as THREE from 'three';
+
+    let scene = new THREE.Scene();
+    let renderer = new THREE.WebGLRenderer({
+      canvas : document.querySelector('#canvas')});
+    
+    let camera = new THREE.PerspectiveCamera(30,1);
+
+    let loader = new GLTFLoader();
+    loader.load('/PC_HTML/project/car', function(gltf) {
+      scene.add(gltf.scene);
+    })
+  </script>
+</body>
+</html>

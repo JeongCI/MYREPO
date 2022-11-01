@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{ /* padding(안쪽) margin(바깥쪽) 여백 초기화 */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("/PC_HTML/assets/imgs/bg_grid.gif");
+}
+
+p {
+	background-color: rgba(0,100,200,0.3);
+	width: 700px;
+	padding: 10px;
+	margin: 20px;
+	border: 1px solid red;
+}
+
+.art02{
+	margin: 0 auto;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initail-scale=1.0">
+<meta name="description" content="pcwk html 교육" />
+<!-- 키워드 -->
+<meta name="keyword" content="html5, css3, javascript6, jQuery교육">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/PC_HTML/favicon.ico">
+
+<style>
+
+</style>
+
+<title>제목</title>
+
+<!-- javascript -->
+<script type="text/javascript">
+  window.onload = function() {
+	  //id = 'gnb' 선택
+	  let gnb = document.querySelector("#gnb");
+	  console.log(`gnb.parentNode : ${gnb.parentNode}`); //부모 노드 정리
+	  console.log(`gnb.children[0]: ${gnb.children[0]}`); //ul선택
+	  console.log(`gnb.children[0].children[0]: ${gnb.children[0].children[0]}`);//ul li첫번째
+	  //ul li첫번째 형제 node
+	  console.log(`gnb.children[0].children[0].nextElementSibling: ${gnb.children[0].children[0].nextElementSibling}`);
+	  //ul li두번째 이번 형제 node
+	  console.log(`gnb.children[0].children[2].previousSibling: ${gnb.children[0].children[2].previousSibling}`);
+	  //ul first child
+	  console.log(`gnb.children[0].firstChild: ${gnb.children[0].firstChild}`);
+	  console.log(`gnb.children[0].firstChild: ${gnb.children[0].firstChild}`);
+	  //ul last child
+	  console.log(`gnb.children[0].lastChild: ${gnb.children[0].lastChild}`);
+	  //ul first child nodeValue
+	  console.log(`gnb.children[0].children[0].firstChild.nodeValue: ${gnb.children[0].children[0].firstChild.nodeValue}`);
+	  //ul first child nodeType
+	  //nodetype: 요소: 1, 속성: 2, 텍스트: 3
+	  console.log(`gnb.children[0].children[0].nodeType: ${gnb.children[0].children[0].nodeType}`);
+	  console.clear();
+	  console.log(`gnb.id:${gnb.id}`);
+	  console.log(`gnb.children[0].children[0].className:${gnb.children[0].children[0].className}`);
+	  
+  };
+</script>
+</head>
+<body>
+  <div>
+    <nav id="gnb">
+      <ul>
+        <li class="first">내용1</li>
+        <li>내용2</li>
+        <li>내용3</li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>
