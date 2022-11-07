@@ -10,6 +10,27 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  <!-- 국제화 관련 태그 기본값 설정 -->
+  <context-param>
+    <param-name>javax.servlet.jsp.jstl.fmt.timeZone</param-name>
+    <param-value>Asia/Seoul</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>javax.servlet.jsp.jstl.fmt.locale</param-name>
+    <param-value>message</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>hello</param-name>
+    <param-value>com.pcwk.ehr.servlet.HelloServlet</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>hello</param-name>
+    <param-value>hello.do</param-value>
+  </context-param>
+  
   <!-- 서블릿 등록, 매핑 -->
   <servlet>
     <servlet-name>hello</servlet-name>

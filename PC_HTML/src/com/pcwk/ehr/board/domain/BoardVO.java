@@ -2,15 +2,15 @@
 * <pre>
 * com.pcwk.ehr.board.domain
 * Class Name : BoardVO.java
-* Description: Board Value Object(boardÅ×ÀÌºí°ú Java ¿Í 1´ë1 ¸ÅÇÎ)
+* Description: Board Value Object(boardï¿½ï¿½ï¿½Ìºï¿½ï¿½ Java ï¿½ï¿½ 1ï¿½ï¿½1 ï¿½ï¿½ï¿½ï¿½)
 * Author: ITSC
 * Since: 2022/09/26
 * Version 0.1
 * Copyright (c) by H.R.KIM All right reserved.
 * Modification Information
-* ¼öÁ¤ÀÏ   ¼öÁ¤ÀÚ    ¼öÁ¤³»¿ë
+* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 *-----------------------------------------------------
-*2022/09/26 ÃÖÃÊ»ý¼º
+*2022/09/26 ï¿½ï¿½ï¿½Ê»ï¿½ï¿½ï¿½
 *-----------------------------------------------------
 * </pre>
 */
@@ -23,18 +23,18 @@ import com.pcwk.ehr.cmn.DTO;
  *
  */
 public class BoardVO extends DTO {
-//   SEQ         NUMBER(7,0)         No         1   ¼ø¹ø
-//   TITLE       VARCHAR2(200 BYTE)   No         2   Á¦¸ñ
-//   Contents   CLOB            Yes         3   ³»¿ë
-//   READ_CNT   NUMBER(6,0)         Yes   0      4   Á¶È¸¼ö
-//   READ_DT      DATE            Yes   SYSDATE   5   µî·ÏÀÏ
-//   READ_ID      VARCHAR2(20 BYTE)   Yes         6   µî·ÏÀÚ
-//   MOD_DT      DATE            Yes   SYSDATE   7   ¼öÁ¤ÀÏ
-//   MOD_ID      VARCHAR2(20 BYTE)   Yes         8   ¼öÁ¤ÀÚ
+//   SEQ         NUMBER(7,0)         No         1   ï¿½ï¿½ï¿½ï¿½
+//   TITLE       VARCHAR2(200 BYTE)   No         2   ï¿½ï¿½ï¿½ï¿½
+//   contents   CLOB            Yes         3   ï¿½ï¿½ï¿½ï¿½
+//   READ_CNT   NUMBER(6,0)         Yes   0      4   ï¿½ï¿½È¸ï¿½ï¿½
+//   READ_DT      DATE            Yes   SYSDATE   5   ï¿½ï¿½ï¿½ï¿½ï¿½
+//   READ_ID      VARCHAR2(20 BYTE)   Yes         6   ï¿½ï¿½ï¿½ï¿½ï¿½
+//   MOD_DT      DATE            Yes   SYSDATE   7   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//   MOD_ID      VARCHAR2(20 BYTE)   Yes         8   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	private int seq;
 	private String title;
-	private String Contents;
+	private String contents;
 	private int readCnt;
 	private String regDt;
 	private String regId;
@@ -48,19 +48,19 @@ public class BoardVO extends DTO {
 	/**
 	 * @param seq
 	 * @param title
-	 * @param Contents
+	 * @param contents
 	 * @param readCnt
 	 * @param regDt
 	 * @param regId
 	 * @param modDt
 	 * @param modId
 	 */
-	public BoardVO(int seq, String title, String Contents, int readCnt, String regDt, String regId, String modDt,
+	public BoardVO(int seq, String title, String contents, int readCnt, String regDt, String regId, String modDt,
 			String modId) {
 		super();
 		this.seq = seq;
 		this.title = title;
-		this.Contents = Contents;
+		this.contents = contents;
 		this.readCnt = readCnt;
 		this.regDt = regDt;
 		this.regId = regId;
@@ -97,17 +97,17 @@ public class BoardVO extends DTO {
 	}
 
 	/**
-	 * @return the Contents
+	 * @return the contents
 	 */
-	public String getContents() {
-		return Contents;
+	public String getcontents() {
+		return contents;
 	}
 
 	/**
-	 * @param Contents the Contents to set
+	 * @param contents the contents to set
 	 */
-	public void setContents(String Contents) {
-		this.Contents = Contents;
+	public void setcontents(String contents) {
+		this.contents = contents;
 	}
 
 	/**
@@ -182,7 +182,7 @@ public class BoardVO extends DTO {
 
 	@Override
 	public String toString() {
-		return "BoardVO [seq=" + seq + ", title=" + title + ", Contents=" + Contents + ", readCnt=" + readCnt
+		return "BoardVO [seq=" + seq + ", title=" + title + ", contents=" + contents + ", readCnt=" + readCnt
 				+ ", regDt=" + regDt + ", regId=" + regId + ", modDt=" + modDt + ", modId=" + modId + ", toString()="
 				+ super.toString() + "]";
 	}

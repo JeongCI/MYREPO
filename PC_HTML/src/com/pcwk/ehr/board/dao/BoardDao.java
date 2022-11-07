@@ -136,7 +136,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 		sb.append("	INSERT INTO board ( \n");
 		sb.append("			seq,		\n");
 		sb.append("			title,		\n");
-		sb.append("			Contents,	\n");
+		sb.append("			contents,	\n");
 		sb.append("			reg_id,		\n");
 		sb.append("			mod_id		\n");
 		sb.append("		) VALUES (		\n");
@@ -158,7 +158,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 			LOG.debug("4. pstmt : " + pstmt);
 //			pstmt.setInt(1, dto.getSeq());
 			pstmt.setString(1, dto.getTitle());
-			pstmt.setString(2, dto.getContents());
+			pstmt.setString(2, dto.getcontents());
 			pstmt.setString(3, dto.getregId());
 			pstmt.setString(4, dto.getModId());
 
@@ -221,10 +221,10 @@ public class BoardDao implements WorkDiv<BoardVO> {
 			if (inVO.getSearchDiv().equals("10")) {
 				sbWhere.append("WHERE title LIKE '%'||?||'%' \n");
 			} else if (inVO.getSearchDiv().equals("20")) {
-				sbWhere.append("WHERE Contents LIKE '%'||?||'%' \n");
+				sbWhere.append("WHERE contents LIKE '%'||?||'%' \n");
 			} else if (inVO.getSearchDiv().equals("30")) {
 				sbWhere.append("WHERE title LIKE '%'||?||'%'");
-				sbWhere.append("OR Contents LIKE '%'||?||'%'");
+				sbWhere.append("OR contents LIKE '%'||?||'%'");
 			}
 		}
 
@@ -361,7 +361,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 	public int doUpdate(BoardVO dto) {
 //		UPDATE board
 //		SET title = ?
-//		Contents = ?
+//		contents = ?
 //		mod_dt = SYSDATE,
 //		mod_id = ?
 //		WHERE seq = ?
@@ -372,7 +372,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 		StringBuilder sb = new StringBuilder();
 		sb.append("UPDATE board		 			\n");
 		sb.append("	  SET title = ?,			\n");
-		sb.append("		  Contents = ?,	 		\n");
+		sb.append("		  contents = ?,	 		\n");
 		sb.append("		  mod_dt = SYSDATE,		\n");
 		sb.append("		  mod_id = ?		 	\n");
 		sb.append("WHERE seq = ?	 			\n");
@@ -387,7 +387,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 			pstmt = conn.prepareStatement(sb.toString());
 			LOG.debug("4.pstmt:" + pstmt);
 			pstmt.setString(1, dto.getTitle());
-			pstmt.setString(2, dto.getContents());
+			pstmt.setString(2, dto.getcontents());
 			pstmt.setString(3, dto.getModId());
 			pstmt.setInt(4, dto.getSeq());
 			// DML SQL 실행
@@ -475,7 +475,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 		StringBuilder sb = new StringBuilder();
 		sb.append("SELECT seq,											\n");
 		sb.append("		title,											\n");
-		sb.append("		Contents,										\n");
+		sb.append("		contents,										\n");
 		sb.append("		read_cnt,										\n");
 		sb.append("		TO_CHAR(mod_dt,'YYYY.MM.DD HH24:MI:SS') mod_dt,	\n");
 		sb.append("		mod_id											\n");
@@ -497,7 +497,7 @@ public class BoardDao implements WorkDiv<BoardVO> {
 				outVO = new BoardVO();
 				outVO.setSeq(rs.getInt("seq"));
 				outVO.setTitle(rs.getString("title"));
-				outVO.setContents(rs.getString("Contents"));
+				outVO.setcontents(rs.getString("contents"));
 				outVO.setReadCnt(rs.getInt("read_cnt"));
 				outVO.setModDt(rs.getString("mod_dt"));
 				outVO.setModId(rs.getString("mod_id"));

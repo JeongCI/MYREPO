@@ -1,5 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
+<!-- 국제화 --> 
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<!-- locale -->
+<fmt:setLocale value="en" /> 
+<fmt:bundle basename="message">
+<!-- message -->
+<fmt:message var="VIEW_TITLE" key="BOARD.BOARD_REG.VIEW_TITLE"/>
+<fmt:message var="TITLE" key="BOARD.BOARD_REG.TITLE"/>
+<fmt:message var="RED_ID" key="BOARD.BOARD_REG.RED_ID"/>
+<fmt:message var="CONTENTS" key="BOARD.BOARD_REG.CONTENTS"/>
+<fmt:message var="SAVE" key="CMN.BUTTON.SAVE"/>
+<fmt:message var="RETRIEVE" key="CMN.BUTTON.RETRIEVE"/>
+
 <%@include file="/jsp/cmn/cache.jsp" %>
 <!DOCTYPE html>
 <html lang="ko">
@@ -86,7 +100,7 @@
   
   
 </style>
-<title>제목</title>
+<title>${VIEW_TITLE}</title>
 <script src="/PC_HTML/assets/js/jquery-3.6.1.min.js"></script>
 <script src="/PC_HTML/assets/js/jquery-ui.js"></script>
 <!-- javascript -->
@@ -176,15 +190,17 @@
 
 			});
 	  } // doSave End ----------------------------------------------------------
+	  
+	  
 </script>
 </head>
 <body>
   <div class="content_area">
-    <h1>게시판 등록</h1>
+    <h1><fmt:message key="BOARD.BOARD_REG.VIEW_TITLE"></fmt:message></h1>
     <div class="search_area">
 	    <div class="button_area">
-	      <button class="nomal_btn" onclick="javascript:doSave();">등록</button> 
-	      <button class="nomal_btn" onclick="javascript:moveList();">목록</button> 
+	      <button class="nomal_btn" onclick="javascript:doSave();">${SAVE}</button> 
+	      <button class="nomal_btn" onclick="javascript:moveList();">${RETRIEVE}</button>
 	    </div>
     </div>
     <div class="reg_area">
@@ -193,17 +209,17 @@
 	    
         <table class="table_list">
           <tr>
-            <td><label for="title">제목</label></td>
+            <td><label for="title">${TITLE}</label></td>
             <td><input type="text" name="title" id="title" required="required" maxlength="65"></td>
           </tr>
           
           <tr>
-            <td><label for="reg_id">등록자</label></td>
+            <td><label for="reg_id">${RED_ID}</label></td>
             <td><input type="text" name="reg_id" id="reg_id" required="required" maxlength="20"></td>
           </tr>
           
           <tr>
-            <td><label for="contents">내용</label></td>
+            <td><label for="contents">${CONTENTS}</label></td>
             <td><textarea rows="30" cols="60" id="contents" name="contents" required="required"></textarea></td>
           </tr>
         </table>
@@ -213,3 +229,4 @@
   </div>
 </body>
 </html>
+</fmt:bundle>

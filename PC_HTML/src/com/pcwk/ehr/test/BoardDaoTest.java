@@ -76,7 +76,7 @@ public class BoardDaoTest {
 
 	public void doUpdate() {
 		vo01.setTitle(vo01.getTitle() + "_U");
-		vo01.setContents(vo01.getContents() + "_U");
+		vo01.setcontents(vo01.getcontents() + "_U");
 		vo01.setModId(vo01.getModId() + "_U");
 
 		int flag = dao.doUpdate(vo01);
@@ -91,7 +91,7 @@ public class BoardDaoTest {
 		BoardVO outVO = dao.doSelectOne(vo01);
 
 		if (outVO.getSeq() == vo01.getSeq() && outVO.getTitle().equals(vo01.getTitle())
-				&& outVO.getContents().equals(vo01.getContents()) && outVO.getReadCnt() == vo01.getReadCnt()
+				&& outVO.getcontents().equals(vo01.getcontents()) && outVO.getReadCnt() == vo01.getReadCnt()
 				&& outVO.getModId().equals(vo01.getModId())) {
 			LOG.debug("��ȸ ����");
 		} else {

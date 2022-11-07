@@ -5,7 +5,6 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
 <%@include file="/jsp/cmn/cache.jsp" %>
 
 <%
@@ -118,6 +117,7 @@
    display: inline-block;
    width: 100%;
   
+   /* 위 | 오른쪽 | 아래 | 왼쪽 */     
    margin-top: 30px;     
  }
     
@@ -173,7 +173,6 @@
   }
   
   .nomal_btn{
-    margin-top: 5px;
     background-color:#004ba0; 
     color: white;
     border-radius: 5px;
@@ -199,10 +198,8 @@
   .type_text{
     display: none;
   }
-  
-  .buttoen_area {
-    margin-top: 10px;
-    margin-bottom: 20px;
+   .buttoen_area {
+    margin: 1px 0px 0px 20px;
     display: inline-block;
     text-align: right;
     vertical-align: bottom;
@@ -220,32 +217,36 @@
 <!-- javascript -->
 <script type="text/javascript">
   $(document).ready(function(){
+
+/* 	  $("#list_table>tbody>tr>#cursor_title").on("click",function(){
+		  //console.log("click");
+		  
+		  let tdArray = $("#list_table>tbody").children();
+		  let seq = tdArray.last().text();
+		  
+		  let frm = document.getElementById("search_frm");
+		  frm.work_div.value = "doSelectOne";
+		  frm.seq.value = seq;
+		  
+		  console.log("tdArray: " + tdArray);
+		  console.log("seq : " + seq);
+		  //frm.submit();
+	  }); */
 	  
-	    $("#check_all").on("click",function(){
-	    	if($("#check_all").is(":checked") == true) {
-	    		$("input[name=chk]").prop("checked",true);
-	    	} else {
-	    		$("input[name=chk]").prop("checked",false);
-	    	}
-	    });
-	  
-     $("#list_table>tbody").on("mouseenter","tr",function(){
+     $("#list_table>tbody").on("click","tr",function(){
     	 //console.log("click\n"+$(this));
     	 let tdArray = $(this).children();
     	 //console.log("tdArray.last().text(): "+tdArray.last().text());
     	 let seq = tdArray.last().text();
-    	 //console.log("seq: " + seq);
     	 
-    	 $("#list_table>tbody>tr>#cursor_title").on("click",function(){
-    		 
-	    	 //상세 화면으로 이동: form submit으로
-	    	 let frm = document.getElementById("search_frm");
-	    	 frm.work_div.value = "doSelectOne";
-	    	 frm.seq.value = seq;
-	    	 
-	    	 //console.log("seq"+seq);
-	    	 frm.submit();
-    	 });
+    	 //상세 화면으로 이동: form submit으로
+    	 let frm = document.getElementById("search_frm");
+    	 frm.work_div.value = "doSelectOne";
+    	 frm.seq.value = seq;
+    	 
+    	 //console.log("seq"+seq);
+    	 //frm.submit();
+    	 
     }); 
     
     $("#search_word").on("keypress", function(event){
@@ -258,64 +259,6 @@
     });
     
   });
-  
-  function doDelete(){
-      //alert('doDelete');
-      let seqArray = [];
-      $("input:checkbox[name=chk]").each(function(i, element) {
-         //console.log($(this).val());
-         if($(this).is(":checked")==true){
-            //console.log($(this).val());
-            seqArray.push($(this).val());
-         }
-         
-      });
-      
-      let seqString = '';
-      //선택된 값이 있는 지 validation
-      if(seqArray.length>0){
-         seqString = seqArray.toString();
-         console.log("seqString:"+seqString);
-      }else{
-         alert("삭제할 자료를 선택하세요.");
-         return;
-      }
-      
-      if(false==confirm("삭제 하시겠습니까?"))return;
-      /* data의 seq_arr form과 연관 관계가 없다.(사용자 정의 명칭) */
-      $.ajax({ 
-           type: "POST",
-           url: "<%=conPath%>/board/board.do",
-           asyn: "true",
-           dataType: "html",
-           data:{
-               work_div: 'doDeleteAll',
-               seq_arr: seqString
-           },
-           success:function(data){ //통신 성공
-            //alert(data);
-             const jsonObj = JSON.parse(data);
-             console.log('jsonObj.messageId:'+jsonObj.messageId);
-             console.log('jsonObj.msgContents:'+jsonObj.msgContents);
-           
-           if(null != jsonObj && jsonObj.messageId != "0"){
-              alert(jsonObj.msgContents);
-              const listUrl = "<%=conPath%>/board/board.do?work_div=doRetrieve";
-              window.location.href = listUrl;
-           }else{
-              alert(jsonObj.msgContents+":"+jsonObj.messageId);
-           }
-           },
-           error:function(data){//실패
-             console.log('error:'+data);
-           },
-           complete:function(data){//성공, 실패 관계 없이 출력
-           
-           }
-
-        });
-      
-   }
   
     /* 목록 조회 */
     function doRetrieve(pageNo) {
@@ -366,38 +309,35 @@
     <form action="<%=conPath %>/board/board.do" method="get" name="search_frm" id="search_frm">
     <input type="hidden" name="work_div" id="work_div"> <!-- 작업 구분 -->
     <input type="hidden" name="page_no" id="page_no"> <!-- 페이지 번호 -->
-    <input type="hidden" name="seq" id="seq"> <!-- seq 번호 -->
+    <input type="text" name="seq" id="seq"> <!-- seq 번호 -->
     
+      <div class="button_area">
       <label for="search_div">검색조건</label>
       <select id="search_div" name="search_div">
         <option value="">전체</option>
-        <option value="10" <c:if test="${'10' == vo.searchDiv }">selected</c:if> > 제목</option>
-        <option value="20" <c:if test="${'20' == vo.searchDiv }">selected</c:if> > 내용</option>
-        <option value="30" <c:if test="${'30' == vo.searchDiv }">selected</c:if> > 제목+내용</option>
+        <option value="10" <% if(paranVO != null && paranVO.getSearchDiv().equals("10")) {out.print("selected");} %>>제목</option>
+        <option value="20" <% if(paranVO != null && paranVO.getSearchDiv().equals("20")) {out.print("selected");} %>>내용</option>
+        <option value="30" <% if(paranVO != null && paranVO.getSearchDiv().equals("30")) {out.print("selected");} %>>제목+내용</option>
       </select>
-        <input type="text" name="search_word" id="search_word" maxlength="50" value="${vo.searchWord }">
+        <input type="text" name="search_word" id="search_word" maxlength="50" value="<% if(paranVO != null) {out.print(paranVO.getSearchWord());}%>">
       <select id="page_size" name="page_size">
-        <option value="10"  <c:if test="${10 == vo.pageSize}">selected</c:if>>10</option>
-        <option value="20"  <c:if test="${20 == vo.pageSize}">selected</c:if>>20</option>
-        <option value="30"  <c:if test="${30 == vo.pageSize}">selected</c:if>>30</option>
-        <option value="50"  <c:if test="${50 == vo.pageSize}">selected</c:if>>50</option>
-        <option value="100" <c:if test="${100 == vo.pageSize}">selected</c:if>>100</option>
+        <option value="10"  <% if(paranVO != null && paranVO.getPageSize() == 10){out.print("selected");}%>>10</option>
+        <option value="20"  <% if(paranVO != null && paranVO.getPageSize() == 20){out.print("selected");}%>>20</option>
+        <option value="30"  <% if(paranVO != null && paranVO.getPageSize() == 30){out.print("selected");}%>>30</option>
+        <option value="50"  <% if(paranVO != null && paranVO.getPageSize() == 50){out.print("selected");}%>>50</option>
+        <option value="100" <% if(paranVO != null && paranVO.getPageSize() == 100){out.print("selected");}%>>100</option>
       </select>
       </form>
-      
-      <div class="button_area">
 	      <button class="nomal_btn" onclick="javascript:doRetrieve('1');">조회</button>
 	      <button class="nomal_btn" onclick="javascript:moveReg();">등록</button>
-	      <button class="nomal_btn" onclick="javascript:doDelete();">삭제</button>
       </div>
     </div>
     <div class="table_area">
       <table class="table_list" id="list_table">
         <thead>
           <tr>
-            <th class="header" width="5%"><input type="checkbox" id="check_all"></th>
             <th class="header" width="10%">No.</th>
-            <th class="header" width="55%">제목</th>
+            <th class="header" width="60%">제목</th>
             <th class="header" width="10%">등록일</th>
             <th class="header" width="10%">등록자</th>
             <th class="header" width="10%">조회수</th>
@@ -405,27 +345,7 @@
           </tr>
         </thead>
         <tbody>
-        <c:choose>
-          <c:when test="${not empty list && list.size() > 0}">
-            <c:forEach var="vo" items="${list}">
-			          <tr>
-			            <td class="txt_center"><input type="checkbox" name="chk" value="${vo.getSeq() }"></td>
-			            <td class="txt_center">${vo.getNo()}</td>
-			            <td class="txt_left cursor_title" id="cursor_title"><c:out value="${vo.getTitle()}" escapeXml="true"></c:out></td>
-			            <td class="txt_center">${vo.getModDt()}</td>
-			            <td class="txt_center"><c:out value="${vo.getModId()}" escapeXml="true"></c:out></td>
-			            <td class="txt_right">${vo.getReadCnt()}</td>
-			            <td class="txt_left txt_hidden">${vo.getSeq()}</td>
-			          </tr>
-            </c:forEach>
-          </c:when>
-          <c:otherwise>
-            <tr>
-              <td class="txt_center" colspan="99">No Data found</td>
-            </tr>
-          </c:otherwise>
-        </c:choose>
-<%--           <%
+          <%
             if(null != list && list.size()>0) {
               for(BoardVO vo : list) {
           %>
@@ -446,7 +366,7 @@
             </tr>
           <%
             }
-          %> --%>
+          %>
         </tbody>
       </table>
     </div>
