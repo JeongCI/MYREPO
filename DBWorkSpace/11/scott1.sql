@@ -1,0 +1,12 @@
+SET SERVEROUTPUT ON;
+DECLARE
+    V_NUMBER NUMBER :=12;
+BEGIN
+    IF MOD(V_NUMBER,2) = 1 THEN
+    
+        DBMS_OUTPUT.PUT_LINE(V_NUMBER||'는 홀수 입니다');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE(V_NUMBER||'는 짝수 입니다');
+    END IF;
+END;
+/

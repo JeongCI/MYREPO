@@ -1,0 +1,10 @@
+SELECT deptno,
+       MAX(DECODE(job,'CLERK',sal)) "CLERK",
+       MAX(DECODE(job,'SALESMAN',sal)) "SALESMAN",
+       MAX(DECODE(job,'ANALYST',sal)) "ANALYST",
+       MAX(DECODE(job,'MANAGER',sal)) "MANAGER",
+       MAX(DECODE(job,'PRESIDENT',sal)) "PRESIDENT"
+FROM emp
+GROUP BY deptno
+ORDER BY ANALYST DESC, DEPTNO DESC
+;

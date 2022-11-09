@@ -1,0 +1,9 @@
+package team_test;
+
+public class Quack_test {
+
+	public static void main(String[] args) {
+		System.out.println("QUACK QUACK");
+	}
+
+}

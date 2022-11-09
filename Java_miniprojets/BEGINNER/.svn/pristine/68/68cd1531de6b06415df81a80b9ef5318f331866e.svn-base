@@ -1,0 +1,292 @@
+2022-09-15 09:12:13,491 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:190)     - 회원입니다.
+2022-09-15 09:12:13,493 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:209)     - 관리자
+2022-09-15 09:12:27,201 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:192)     - 비밀번호가 틀렸습니다. 
+시스템 종료.
+2022-09-15 09:12:41,561 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:190)     - 회원입니다.
+2022-09-15 09:12:41,563 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:207)     - 일반사용자
+2022-09-16 12:04:12,183 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:04:12,186 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:04:12,186 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:04:12,186 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - sdaf,dfsadf,dfds,dfd,dfasd
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():5
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:04:12,188 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=sdaf, title=dfsadf, author=dfds, publisher=dfd, publicationDate=dfasd]
+2022-09-16 12:05:51,904 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:05:51,906 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:05:51,906 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:05:51,906 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:05:51,907 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - sdaf,dfsadf,dfds,dfd,dfasd
+2022-09-16 12:05:51,907 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():5
+2022-09-16 12:05:51,907 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:05:51,907 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:05:51,907 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:05:51,908 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:05:51,908 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=sdaf, title=dfsadf, author=dfds, publisher=dfd, publicationDate=dfasd]
+2022-09-16 12:05:51,908 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:05:51,908 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:06:13,038 DEBUG [main] cmn.LoggerManager ( BookDao.java:178)     - 삭제 데이터:Book [isbn=sdaf, title=dfsadf, author=dfds, publisher=dfd, publicationDate=dfasd]
+2022-09-16 12:06:13,038 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:214)     - dfsadf 삭제 성공!
+2022-09-16 12:07:05,334 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:07:05,336 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:07:05,336 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:07:05,336 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - sdaf,dfsadf,dfds,dfd,dfasd
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():5
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=sdaf, title=dfsadf, author=dfds, publisher=dfd, publicationDate=dfasd]
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:07:05,338 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:07:10,710 DEBUG [main] cmn.LoggerManager ( BookDao.java:178)     - 삭제 데이터:Book [isbn=sdaf, title=dfsadf, author=dfds, publisher=dfd, publicationDate=dfasd]
+2022-09-16 12:07:10,710 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:214)     - dfsadf 삭제 성공!
+2022-09-16 12:08:16,812 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:08:16,813 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:08:16,813 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:08:16,814 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:08:16,815 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:08:16,816 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:08:20,830 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:216)     - writeFile 삭제 실패!
+2022-09-16 12:09:45,430 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:216)     - dfsadf 삭제 실패!
+2022-09-16 12:10:45,363 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:10:45,365 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:10:45,365 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:10:45,365 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:10:45,367 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:11:07,401 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:11:07,403 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:11:07,403 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:11:07,403 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:11:07,405 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:11:07,405 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:11:07,405 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:11:07,406 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:11:07,406 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:11:07,406 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:11:07,406 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:11:27,291 DEBUG [main] cmn.LoggerManager ( BookDao.java:141)     - isContains:false
+2022-09-16 12:11:27,291 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:200)     - ㅇㄴㄻㄴ 등록 성공!
+2022-09-16 12:12:18,607 DEBUG [main] cmn.LoggerManager ( BookDao.java:178)     - 삭제 데이터:Book [isbn=ㅇㄹ, title=ㅇㄴㄻㄴ, author=ㅁㄴㅇㄹㅇㄴㅁ, publisher=ㅁㄴㅇㄹㄴㅁㅇ, publicationDate=1987년10월20일]
+2022-09-16 12:12:18,607 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:214)     - ㅇㄴㄻㄴ 삭제 성공!
+2022-09-16 12:13:15,489 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:216)     - ㅇㄴㄻㄴ 삭제 실패!
+2022-09-16 12:13:29,653 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:13:29,655 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:13:29,655 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:13:29,655 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:13:29,656 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:13:29,656 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:13:29,656 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:13:29,657 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:13:29,657 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:13:29,657 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:13:29,657 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:13:41,670 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:228)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일] 조회 성공.
+2022-09-16 12:13:58,058 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:13:58,060 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:13:58,060 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:13:58,060 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:13:58,061 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:13:58,061 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:13:58,061 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:13:58,061 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:13:58,061 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:13:58,062 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:13:58,062 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:14:11,504 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:14:11,506 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:14:11,507 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:14:11,507 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:14:11,508 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:330)     - 회원입니다.
+2022-09-16 12:14:11,509 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:349)     - 관리자
+2022-09-16 12:14:18,765 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:228)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일] 조회 성공.
+2022-09-16 12:16:54,199 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:16:54,201 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:16:54,201 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:16:54,201 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:16:54,202 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:16:54,202 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:16:54,202 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:16:54,202 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:16:54,203 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:16:54,203 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:16:54,203 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:20:59,012 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:20:59,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:20:59,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:20:59,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:20:59,015 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:20:59,016 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:20:59,016 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:20:59,016 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:20:59,016 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:20:59,016 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:344)     - 회원입니다.
+2022-09-16 12:20:59,017 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:363)     - 관리자
+2022-09-16 12:21:11,144 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:244)     - null 조회 실패.
+2022-09-16 12:21:38,441 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:244)     - null 조회 실패.
+2022-09-16 12:25:39,032 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:25:39,034 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:25:39,034 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:25:39,034 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:25:39,035 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:25:39,036 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:26:32,676 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:26:32,678 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:26:32,678 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:26:32,678 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:26:32,680 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:26:52,532 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:26:52,534 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:26:52,534 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:26:52,534 DEBUG [main] cmn.LoggerManager ( BookDao.java:57)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:26:52,535 DEBUG [main] cmn.LoggerManager ( BookDao.java:33)     - data.size():4
+2022-09-16 12:26:52,536 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:26:52,536 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:26:52,536 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:26:52,536 DEBUG [main] cmn.LoggerManager ( BookDao.java:36)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:26:52,536 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:26:52,537 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:27:04,054 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:228)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일] 조회 성공.
+2022-09-16 12:31:00,428 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:31:00,430 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:31:00,430 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:31:00,430 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:31:00,431 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:31:00,431 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:31:00,432 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:31:00,432 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:31:00,432 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:31:00,432 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:31:00,432 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:31:32,919 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:31:32,920 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:31:32,920 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:31:32,921 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:31:32,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:31:32,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:31:32,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:31:32,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:31:32,923 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:31:32,923 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:31:32,923 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:31:41,449 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:230)     - null 조회 실패.
+2022-09-16 12:32:13,918 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:32:13,920 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:32:13,920 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:32:13,920 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:32:13,921 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:32:13,921 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:32:13,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:32:13,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:32:13,922 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:32:13,922 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:32:13,922 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:34:15,102 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:34:15,104 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:34:15,104 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:34:15,104 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:34:15,106 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:37:37,833 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:37:37,835 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:37:37,835 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:37:37,835 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:37:37,837 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:37:49,566 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:37:49,568 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:37:49,569 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:37:49,569 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:37:49,573 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:37:49,573 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:37:49,573 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:37:49,573 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:37:49,573 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:37:49,574 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:331)     - 회원입니다.
+2022-09-16 12:37:49,574 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:350)     - 관리자
+2022-09-16 12:38:36,110 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:38:36,112 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:38:36,112 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:38:36,112 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:38:36,113 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:324)     - 회원입니다.
+2022-09-16 12:38:36,114 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:343)     - 관리자
+2022-09-16 12:43:33,245 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:43:33,247 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:43:33,247 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:43:33,247 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:43:33,248 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:323)     - 회원입니다.
+2022-09-16 12:43:33,249 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:342)     - 관리자
+2022-09-16 12:50:17,011 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:50:17,012 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:50:17,012 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:50:17,013 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:50:17,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:50:17,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:50:17,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:50:17,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:50:17,014 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:50:17,015 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:324)     - 회원입니다.
+2022-09-16 12:50:17,015 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:343)     - 관리자
+2022-09-16 12:51:48,221 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,혼자 공부하는 C 언어,서현우,한빛미디어,2019년06월10일
+2022-09-16 12:51:48,223 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - C,C언어,채현우,오성미디어,2010년02월19일
+2022-09-16 12:51:48,223 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바스크립트 코딩의 기술 책,조모건,길벗,2019년12월27일
+2022-09-16 12:51:48,223 DEBUG [main] cmn.LoggerManager ( BookDao.java:58)     - JAVA,자바 웹 개발 워크북,구멍가게코딩단,프리렉,2022년08월04일
+2022-09-16 12:51:48,224 DEBUG [main] cmn.LoggerManager ( BookDao.java:34)     - data.size():4
+2022-09-16 12:51:48,224 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=혼자 공부하는 C 언어, author=서현우, publisher=한빛미디어, publicationDate=2019년06월10일]
+2022-09-16 12:51:48,224 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일]
+2022-09-16 12:51:48,224 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바스크립트 코딩의 기술 책, author=조모건, publisher=길벗, publicationDate=2019년12월27일]
+2022-09-16 12:51:48,225 DEBUG [main] cmn.LoggerManager ( BookDao.java:37)     - Book [isbn=JAVA, title=자바 웹 개발 워크북, author=구멍가게코딩단, publisher=프리렉, publicationDate=2022년08월04일]
+2022-09-16 12:51:48,225 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:324)     - 회원입니다.
+2022-09-16 12:51:48,225 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:343)     - 관리자
+2022-09-16 12:51:57,135 DEBUG [main] cmn.LoggerManager (BeginnerMain.java:228)     - Book [isbn=C, title=C언어, author=채현우, publisher=오성미디어, publicationDate=2010년02월19일] 조회 성공.

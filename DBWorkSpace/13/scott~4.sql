@@ -1,0 +1,46 @@
+-- 생성
+CREATE OR REPLACE PROCEDURE pro_dept_in
+(
+    INOUT_DEPTNO IN OUT DEPT.DEPTNO%TYPE,
+    OUT_DNAME OUT DEPT.DNAME%TYPE,
+    OUT_LOC OUT DEPT.LOC%TYPE
+)
+IS
+BEGIN
+    SELECT DEPTNO, DNAME, LOC
+    INTO INOUT_DEPTNO, OUT_DNAME, OUT_LOC
+    FROM DEPT
+    WHERE DEPTNO = INOUT_DEPTNO;
+    
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN
+            DBMS_OUTPUT.PUT_LINE('예외처리: 조회 데이터 없음!');
+            DBMS_OUTPUT.PUT_LINE('SQLCODE: '||TO_CHAR(SQLCODE));
+            DBMS_OUTPUT.PUT_LINE('SQLERRM: '||SQLERRM);
+        WHEN TOO_MANY_ROWS THEN
+            DBMS_OUTPUT.PUT_LINE('예외처리: 요구보다 많은 행 추출 오류 발생!');
+            DBMS_OUTPUT.PUT_LINE('SQLCODE: '||TO_CHAR(SQLCODE));
+            DBMS_OUTPUT.PUT_LINE('SQLERRM: '||SQLERRM);
+        WHEN VALUE_ERROR THEN
+            DBMS_OUTPUT.PUT_LINE('예외처리: 수치 또는 값 오류 발생!');
+            DBMS_OUTPUT.PUT_LINE('SQLCODE: '||TO_CHAR(SQLCODE));
+            DBMS_OUTPUT.PUT_LINE('SQLERRM: '||SQLERRM);
+        WHEN OTHERS THEN
+            DBMS_OUTPUT.PUT_LINE('예외처리: 사전 정의 외 오류 발생!');
+            DBMS_OUTPUT.PUT_LINE('SQLCODE: '||TO_CHAR(SQLCODE));
+            DBMS_OUTPUT.PUT_LINE('SQLERRM: '||SQLERRM);
+END;
+/
+-- 확인
+SET SERVEROUTPUT ON;
+DECLARE
+    V_DEPTNO dept.deptno%TYPE;
+    V_DNAME dept.dname%TYPE;
+    V_LOC dept.loc%TYPE;
+BEGIN
+    V_DEPTNO := 10;
+    pro_dept_in(V_DEPTNO,V_DNAME,V_LOC);
+    DBMS_OUTPUT.put_line('부서번호: '||V_DEPTNO);
+    DBMS_OUTPUT.put_line('부서이름: '||V_DNAME);
+    DBMS_OUTPUT.put_line('지역: '||V_LOC);
+END;

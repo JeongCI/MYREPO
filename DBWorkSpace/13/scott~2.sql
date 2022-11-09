@@ -1,0 +1,15 @@
+SET SERVEROUTPUT ON;
+DECLARE
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('PKG_EXAMPLE.func_aftertax(100000)');
+    DBMS_OUTPUT.PUT_LINE('func_aftertax:'||PKG_EXAMPLE.func_aftertax(100000));
+    
+    DBMS_OUTPUT.PUT_LINE('PKG_EXAMPLE.Pro_emp(7788)');
+    PKG_EXAMPLE.pro_emp(7788);
+    
+    DBMS_OUTPUT.PUT_LINE('PKG_EXAMPLE.pro_dept(10)');
+    PKG_EXAMPLE.pro_dept(10);
+    
+END;
+/

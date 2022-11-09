@@ -1,0 +1,10 @@
+package begin.doc.test;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

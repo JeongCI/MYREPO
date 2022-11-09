@@ -1,0 +1,22 @@
+package project.quack.beep;
+
+import java.awt.Toolkit;
+
+public class Beep {
+
+	public static void main(String[] args) {
+		Thread thread =  new Thread();
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+		thread.start();
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.println("띵");
+			try {
+				thread.sleep(500);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

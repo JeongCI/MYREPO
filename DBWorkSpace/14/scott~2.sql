@@ -1,0 +1,16 @@
+--테이블 생성 후 VIEW 생성
+CREATE TABLE o_table(
+    A NUMBER,
+    B NUMBER
+);
+CREATE OR REPLACE VIEW view01
+AS (
+SELECT A,B FROM o_table
+);
+
+--VIEW01 에 데이터 넣기
+INSERT INTO VIEW01 VALUES (11,13);
+
+--확인
+SELECT A, B
+FROM O_TABLE;

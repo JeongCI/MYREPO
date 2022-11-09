@@ -1,0 +1,12 @@
+SELECT TO_NUMBER('1200')+500 "TO_NUMBER"
+--       TO_NUMBER('1,200') 문자
+FROM dual
+;
+
+SELECT TO_NUMBER('a') -- 문자
+FROM dual
+;
+
+SELECT ASCII('a')
+FROM dual
+;

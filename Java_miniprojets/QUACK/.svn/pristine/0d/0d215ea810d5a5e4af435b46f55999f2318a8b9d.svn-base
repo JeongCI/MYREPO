@@ -1,0 +1,52 @@
+package project.quack.domain;
+
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+import project.quack.game.AlligatorTeeth_Game;
+import project.quack.test.MenuDaoTest;
+
+public class Mainscreen {
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		MenuDaoTest mdt = new MenuDaoTest();
+		AlligatorTeeth_Game atg=new AlligatorTeeth_Game();
+
+		// 메인 화면 메모장 읽어 오기
+
+		int i;
+		while (true) {
+			try {
+				FileInputStream fis = new FileInputStream("C:\\DCOM_0725\\03_JAVA\\workspace2\\QUACK\\mainscreen.txt");
+				Scanner s = new Scanner(fis);
+				while (s.hasNext())
+					System.out.println(s.nextLine());
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			i = sc.nextInt();
+
+			if (i == 1) {
+				// -------주문 하기------------
+				System.out.println("test1"); // 나중에 지우기
+			} else if (i == 2) {
+				// ------주문 내역(장바구니)-------
+				// ------인원 수 입력 받고 더치페이 계산--------
+				System.out.println("test2"); // 나중에 지우기
+			} else if (i == 3) {
+				// ---------직원 호출------------
+				System.out.println("test3"); // 나중에 지우기
+			} else if (i == 4) {
+			
+				atg.main(args);
+				
+			} else if (i == 1234) {
+				mdt.main(args);
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+--ROUND(숫자, 출력을 원하는 자리수)
+SELECT ROUND(987.654,2) "ROUND01",
+       ROUND(987.654,0) "ROUND02",
+       ROUND(987.654,-1) "ROUND03"
+FROM dual
+;

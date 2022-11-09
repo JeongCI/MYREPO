@@ -1,0 +1,5 @@
+CREATE TABLE p_test1(
+  no NUMBER
+);
+
+INSERT INTO p_test1 VALUES(1);

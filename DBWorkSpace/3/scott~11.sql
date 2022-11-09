@@ -1,0 +1,25 @@
+--년
+SELECT SYSDATE,
+       TO_CHAR(SYSDATE,'YYYY') "YYYY",
+       TO_CHAR(SYSDATE,'RRRR') "RRRR",
+       TO_CHAR(SYSDATE,'YY') "YY",
+       TO_CHAR(SYSDATE,'RR') "RR",
+       TO_CHAR(SYSDATE,'YEAR') "YEAR" --년도 영문이름
+FROM dual
+;
+
+--월
+SELECT SYSDATE,
+       TO_CHAR(SYSDATE, 'MM') "MM",
+       TO_CHAR(SYSDATE, 'MON') "MON",
+       TO_CHAR(SYSDATE, 'MONTH') "MONTH"
+FROM dual
+;
+
+--일
+SELECT SYSDATE,
+       TO_CHAR(SYSDATE,'DD') "DD",
+       TO_CHAR(SYSDATE,'DAY') "DAY",
+       TO_CHAR(SYSDATE,'DDTH') "DDTH"
+FROM dual
+;

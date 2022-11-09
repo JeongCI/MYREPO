@@ -1,0 +1,100 @@
+2022-08-23 09:18:19,819 DEBUG [main] ed01.MultiBlockExceptionMain (MultiBlockExceptionMain.java:9)     - 프로그램 종료
+2022-08-23 09:27:29,535 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:10)     - 1
+2022-08-23 09:27:29,536 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:14)     - 2
+2022-08-23 09:27:29,536 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:15)     - 0
+2022-08-23 09:27:29,537 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:22)     - 프로그램 종료
+2022-08-23 09:27:52,028 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:10)     - 1
+2022-08-23 09:27:52,030 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:14)     - 2
+2022-08-23 09:27:52,030 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:17)     - 5 ArrayIndexOutOfBoundsException : 4
+2022-08-23 09:27:52,030 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:22)     - 6 프로그램 종료
+2022-08-23 09:28:42,040 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:10)     - 1
+2022-08-23 09:28:42,042 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:14)     - 2
+2022-08-23 09:28:42,042 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:18)     - 5 ArrayIndexOutOfBoundsException : 4
+2022-08-23 09:28:42,043 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:23)     - 6 프로그램 종료
+2022-08-23 09:30:26,658 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:10)     - 1
+2022-08-23 09:30:26,660 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:14)     - 2
+2022-08-23 09:30:26,660 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:20)     - 5 ArrayIndexOutOfBoundsException : 4
+2022-08-23 09:30:26,660 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:25)     - 6 프로그램 종료
+2022-08-23 09:30:30,946 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:10)     - 1
+2022-08-23 09:30:30,948 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:14)     - 2
+2022-08-23 09:30:30,948 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:18)     - 5 ArithmeticException : / by zero
+2022-08-23 09:30:30,948 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain.java:25)     - 6 프로그램 종료
+2022-08-23 09:32:55,533 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:32:55,534 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:32:55,535 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:17)     - 5 ArithmeticException : / by zero
+2022-08-23 09:32:55,535 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 6 프로그램 종료
+2022-08-23 09:33:06,973 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:33:06,974 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:33:06,974 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:19)     - 5 ArrayIndexOutOfBoundsException : 5
+2022-08-23 09:33:06,974 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 6 프로그램 종료
+2022-08-23 09:33:12,584 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:33:12,585 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:33:12,585 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:13)     - 0
+2022-08-23 09:33:12,586 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:14)     - 3
+2022-08-23 09:33:12,586 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 6 프로그램 종료
+2022-08-23 09:33:29,392 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:33:29,393 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:33:29,394 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:19)     - 5 ArrayIndexOutOfBoundsException : 4
+2022-08-23 09:33:29,394 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 6 프로그램 종료
+2022-08-23 09:34:47,750 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:34:47,751 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:34:47,752 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:19)     - 5 ArrayIndexOutOfBoundsException : 4
+2022-08-23 09:34:47,752 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 5.1 funally
+2022-08-23 09:34:47,752 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:26)     - 6 프로그램 종료
+2022-08-23 09:34:57,381 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:8)     - 1
+2022-08-23 09:34:57,383 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:12)     - 2
+2022-08-23 09:34:57,383 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:13)     - 0
+2022-08-23 09:34:57,383 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:14)     - 3
+2022-08-23 09:34:57,383 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:24)     - 5.1 funally
+2022-08-23 09:34:57,383 DEBUG [main] cmn.LoggerManger  (MultiBlockExceptionMain2.java:26)     - 6 프로그램 종료
+2022-08-23 09:43:45,724 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:10)     - 1
+2022-08-23 09:43:45,725 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:14)     - 프로그램 종료!
+2022-08-23 09:46:17,985 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:10)     - 1
+2022-08-23 09:46:17,987 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:16)     - 3. 예외 발생
+2022-08-23 09:46:17,988 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:17)     - 3.1 : 예외 발생 시키기(의도적으로)
+2022-08-23 09:46:17,988 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:19)     - 프로그램 종료!
+2022-08-23 09:48:29,669 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:10)     - 1
+2022-08-23 09:48:29,671 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:16)     - 3. 예외 발생
+2022-08-23 09:48:29,671 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:17)     - 3.1 : 예외 발생 시키기(의도적으로)
+2022-08-23 09:48:29,672 DEBUG [main] cmn.LoggerManger  (ThrowMain.java:19)     - 프로그램 종료!
+[main] cmn.LoggerManger  (ThrowMain.java:10)     - 1
+[main] cmn.LoggerManger  (ThrowMain.java:16)     - 3. 예외 발생
+[main] cmn.LoggerManger  (ThrowMain.java:17)     - 3.1 : 예외 발생 시키기(의도적으로)
+[main] cmn.LoggerManger  (ThrowMain.java:19)     - 프로그램 종료!
+[main] cmn.LoggerManger  (ThrowMain.java:10)     - 1
+[main] cmn.LoggerManger  (ThrowMain.java:16)     - 3. 예외 발생
+[main] cmn.LoggerManger  (ThrowMain.java:17)     - 3.1 : 예외 발생 시키기(의도적으로)
+[main] cmn.LoggerManger  (ThrowMain.java:19)     - 프로그램 종료!
+[main] cmn.LoggerManger  (ThrowsMain.java:17)     - 1 ================
+[main] cmn.LoggerManger  (ThrowsMain.java:11)     - methodPcwk()
+[main] cmn.LoggerManger  (ThrowsMain.java:17)     - 1 ================
+[main] cmn.LoggerManger  (ThrowsMain.java:11)     - methodPcwk()
+[main] cmn.LoggerManger  (ThrowsMain.java:21)     - Exception : methodPcwk 예외 발생
+[main] cmn.LoggerManger  (ThrowsMain.java:23)     - 2 End=============
+[main] cmn.LoggerManger  (UserException.java:10)     - ticketing() : -9
+[main] cmn.LoggerManger  (UserException.java:19)     - main KoreaException 
+[main] cmn.LoggerManger  (UserException.java:20)     - getMessage : 나이를 확인 하세요.
+나이는 > 0
+[main] cmn.LoggerManger  (TryWithResource.java:16)     - 1
+[main] cmn.LoggerManger  (TryWithResource.java:34)     - 프로그램 종료
+[main] cmn.LoggerManger  (TryWithResource.java:16)     - 1
+[main] cmn.LoggerManger  (TryWithResource.java:19)     - 2
+[main] cmn.LoggerManger  (TryWithResource.java:22)     - 2.1
+[main] cmn.LoggerManger  (TryWithResource.java:36)     - 프로그램 종료
+[main] cmn.LoggerManger  (TryWithResource.java:16)     - 1
+[main] cmn.LoggerManger  (TryWithResource.java:19)     - 2
+[main] cmn.LoggerManger  (TryWithResource.java:25)     - 3 FileNotFoundException : C:\DCOM_0725\03_JAVA\WorkSpace2\J10\src\com\pcwk\ehr\ed05\autocloseable\TryWithResource1.java (지정된 파일을 찾을 수 없습니다)
+[main] cmn.LoggerManger  (TryWithResource.java:16)     - 1
+[main] cmn.LoggerManger  (TryWithResource.java:19)     - 2
+[main] cmn.LoggerManger  (TryWithResource.java:25)     - 3 FileNotFoundException : C:\DCOM_0725\03_JAVA\WorkSpace2\J10\src\com\pcwk\ehr\ed05\autocloseable\TryWithResource1.java (지정된 파일을 찾을 수 없습니다)
+[main] cmn.LoggerManger  (TryWithResource.java:38)     - 프로그램 종료
+[main] cmn.LoggerManger  (TryWithResource2.java:16)     - 1
+[main] cmn.LoggerManger  (TryWithResource2.java:23)     - 3 FileNotFoundException : C:\DCOM_0725\03_JAVA\WorkSpace2\J10\src\com\pcwk\ehr\ed05\autocloseable\TryWithResource1.java (지정된 파일을 찾을 수 없습니다)
+[main] cmn.LoggerManger  (TryWithResource2.java:27)     - 프로그램 종료
+[main] cmn.LoggerManger  (TryWithResource2.java:17)     - 1
+[main] cmn.LoggerManger  (TryWithResource2.java:26)     - 3 FileNotFoundException : C:\DCOM_0725\03_JAVA\WorkSpace2\J10\src\com\pcwk\ehr\ed05\autocloseable\TryWithResource1.java (지정된 파일을 찾을 수 없습니다)
+[main] cmn.LoggerManger  (TryWithResource2.java:30)     - 프로그램 종료
+[main] cmn.LoggerManger  (TryWithResource2.java:17)     - 1
+[main] cmn.LoggerManger  (TryWithResource2.java:21)     - 2
+[main] cmn.LoggerManger  (TryWithResource2.java:23)     - 2.1
+[main] cmn.LoggerManger  (TryWithResource2.java:30)     - 프로그램 종료

@@ -1,0 +1,3 @@
+SELECT POWER(2,3)
+FROM dual
+;

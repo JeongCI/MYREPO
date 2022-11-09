@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>delete</CommitComment>
+	<CommitComment>카운터 두번 입력 해결 완료
+</CommitComment>
+	<CommitComment>오류 출력 해결
+손님 나간 후 다시 채팅 하면 카운터 두번 입력해야됨.</CommitComment>
+	<CommitComment>4차 수정
+채팅중 알람 호출 및 종료</CommitComment>
+	<CommitComment>직원호출 수정</CommitComment>
+	<CommitComment>비프음</CommitComment>
+	<CommitComment>채팅 시간 추가</CommitComment>
+	<CommitComment>손님, 카운터 채팅 출력</CommitComment>
+	<CommitComment>호출01</CommitComment>
+	<CommitComment>채팅01</CommitComment>
+</CommitComments>

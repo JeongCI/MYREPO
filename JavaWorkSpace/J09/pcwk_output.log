@@ -1,0 +1,890 @@
+2022-09-06 15:15:05,405 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-09-06 15:15:05,408 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EA%B8%88%ED%98%B8%EB%8F%99+%EB%A7%9B%EC%A7%91
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:15:12 +0900",
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":43454,
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":20,
+2022-09-06 15:15:05,409 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주<b>금호동맛집<\/b> 대접 받는 느낌의 김형제 고기의철학",
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/eunjjong87?Redirect=Log&logNo=222857838389",
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광주<b>금호동맛집<\/b>으로 소문난 김형제 고기의철학에 다녀왔어요. 금호동은 주차가 불편하지만, 본 건물... 내부 맛집답게 웨이팅이 있을때 테이블링으로 대기 등록해요. 광주<b>금호동맛집<\/b> 김형제는 이베리코... ",
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"찬란한 빛으로 써내려가는 일상♬",
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/eunjjong87",
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220825"
+2022-09-06 15:15:05,410 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> : 소설옥 금남시장점 이베리코&amp;와인리스트 찐후기",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dlqjdy90?Redirect=Log&logNo=222868168750",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"개판의 날이었다. 그렇게 앓아누웠습니다.... 술이 이렇게 위험합니다.... (맛있어서 술술들어감..) #<b>금호동맛집<\/b> #소설옥 #소설옥금남시장점 #금호동고기집 #금남시장맛집 #금남시장고기집 #맛집리뷰 #맛집투어 #맛집",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"일상이 여행",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dlqjdy90",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220906"
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"고소한 숙성삼겹을 소금에 콕! <b>금호동맛집<\/b> 산청화로",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/un1formly?Redirect=Log&logNo=222846172484",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"타고 금호동으로 건너왔어요 서울에 몇 년간 살면서 처음 와 본 동네...! 그리고 <b>금호동맛집<\/b>이라고... 가성비 맛집이라는 얘기가 대부분인 것 같았지만 저는 맛있는데다가 친절한데다가 저렴하기까지 한 건데... ",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"작은 해수욕장의 빙수 천재",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/un1formly",
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,411 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주<b>금호동맛집<\/b> 입호강 오마카세 추천 &apos;긴자상회&apos;",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/wgdw1534?Redirect=Log&logNo=222765249480",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"추천드려요~ 맛있는 메뉴가 많은 광주 이자카야 찾으신다면 광주 <b>금호동맛집<\/b> 긴자상회 추천드려요~! #광주<b>금호동맛집<\/b> #긴자상회 #광주금호동오마카세 #광주금호동이자카야 #광주금호동술집 #광주금호지구맛집",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"&apos;◡&apos; 먹고 여행하고 기록하는 일상",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/wgdw1534",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220608"
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 진한 우대갈비의 맛",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/fromantic?Redirect=Log&logNo=222787049512",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광주 <b>금호동 맛집<\/b> 화원짚불구이 금호점으로 불렀죠~~~후후 금호동 복잡하신거아시죠? 주차공간 찾기... 광주 <b>금호동 맛집<\/b> 우대갈비의 찐 맛을 느낄수 있어서 친구도 저도 둘다 반해버린 맛집이에요. 고기가... ",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"찍고 먹고 리뷰하라",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/fromantic",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220624"
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 모티프 신상핫플 레스토랑 와인바 오픈",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/minnnui?Redirect=Log&logNo=222686002691",
+2022-09-06 15:15:05,412 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"레스토랑 <b>맛집<\/b> <b>금호동<\/b> 모티프 에요 ! 양식이 주 인 곳이고, 카페도 함께 하는곳이라 다양한 음료와 음식을 함께 접할 수 있어서 정말 좋았어요, 그리고 여기에 와인까지 많은 종류를 보유하고 있어서 데이트하러... ",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"MinuDay, ఇ",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/minnnui",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220329"
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"북받쳤던 속초 <b>금호동 맛집<\/b>",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sungshim100?Redirect=Log&logNo=222787385444",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"속초 <b>금호동 맛집<\/b>의 모듬회도 한 점을 집어서 간장을 묻혀서 맛봤는데요. 탱글탱글함은 기본이고 담백함까지 퍼펙트해, 역시 찐으로 맛집이구나 깨닫게 만드는 소중한 한입이더라고요. 살얼음 육수에 가득... ",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"==쿨맨남성의원==",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sungshim100",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220625"
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동<\/b> 파스타 <b>맛집<\/b> 모티프 뷰도 좋고 맛도 좋고!",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/inho1914?Redirect=Log&logNo=222851038621",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>금호동맛집<\/b> 금호동파스타맛집 모티프 메뉴 주문은 테이블마다 있는 태블릿pc로 하면 되어요!. 그러다보니 메뉴 찍는건 좀 한계가 있어서 이렇게만 찍어왔네요!. 안되는 메뉴가 있어서 좀 아쉬웠는데, 다음에... ",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"백부엉이 일상 블로그⊙♡⊙",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/inho1914",
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220817"
+2022-09-06 15:15:05,413 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> 우대갈비부터 육회까지 맛잔치",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/2247100?Redirect=Log&logNo=222738242557",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"전 금호동 근처에 일이 있어서 오랜만에 <b>금호동 맛집<\/b> 화원짚불구이 찾았답니다 : ) 오늘도 맛있게 먹은... ㅎㅎ 금호동 볶음밥 맛집이라고 해도 손색없을 맛을 자랑하는 이 볶음밥 레알 제가 지인들에게 이 볶음밥... ",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"안나제이메이크업-메이크업에 감성을 담다",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/2247100",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220519"
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동<\/b> 중식 <b>맛집<\/b> 역시 실망시키지 않는 신락원금호점",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/feelluvei?Redirect=Log&logNo=222668504911",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"유리설탕옷 제대로 입은 후식으로 주신 신락원맛탕까지 맛있게 먹고 갑니다~~~ #<b>금호동맛집<\/b> #금호동중식맛집 #신락원금호점 #신락원 #금호동신락원 #금호점신락원 #금호동중국집 #금호동중국요리 #금호동코스요리",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"겸지의 뭉게뭉게 구름여행",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/feelluvei",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220310"
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 요리하는집 모듬회 굿 ~",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sevi_yorum?Redirect=Log&logNo=222867434256",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오랫만에 느껴보는 화려함 금호동에 회사도 많고 먹자골목에 <b>금호동 맛집<\/b>도 많고 잘 형성되어 있다고 들었었는데 와보니 진짜 더라고요. 한번 꼭 가봐야지했었는데 드뎌 다녀왔답니다. 요리하는집은 분위기가... ",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"주부센스",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sevi_yorum",
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220905"
+2022-09-06 15:15:05,414 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 도야짬뽕 깔끔한 중국집",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/wksdlsgkssj?Redirect=Log&logNo=222852310187",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"기억해두었다가 이번에 다녀왔던 광주 <b>금호동 맛집<\/b>을 소개 해보려구요! 금호동 중국집 도야짬뽕은 서광병원 옆라인 먹자골목에 있어요 빨간색 문과 반짝이는 조명이 화려해서 바로 알아볼 수 있었죠. 가까운... ",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"천방지축 빙글빙글 영지네 하루",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/wksdlsgkssj",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220819"
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b>, 회뜨는마을 부세보리 정식",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/is9759?Redirect=Log&logNo=222858355536",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이것도 예전에 찍은 사진인데, 그래도 올해 사진이니깐 가격차이가 크지 않을듯 합니다. 참고만 하세요 ^^ #광주<b>금호동맛집<\/b> #광주금호동회뜨는마을 #광주금호동굴비정식 #광주금호동부세보리굴비",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"self service",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/is9759",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220826"
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동<\/b> 파스타 <b>맛집<\/b> &apos;모티프 (MOTIF)&apos;",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dori_0325?Redirect=Log&logNo=222845843109",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"한다 <b>금호동 맛집<\/b> '모티프' ! 버섯 샐러드는 둘 다 큰 기대를 안 했는데 너무 맛있고 이게 청경채인지... 진짜 금호동 브런치 맛집 !! 고추장크림 파스타 이 메뉴 고른 이유는 진짜 TMI인데 제가 커피프린스 1호점... ",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"11:11, dorilog",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dori_0325",
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-09-06 15:15:05,415 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> 화원짚불구이 고기집 우대갈비 최고시다",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jiwon4348?Redirect=Log&logNo=222665351029",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"금호동 고기집 화원짚불구이 우대갈비에 볶음밥까지 아주 최고야! 우대갈비 예전부터 정말 궁금했는데 드디어 먹고왔습니다 흐흐 <b>금호동 맛집<\/b>인 화원짚불구이는 우대갈비 맛있기로 이미 유명한 곳이더라구요!... ",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"져니콩의 애정블로그",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jiwon4348",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220306"
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>맛집<\/b> <b>금호동<\/b> 갈비 무한리필 명륜진사갈비 광주금호점",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/runtob?Redirect=Log&logNo=222839669216",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"파채 없으면 고기 안 먹는 아들들ㅋㅋㅋ 입맛은 이미 30대 후반임 이렇게 저렴한 가격에 숯불까지 제공해 주는 <b>금호동<\/b> 갈비 <b>맛집<\/b>. 사실 갈비 맛의 절반은 숯불이잖아요. 두툼한 고기를 척척 올려봅니다.... ",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"준브라더스와 세상사는 이야기",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/runtob",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220805"
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"입에서 살살 녹는 소갈비, <b>금호동맛집<\/b> 산청화로",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/rabbit0577?Redirect=Log&logNo=222864919662",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"픽 맛집이라고 하니 눈 바로 돌아가쥬 ~ 전화로 예약하고 방문! 서울 <b>금호동 맛집<\/b> 고기집 산청화로 외부... 서울 금호동 고기맛집 산청화로 양념갈매기살 숯을 올려주고 양념갈매기살 1인분이 도착했어요. 어라?... ",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Yujung:log",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/rabbit0577",
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220902"
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,416 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> # 티본스테이크 토마호크 올드핸즈(OLD HANDS)",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jen_jen89?Redirect=Log&logNo=222857850736",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>금호동 맛집<\/b> # 티본스테이크 토마호크 올드핸즈(OLD HANDS) 자주 오가는 길목에 너무 예쁜 외관이 눈에... 이런 맛집이라니 너무 좋잖아? 분명 내가 예약할 땐 풀북킹 상태였어서 취소된 자리 나오길 기다렸다... ",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"모든 순간을 소중히 ❤️",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jen_jen89",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220825"
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"서울 <b>금호동 맛집<\/b>에서 맛본 프랑스 음식 AU BOUILLON 오부이용",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/lala0112?Redirect=Log&logNo=222867129353",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"출산 전에 다녀왔던, 그니까 올 봄에 다녀왔던 서울 <b>금호동 맛집<\/b>인데 올해가 가기 전에 후기를 남겨보려고 해요~ 오부이용이라고 금호동에 있는 프랑스 음식점인데 골목에 있어서 뭔가 더 느낌있고 맛있는... ",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Michelle Lee♥",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/lala0112",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220905"
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[광주 <b>금호동맛집<\/b>] 국밥 잘 하고 친절한 곳 &quot;빛가람국밥&quot;",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sdk7605?Redirect=Log&logNo=222865819508",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"초장+들깨가루 조합에 너무 잘 어울렸고 뚝배기에 담긴 국밥이라 온도도 좋고 따뜻하게 먹을 수 있었어요 :) <b>금호동<\/b>국밥<b>맛집<\/b>, 빛가람국밥 와이프 메뉴도 나왔고 (남의 떡이 더 커보이는 이유는 뭐죠) ㅋㅋㅋ... ",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"광주맞춤정장 모니토클래식",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sdk7605",
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220904"
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-09-06 15:15:05,417 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-09-06 15:15:05,418 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-09-06 15:17:49,419 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:33)     - responeseCode : 200
+2022-09-06 15:17:49,421 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:42)     - blog검색 : %EA%B8%88%ED%98%B8%EB%8F%99+%EB%A7%9B%EC%A7%91
+2022-09-06 15:17:49,421 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - {
+2022-09-06 15:17:49,421 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:17:56 +0900",
+2022-09-06 15:17:49,421 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"total":0,
+2022-09-06 15:17:49,421 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"start":1,
+2022-09-06 15:17:49,422 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"display":0,
+2022-09-06 15:17:49,422 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"items":[
+2022-09-06 15:17:49,422 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	]
+2022-09-06 15:17:49,422 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - }
+2022-09-06 15:17:59,886 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:33)     - responeseCode : 200
+2022-09-06 15:17:59,888 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:42)     - blog검색 : %EC%98%A4%EB%9D%BC%ED%81%B4
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - {
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:18:06 +0900",
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"total":86,
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"start":1,
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"display":20,
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"items":[
+2022-09-06 15:17:59,889 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (예제 따라가며 쉽게 배우는)",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32473353778",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3247335\/32473353778.20220527050038.jpg",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"윤정미 외 7인",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"18000",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"기한재",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20150225",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788970187525",
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"- 독자대상 : 오라클 자격증 시험을 준비하는 수험생\n- 구성 : 문제 + 이론\n- 특징 :\n① 초보자를 대상으로 데이터베이스의 표준 언어인 SQL 습득\n② 다양한 예제를 시릇바형 실전문제를 스스로 해결\n③ 짧은 기간 내에 오라클을 습득하고 문제해결 능력 배양"
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,890 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (입문서)",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441783777",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244178\/32441783777.20220518183834.jpg",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"Michael Abbey",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지샘",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"19970315",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788988462096",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":""
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"더 오라클 (사랑, 패션, 친구, 미래에 대한 10대들의 질문에 답하는 마법의 길!)",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32493332337",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249333\/32493332337.20220527075501.jpg",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"엠리스",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"15300",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지혜의나무",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20071210",
+2022-09-06 15:17:59,891 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788989182696",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"삶의 질문들에 대한 답을 제시하는 오라클 카드\n\n〈더 오라클〉은 오라클 카드의 세계로 초대하는 책이다. 오라클 카드는 사랑, 패션, 친구, 미래 등 10대들이 궁금해 하는 질문에 답하는 카드이다. 초자연적이거나 마술적인 힘을 선사하지는 않지만 숨겨진 기회를 밝혀 결정에 도움을 주고, 자신의 생각과 의견을 만날 수 있는 기회를 마련해 준다. 화려한 컬러 삽화로 꾸며진 이 책에는 오라클 카드 25장과 헬프 카드 25장이 포함되어 있다. \n\n1장에서는 오라클이 무엇에 대해 어떻게 작용하는지를 보여주고, 2장에서는 우리가 가장 물어보고 싶어하는 질문들을 제시한다. 3장에는 카드를 통해 안내를 받았던 사람들의 예시와 우리가 이용할 수 있는 여러 종류의 카드 스프레드를 담았다. 4장에서는 카드 점을 시작하여 오라클이 어떻게 대답하는지를 살펴보았으며, 5장에서는 이 질문들을 보다 깊이 있게 다루고 카드를 배열하여 그들의 여러 의미를 알아본다."
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"선 오라클 (인생을 보여주는 점성술 카드, 개정판)",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492184962",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249218\/32492184962.20220527030005.jpg",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"캐롤라인 스미스",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"당그래",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20120610",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788960460294",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"『선 오라클』은 삶의 문제에 대한 답을 점치도록 도움을 주는 신탁 카드이다. 84장의 아름다운 그림이 그려진 카드를 활용하여 황도대를 따라가면서 감추어진 미래를 발견하도록 구성되었다. 독특하고 배우기 쉬운 점성학의 세계를 본문에 담았으며, 극적이면서도 상징적 비유가 풍부한 카드를 별도로 수록하였다."
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"데이터베이스론 (오라클 중심)",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506165205",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250616\/32506165205.20220527034138.jpg",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"여정모",
+2022-09-06 15:17:59,892 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엔코아컨설팅",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161201",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788995447420",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"[실무에서 유용한 데이터베이스론]은 실전에서 바로 활용가능한 데이터 모델링 스킬을 체계적으로 기술하여 데이터 분야에 종사하고 있거나 직무 역량을 향상시키고자 하는 직장인, 데이터 분야로 진출하고자 하는 학생들을 위한 책이다."
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"크리스털 오라클 (36가지 신비로운 보석과 광물이 전하는 조언들)",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32445016681",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244501\/32445016681.20220527051309.jpg",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"마이아 톨",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한스미디어",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20211103",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791160077308",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"36가지 크리스털이 전하는\n땅의 지혜를 배우는 시간!\n\n* 36가지 크리스털에 담긴 이야기\n오랜 시간을 지구와 함께해 온 만큼, 보석과 광물들은 우리가 짐작하지도 못할 수많은 이야기들을 지니고 있습니다. 이러한 결정체, 크리스털이 지닌 독특한 이야기와 진동은 우리의 삶에 필요한 통찰력 있는 교훈을 주기도 하고, 우리 내면의 지혜를 깨닫는 데 도움을 주기도 합니다.\n견고하고 아름다운 박스 구성으로 만나는 《크리스털 오라클》과 36장의 크리스털 오라클카드를 통해 크리스털의 조언을 얻고, 자아 발견을 향해 떠나는 여정에 필요한 크리스털 에너지를 찾아보세요.\n이 책에서는 우리가 살아가는 데 꼭 필요한 소금부터 에메랄드, 루비, 자수정 등을 포함한 총 36가지 크리스털을 만날 수 있습니다.\n\n* 36장의 크리스털 오라클카드\n책 속의 36가지 크리스털을 전부 크리스털 오라클카드로 만날 수 있습니다! 이 오라클카드를 활용하면 크리스털과 손쉽게 깊은 유대를 쌓을 수 있어요. 크리스털과 친밀함을 쌓을수록 크리스털이 좀 더 깊은 곳에 품고 있는 의미들 또한 발견할 수 있답니다.\n책에서 소개하는 오라클카드 배열법을 따라 크리스털이 들려주는 조언들을 리딩해 보세요!\n\n* 이런 분께 추천해요!\n- 타로카드와 오라클카드의 유저&리더\n- 크리스털이 가진 고유의 에너지에 관심 있는 사람\n- 크리스털을 통해 내면의 자신을 들여다보고 싶은 사람"
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 교과서 (SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는)",
+2022-09-06 15:17:59,893 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496612683",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249661\/32496612683.20220527052806.jpg",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이태호",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"34200",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"프리렉",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20131107",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788965400462",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는 『오라클 교과서』. 오라클 입문자와 현직 개발자를 대상으로 오라클의 기본 개념과 특징을 설명하고 RDBMS의 기능을 제대로 활용할 수 있는 주요 방법을 제시한다. 다양한 SQL 문 작성 방법을 배운 다음 이를 활용하여 실무에서 이용할 수 있는 수준 높은 SQL 질의문을 만들어보도록 안내하고 있다."
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 SQL (취준생과 비전공자도 쉽게 배우는, 제3판)",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32466658967",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246665\/32466658967.20220527055756.jpg",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"문성기",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"다올미디어",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20190125",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788997587339",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"이 책은 SQL에 대한 너무 무겁고 방대한 메뉴얼이나 너무 빈약한 입문서들 그리고 관련 과목과 혼합되어 낮은 비중으로 다루어지는 서적들이 가장 기본적이고 중요한 SQL에 대한 이해도를 떨어뜨리는 중요한 원인이라 파악되었다. 그래서 본서는 가능한 SQL만으로 범위를 한정해서 독자 여러분이 SQL 자체에 대한 구사 능력을 일정 수준에 이르게 하는 것을 목적으로 쓰였다. \n또한 오라클 기반의 실습 환경을 바탕으로 쓰였지만, 가능한 표준 SQL을 근간으로 상당수의 예제들이 수정 없이 MySQL이나 SQL 서버에 적용되도록 하였다."
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 레벨업 (최고의 전문가 그룹이 알려주는 오라클 실전 100가지 기술)",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506569675",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250656\/32506569675.20220527051036.jpg",
+2022-09-06 15:17:59,894 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"스즈키 겐고",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161220",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788968484681",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"현장에서 일어나는 다양한 문제를 확실하게 해결할 실무 참고서!\n\n오라클 DB는 개발 효율을 높이고 문제를 해결하는 기능을 풍부하게 제공하지만, 그 모든 기능을 제대로 활용할 줄 아는 엔지니어는 많지 않다. 그 탓에 유용하지만 널리 알려지지 않은 기능도 상당수다. \n\n이 책은 일본오라클의 DB 컨설턴트들이 풍부한 현장 경험을 바탕으로 실무에 필요한 100가지 고급 기술을 콕 짚어 소개한다. 성능 관리, 트러블 슈팅, 아키텍처, 개발과 운용, 시스템 테스트, 데이터마이닝의 6개 분야에 대해 현장 실무자에게 필요한 오라클 기능을 엄선해 설명한다.\n \n개발 현장에서 자주 언급되는 각종 난제, 예를 들면 최적의 실행 계획 수립, 메모리 부족 방지, 롤백 시간 예측, 인덱스 효과 검증, 단편화 해소 효과 예측, 시스템 변경의 영향 확인, 실제 환경 부하 재현 테스트, DB를 활용한 통계 해석 등을 실현하려는 고급 개발자에게 매우 유용할 것이다."
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 이펙트 (돈이 되는 미래예측)",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32504141639",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250414\/32504141639.20220527052353.jpg",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이치구",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"올림",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20110415",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788993027211",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"불확실성의 시대, 오라클로 미래를 지배하라!\n\n『오라클 이펙트』는 ‘오라클 이펙트’를 정의하고 그 전모를 파헤친 책이다. 이 책에서 말하는 ‘오라클 이펙트’는 예측을 잘할수록 더 많은 돈을 벌게 되는 현상을 의미한다. 미래의 물결이 요구하는 ‘오라클러’가 되어 부와 권력이 이동하는 흐름을 정확히 읽고 성공으로 가는 오라클을 발견하라고 조언하는 저자는 이를 위해 다가올 미래의 모습들을 조목조목 예시하고, 살아 있는 오라클러들의 면면을 생생하게 소개하였다. 미래예측은 어떻게 가능한 것인지, 그것이 인류의 역사를 어떻게 움직여왔고 수혜의 주인공들은 누구였는지, 지금의 세계 경제에는 어떤 영향력으로 작용하고 있는지, 또 미래를 어떻게 이끌어갈지를 다각도로 조명하였다."
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"차크라 위즈덤 오라클 카드 (당신의 삶을 바꿔줄 완벽한 영적 카드)",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492632048",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249263\/32492632048.20220527054020.jpg",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"토리 하트먼",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"26100",
+2022-09-06 15:17:59,895 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"젠북",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161212",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791195072965",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"당신의 삶을 바꿔줄 완벽한 영적 카드 『차크라 위즈덤 오라클 카드』."
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 관리 실무 (쉬운 설명과 실전 예제가 가득한)",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441503628",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244150\/32441503628.20220527033956.jpg",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"서진수",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"40500",
+2022-09-06 15:17:59,896 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"생능출판",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20130720",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788970507828",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"쉬운 설명과 실전 예시가 가득한『오라클 관리 실무』. 이 책은 오라클을 기초부터 확실하게 배우기를 원하는 독자들을 위해 쓴 책으로, 오라클 구조 및 운영과 튜닝 관련 기본 지식과 원리들을 쉽게 풀어내고, 네트워크 관련 지식과 OS(리눅스), Shell Script에 대한 내용을 집대성하여 독자들이 관련된 지식을 한꺼번에 연관지어 볼 수 있도록 구성하였다."
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"레노먼드 오라클 (더 명확한 카드점)",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32480656397",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3248065\/32480656397.20220527055709.jpg",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"노장호(분다)",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"11400",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"잡다한",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20180711",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791195919680",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"짧고 단순 명료하며 직설적인 레노먼드 오라클카드는 단순한 그림카드로 누구나 간편하게 점을 칠 수 있다! 레노먼드는 유명 점술가였던 마리 안느 르노르망의 이름을 딴 점술용 카드이다. 이 책은 레노먼드 카드의 유래와 카드별 의미, 실제 배열법과 사례를 통해 명료하고 직설적인 레노먼드 카드의 사용법을 알려줄 것이다."
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"배트걸과 버즈 오브 프레이 Vol 1: 오라클의 정체는? (오라클의 정체는?)",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492211404",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249221\/32492211404.20220527041313.jpg",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"줄리 벤슨^쇼나 벤슨",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"14400",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"시공사",
+2022-09-06 15:17:59,897 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20200125",
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788952746801",
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"“놀이기구를 타는 듯한 기분.” - 뉴사라마\n“멋진 스토리텔링, 사랑스러운 그림이 담긴 책.” - 코믹코시티\n\n고담시가 해킹당하다!\n바바라 고든에게 비밀은 익숙하다. 그녀는 GCPD의 거물, 짐 고든의 딸이자… 거리의 자경단, 배트걸이다. 그러나 세계 최강의 해커, 오라클로서의 과거는 완전하게 베일에 가려 있었다…. 지금까지는.\n누군가 오라클의 가면을 부활시켜 배트걸이 고담시 전역을 가로지르며 헛수고하게 만든다. 그녀 곁에는 그녀만큼이나 위험한 두 명의 자경단이 있다. 록스타에서 블랙 카나리라는 히어로가 된 다이나 랜스와 헌트리스라는 코드네임의 위험천만한 스파이, 헬레나 버티넬리가 바로 그들이다.\n이 어울리지 않는 트리오가 힘을 모아 새로운 오라클의 미스터리를 파헤치고, 자신들에게 맞서는 악당들을 물리칠 수 있을까? 아니면 날아오르기도 전에 버즈 오브 프레이의 날개가 꺾이고 말 것인가?\n고담시 최고 슈퍼히어로 팀의 새로운 시대를 여는 〈배트걸과 버즈 오브 프레이 Vol. 1 오라클의 정체는?〉에서 그 결과를 알아보자! TV 프로그램 “The 100”의 작가 줄리 & 쇼나 벤슨, VERTIGO QUARTERLY SFX의 아티스트 클레어 로이, 나이트윙의 로제 안토니오가 선사하는 액션과 모험 가득한 DC 유니버스 리버스 블록버스터 이벤트! \n〈배트걸과 버즈 오브 프레이 #1-6〉, 〈배트걸과 버즈 오브 프레이: 리버스 #1〉 수록."
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 성능 Q&A (시즌1 : 2009.5 ~ 2010.5)",
+2022-09-06 15:17:59,898 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32485532564",
+2022-09-06 15:17:59,899 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3248553\/32485532564.20220527023020.jpg",
+2022-09-06 15:17:59,899 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"조동욱",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"22500",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엑셈",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20101118",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788995765388",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"『오라클 성능 Q&A』는 Ask EXEM의 2009년에서 2010년의 1년 동안의 질문 답변 중 골라 엮은 책이다. 상세한 해설과 테스트결과를 첨부했으며 질문과 답변을 따라가는 과정에서 오라클 성능에 대한 지식을 자연스럽게 습득할 수 있다."
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 성능 고도화 원리와 해법 1",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/34372829619",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3437282\/34372829619.20220902094023.jpg",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"조시형",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"35100",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"디비안(주)(DBian)",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20220801",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791191941043",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"초 대용량 데이터베이스 환경의 여러 차세대 시스템 구축 프로젝트에서 얻은 소중한 경험과 기술 노하우를 널리 전파하기 위해 만든 책이다. 데이터베이스 성능 최적화 전문가가 되기를 꿈꾸는 이들에게 최고의 지침서가 될 이 책은, 고성능 데이터베이스 개발 및 운영 환경에 실제 적용할 수 있는 실용적 해법들을 기본 원리부터 상세하게 설명한다.\n\n1~3장에서는 데이터베이스 성능을 논할 때 기본적으로 알아야 할 개념과 아키텍처, 그리고 성능 관리 방법론과 도구 사용법에 대해 설명한다.\n\n이 책에서 중점적으로 다루는 세 가지 주제는 다음과 같다.\n\n4장. 라이브러리 캐시 최적화\nSQL 옵티마이저의 최적화 과정을 설명하고, 바인드 변수가 데이터베이스 성능에 있어 왜 그렇게 중요한지를 설명한다.\n그리고 바인드 변수 외에 라이브러리 캐시를 최적화하기 위한 기법들을 소개한다.\n마지막으로, 대부분 프로젝트에서 이슈가 되는 Dynamic SQL에 관한 사용 기준을 제시하고, 가급적 Static SQL로 구현할 수 있도록 몇가지 기법들을 소개한다.\n\n5장. 데이터베이스 Call 최소화\n모든 명령이 데이터베이스 Call을 통해 서버 프로세스에 전달되므로, 불필요하고 반복적인 Call 수행 횟수를 최소화하는 것은 데이터베이스 수행속도를 향상시키고 확장성을 높이는 매우 중요하고 핵심적인 튜닝 요소다. 이 장에서는 Execute Call, Fetch Call을 줄이는 방법, 그리고 PL\/SQL 함수 수행 원리와 부하 해소 방안에 대해 상세히 설명한다.\n\n6장. I\/O 효율화 및 버퍼캐시 최적화\n데이터베이스 성능을 좌우하는 가장 핵심적인 요인은 I\/O 효율화에 있다. 인덱스, 조인, 옵티마이저 원리를 기반으로 한 I\/O 효율화 상세 원리는 2권에서 다룰 예정이고, 여기서는 그것을 이해하는 데 필요한 기본 개념과 원리를 설명한다.\n\n내용 문의 ▶ www.dbian.net, www.sqlp.co.kr"
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 성능 고도화 원리와 해법 2",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/34372827619",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3437282\/34372827619.20220902094231.jpg",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"조시형",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"44100",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"디비안(주)(DBian)",
+2022-09-06 15:17:59,900 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20220801",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791191941050",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"고성능 데이터베이스 애플리케이션 구축을 위해 필수적으로 이해하고 적용해야 할 원리와 해법\n\n이 책은 데이터베이스 튜닝과 관련된 핵심 주제를 중심으로, 실전에서 자주 접하는 주요 성능 이슈에 대한 원리와 해법을 친절하고 상세하게 설명합니다. 1권에서 다룬 DBMS 내부수행 원리를 바탕으로 2권에서 다루는 내용은 다음과 같습니다. \n\n  1장. 인덱스 원리와 활용\n  2장. 조인 원리와 활용\n  3장. 옵티마이저 원리\n  4장. 쿼리 변환\n  5장. 소트 튜닝\n  6장. 파티셔닝\n  7장. 병렬 처리\n\n데이터베이스 전문가로서 탄탄한 지식의 탑을 쌓으려면 핵심 기술에 대한 이해가 필수입니다. 데이터베이스 핵심 기술을 다지고 고급 기술을 연마하고자 하는 모든 분께 이 책은 든든한 반석과 나침반이 돼 드릴 것입니다. 특히, 아래와 같은 분께 자신 있게 권합니다. \n \n - 고급 데이터베이스 프로그래머\n - 데이터베이스 튜닝에 입문하고자 하는 개발자 및 DBA\n - 이미 활동 중인 데이터베이스 튜닝 전문가\n - 데이터베이스 설계자\n - 애플리케이션 구조 및 공통 기술 설계자\n - SQL 전문가(SQLP) 및 DA 전문가(DAP) 자격증 응시자\n\n내용 문의 ▶ www.dbian.net, www.sqlp.co.kr"
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 SQL 튜닝",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496586127",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249658\/32496586127.20220527043437.jpg",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이경오",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"15120",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20160318",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788968488146",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"[오라클 SQL 튜닝]은 SQL 튜닝 분야를 꼭 학습해야 하거나 관심이 있는 사람들이 보기에 적합하도록 기초 SQL문을 작성할 수 있는 사람이라면 누구나 이 책의 내용을 학습할 수 있도록 난이도를 맞춘 책이다. DBA 권한이 필요한 부분이나 사용빈도가 극히 낮고 어려운 부분은 다루지 않았다. 책에는 인덱스 튜닝, 조인 튜닝, 함수 튜닝, 부분 범위 처리 튜닝, 파티셔닝 튜닝, 병렬 처리 튜닝 등 실무에 바로 적용할 수 있는 튜닝 기법을 수록했다."
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"이것이 오라클이다 (Oracle 설치부터 PL\/SQL 정복까지!)",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32486422661",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3248642\/32486422661.20220527044540.jpg",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"우재남",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20180302",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791162240489",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"80여 가지 실습으로 실무 감각을 익히는 실전형 오라클 입문서\n\n오라클을 처음 접하거나 단지 이론만으로 학습한 입문자는 실제 현업에서의 업무에 대한 부담이 크다. 이 책은 바로 이런 입문자를 위한 책이다. 실무에서 바로 적용 가능한 다양한 실습 예제를 통해 현업에서 이뤄지는 데이터베이스 개발을 체험해볼 수 있게 구성했다. 최대한 단순화한 실무형 실습을 통해서 입문자가 자연스럽게 오라클을 이해하고, 데이터베이스 관리자로 운영을 맡게 하는 것이 이 책의 목표다. 오라클을 처음 접하는 독자라면 이 책을 끝내는 시점에는 스스로 한 단계 업그레이드된 자신을 발견할 수 있을 것이다."
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 실전 튜닝 3 (실무에서 바로 사용할 수 있는 SQL 튜닝 가이드북)",
+2022-09-06 15:17:59,901 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32467262850",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246726\/32467262850.20220527055600.jpg",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"황오현^박병섭^최병인",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"25200",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엑시엄",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20190423",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791195942558",
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"1권에서는 데이터베이스 아키텍쳐 및 SQL 튜닝 기초를 다루었고, 2권에서는 테이블들간의 조인을 통한 성능향상을 다뤘다. 이어서 3권에서는 실무에서 발생할 수 있는 SQL 사례들을 중심으로 구성하여 독자들에게 SQL 실전 튜닝이 가능하도록 집필하였다.\n\n실제 업무 상황에서 성능 이슈가 발생하였을 경우 어떤 SQL이 문제인지는 인지하고 있으면서도 개선 방안을 찾을 수 없어 답답해하는 경우를 드물지 않게 목격했다. 이 책은 그런 답답했던 상황에 있어 해답을 찾아줄 수 있는 책이 될 것이라 기대한다.\n\n기존에 출판된 책자에 성능적 변화에 맞추어 내용을 더욱 보강하고 재구성하여 본 책을 저술하였다. 특히, 오라클 12C 버전에서 옵티마이저의 변화에 따른 실행계획이 기존 오라클 버전과 어떤 부분에서 변경이 되었는지도 보강하여 실무에 적용하기 쉽도록 작성하였다.\n이 책을 통해 어렵기만 했던 SQL 튜닝에 대해 자신감을 가져다 줄 수 있기를 바란다. 또한 이 책으로 인해 많은 사이트들에서 성능이 향상되었다는 이야기가 들려오기를 고대한다"
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		}
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	]
+2022-09-06 15:17:59,902 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - }
+2022-09-06 15:20:31,666 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:33)     - responeseCode : 200
+2022-09-06 15:20:31,667 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:42)     - blog검색 : %EC%98%A4%EB%9D%BC%ED%81%B4
+2022-09-06 15:20:31,668 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - {
+2022-09-06 15:20:31,668 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:20:38 +0900",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"total":86,
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"start":1,
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"display":10,
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"items":[
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (예제 따라가며 쉽게 배우는)",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32473353778",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3247335\/32473353778.20220527050038.jpg",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"윤정미 외 7인",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"18000",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"기한재",
+2022-09-06 15:20:31,669 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20150225",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788970187525",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"- 독자대상 : 오라클 자격증 시험을 준비하는 수험생\n- 구성 : 문제 + 이론\n- 특징 :\n① 초보자를 대상으로 데이터베이스의 표준 언어인 SQL 습득\n② 다양한 예제를 시릇바형 실전문제를 스스로 해결\n③ 짧은 기간 내에 오라클을 습득하고 문제해결 능력 배양"
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (입문서)",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441783777",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244178\/32441783777.20220518183834.jpg",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"Michael Abbey",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지샘",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"19970315",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788988462096",
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":""
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,670 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"더 오라클 (사랑, 패션, 친구, 미래에 대한 10대들의 질문에 답하는 마법의 길!)",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32493332337",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249333\/32493332337.20220527075501.jpg",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"엠리스",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"15300",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지혜의나무",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20071210",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788989182696",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"삶의 질문들에 대한 답을 제시하는 오라클 카드\n\n〈더 오라클〉은 오라클 카드의 세계로 초대하는 책이다. 오라클 카드는 사랑, 패션, 친구, 미래 등 10대들이 궁금해 하는 질문에 답하는 카드이다. 초자연적이거나 마술적인 힘을 선사하지는 않지만 숨겨진 기회를 밝혀 결정에 도움을 주고, 자신의 생각과 의견을 만날 수 있는 기회를 마련해 준다. 화려한 컬러 삽화로 꾸며진 이 책에는 오라클 카드 25장과 헬프 카드 25장이 포함되어 있다. \n\n1장에서는 오라클이 무엇에 대해 어떻게 작용하는지를 보여주고, 2장에서는 우리가 가장 물어보고 싶어하는 질문들을 제시한다. 3장에는 카드를 통해 안내를 받았던 사람들의 예시와 우리가 이용할 수 있는 여러 종류의 카드 스프레드를 담았다. 4장에서는 카드 점을 시작하여 오라클이 어떻게 대답하는지를 살펴보았으며, 5장에서는 이 질문들을 보다 깊이 있게 다루고 카드를 배열하여 그들의 여러 의미를 알아본다."
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"선 오라클 (인생을 보여주는 점성술 카드, 개정판)",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492184962",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249218\/32492184962.20220527030005.jpg",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"캐롤라인 스미스",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"당그래",
+2022-09-06 15:20:31,671 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20120610",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788960460294",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"『선 오라클』은 삶의 문제에 대한 답을 점치도록 도움을 주는 신탁 카드이다. 84장의 아름다운 그림이 그려진 카드를 활용하여 황도대를 따라가면서 감추어진 미래를 발견하도록 구성되었다. 독특하고 배우기 쉬운 점성학의 세계를 본문에 담았으며, 극적이면서도 상징적 비유가 풍부한 카드를 별도로 수록하였다."
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"데이터베이스론 (오라클 중심)",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506165205",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250616\/32506165205.20220527034138.jpg",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"여정모",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엔코아컨설팅",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161201",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788995447420",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"[실무에서 유용한 데이터베이스론]은 실전에서 바로 활용가능한 데이터 모델링 스킬을 체계적으로 기술하여 데이터 분야에 종사하고 있거나 직무 역량을 향상시키고자 하는 직장인, 데이터 분야로 진출하고자 하는 학생들을 위한 책이다."
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"크리스털 오라클 (36가지 신비로운 보석과 광물이 전하는 조언들)",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32445016681",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244501\/32445016681.20220527051309.jpg",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"마이아 톨",
+2022-09-06 15:20:31,672 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한스미디어",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20211103",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791160077308",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"36가지 크리스털이 전하는\n땅의 지혜를 배우는 시간!\n\n* 36가지 크리스털에 담긴 이야기\n오랜 시간을 지구와 함께해 온 만큼, 보석과 광물들은 우리가 짐작하지도 못할 수많은 이야기들을 지니고 있습니다. 이러한 결정체, 크리스털이 지닌 독특한 이야기와 진동은 우리의 삶에 필요한 통찰력 있는 교훈을 주기도 하고, 우리 내면의 지혜를 깨닫는 데 도움을 주기도 합니다.\n견고하고 아름다운 박스 구성으로 만나는 《크리스털 오라클》과 36장의 크리스털 오라클카드를 통해 크리스털의 조언을 얻고, 자아 발견을 향해 떠나는 여정에 필요한 크리스털 에너지를 찾아보세요.\n이 책에서는 우리가 살아가는 데 꼭 필요한 소금부터 에메랄드, 루비, 자수정 등을 포함한 총 36가지 크리스털을 만날 수 있습니다.\n\n* 36장의 크리스털 오라클카드\n책 속의 36가지 크리스털을 전부 크리스털 오라클카드로 만날 수 있습니다! 이 오라클카드를 활용하면 크리스털과 손쉽게 깊은 유대를 쌓을 수 있어요. 크리스털과 친밀함을 쌓을수록 크리스털이 좀 더 깊은 곳에 품고 있는 의미들 또한 발견할 수 있답니다.\n책에서 소개하는 오라클카드 배열법을 따라 크리스털이 들려주는 조언들을 리딩해 보세요!\n\n* 이런 분께 추천해요!\n- 타로카드와 오라클카드의 유저&리더\n- 크리스털이 가진 고유의 에너지에 관심 있는 사람\n- 크리스털을 통해 내면의 자신을 들여다보고 싶은 사람"
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 교과서 (SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는)",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496612683",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249661\/32496612683.20220527052806.jpg",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이태호",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"34200",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"프리렉",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20131107",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788965400462",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는 『오라클 교과서』. 오라클 입문자와 현직 개발자를 대상으로 오라클의 기본 개념과 특징을 설명하고 RDBMS의 기능을 제대로 활용할 수 있는 주요 방법을 제시한다. 다양한 SQL 문 작성 방법을 배운 다음 이를 활용하여 실무에서 이용할 수 있는 수준 높은 SQL 질의문을 만들어보도록 안내하고 있다."
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 SQL (취준생과 비전공자도 쉽게 배우는, 제3판)",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32466658967",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246665\/32466658967.20220527055756.jpg",
+2022-09-06 15:20:31,673 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"문성기",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"다올미디어",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20190125",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788997587339",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"이 책은 SQL에 대한 너무 무겁고 방대한 메뉴얼이나 너무 빈약한 입문서들 그리고 관련 과목과 혼합되어 낮은 비중으로 다루어지는 서적들이 가장 기본적이고 중요한 SQL에 대한 이해도를 떨어뜨리는 중요한 원인이라 파악되었다. 그래서 본서는 가능한 SQL만으로 범위를 한정해서 독자 여러분이 SQL 자체에 대한 구사 능력을 일정 수준에 이르게 하는 것을 목적으로 쓰였다. \n또한 오라클 기반의 실습 환경을 바탕으로 쓰였지만, 가능한 표준 SQL을 근간으로 상당수의 예제들이 수정 없이 MySQL이나 SQL 서버에 적용되도록 하였다."
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 레벨업 (최고의 전문가 그룹이 알려주는 오라클 실전 100가지 기술)",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506569675",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250656\/32506569675.20220527051036.jpg",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"스즈키 겐고",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161220",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788968484681",
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"현장에서 일어나는 다양한 문제를 확실하게 해결할 실무 참고서!\n\n오라클 DB는 개발 효율을 높이고 문제를 해결하는 기능을 풍부하게 제공하지만, 그 모든 기능을 제대로 활용할 줄 아는 엔지니어는 많지 않다. 그 탓에 유용하지만 널리 알려지지 않은 기능도 상당수다. \n\n이 책은 일본오라클의 DB 컨설턴트들이 풍부한 현장 경험을 바탕으로 실무에 필요한 100가지 고급 기술을 콕 짚어 소개한다. 성능 관리, 트러블 슈팅, 아키텍처, 개발과 운용, 시스템 테스트, 데이터마이닝의 6개 분야에 대해 현장 실무자에게 필요한 오라클 기능을 엄선해 설명한다.\n \n개발 현장에서 자주 언급되는 각종 난제, 예를 들면 최적의 실행 계획 수립, 메모리 부족 방지, 롤백 시간 예측, 인덱스 효과 검증, 단편화 해소 효과 예측, 시스템 변경의 영향 확인, 실제 환경 부하 재현 테스트, DB를 활용한 통계 해석 등을 실현하려는 고급 개발자에게 매우 유용할 것이다."
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:31,674 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 이펙트 (돈이 되는 미래예측)",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32504141639",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250414\/32504141639.20220527052353.jpg",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이치구",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"올림",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20110415",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788993027211",
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"불확실성의 시대, 오라클로 미래를 지배하라!\n\n『오라클 이펙트』는 ‘오라클 이펙트’를 정의하고 그 전모를 파헤친 책이다. 이 책에서 말하는 ‘오라클 이펙트’는 예측을 잘할수록 더 많은 돈을 벌게 되는 현상을 의미한다. 미래의 물결이 요구하는 ‘오라클러’가 되어 부와 권력이 이동하는 흐름을 정확히 읽고 성공으로 가는 오라클을 발견하라고 조언하는 저자는 이를 위해 다가올 미래의 모습들을 조목조목 예시하고, 살아 있는 오라클러들의 면면을 생생하게 소개하였다. 미래예측은 어떻게 가능한 것인지, 그것이 인류의 역사를 어떻게 움직여왔고 수혜의 주인공들은 누구였는지, 지금의 세계 경제에는 어떤 영향력으로 작용하고 있는지, 또 미래를 어떻게 이끌어갈지를 다각도로 조명하였다."
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		}
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	]
+2022-09-06 15:20:31,675 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - }
+2022-09-06 15:20:52,117 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:33)     - responeseCode : 200
+2022-09-06 15:20:52,120 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:42)     - blog검색 : %EC%98%A4%EB%9D%BC%ED%81%B4
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - {
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:20:58 +0900",
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"total":86,
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"start":2,
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"display":10,
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"items":[
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (입문서)",
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441783777",
+2022-09-06 15:20:52,123 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244178\/32441783777.20220518183834.jpg",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"Michael Abbey",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지샘",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"19970315",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788988462096",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":""
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"더 오라클 (사랑, 패션, 친구, 미래에 대한 10대들의 질문에 답하는 마법의 길!)",
+2022-09-06 15:20:52,124 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32493332337",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249333\/32493332337.20220527075501.jpg",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"엠리스",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"15300",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지혜의나무",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20071210",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788989182696",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"삶의 질문들에 대한 답을 제시하는 오라클 카드\n\n〈더 오라클〉은 오라클 카드의 세계로 초대하는 책이다. 오라클 카드는 사랑, 패션, 친구, 미래 등 10대들이 궁금해 하는 질문에 답하는 카드이다. 초자연적이거나 마술적인 힘을 선사하지는 않지만 숨겨진 기회를 밝혀 결정에 도움을 주고, 자신의 생각과 의견을 만날 수 있는 기회를 마련해 준다. 화려한 컬러 삽화로 꾸며진 이 책에는 오라클 카드 25장과 헬프 카드 25장이 포함되어 있다. \n\n1장에서는 오라클이 무엇에 대해 어떻게 작용하는지를 보여주고, 2장에서는 우리가 가장 물어보고 싶어하는 질문들을 제시한다. 3장에는 카드를 통해 안내를 받았던 사람들의 예시와 우리가 이용할 수 있는 여러 종류의 카드 스프레드를 담았다. 4장에서는 카드 점을 시작하여 오라클이 어떻게 대답하는지를 살펴보았으며, 5장에서는 이 질문들을 보다 깊이 있게 다루고 카드를 배열하여 그들의 여러 의미를 알아본다."
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"선 오라클 (인생을 보여주는 점성술 카드, 개정판)",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492184962",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249218\/32492184962.20220527030005.jpg",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"캐롤라인 스미스",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"당그래",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20120610",
+2022-09-06 15:20:52,125 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788960460294",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"『선 오라클』은 삶의 문제에 대한 답을 점치도록 도움을 주는 신탁 카드이다. 84장의 아름다운 그림이 그려진 카드를 활용하여 황도대를 따라가면서 감추어진 미래를 발견하도록 구성되었다. 독특하고 배우기 쉬운 점성학의 세계를 본문에 담았으며, 극적이면서도 상징적 비유가 풍부한 카드를 별도로 수록하였다."
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"데이터베이스론 (오라클 중심)",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506165205",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250616\/32506165205.20220527034138.jpg",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"여정모",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엔코아컨설팅",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161201",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788995447420",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"[실무에서 유용한 데이터베이스론]은 실전에서 바로 활용가능한 데이터 모델링 스킬을 체계적으로 기술하여 데이터 분야에 종사하고 있거나 직무 역량을 향상시키고자 하는 직장인, 데이터 분야로 진출하고자 하는 학생들을 위한 책이다."
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"크리스털 오라클 (36가지 신비로운 보석과 광물이 전하는 조언들)",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32445016681",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244501\/32445016681.20220527051309.jpg",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"마이아 톨",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:52,126 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한스미디어",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20211103",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791160077308",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"36가지 크리스털이 전하는\n땅의 지혜를 배우는 시간!\n\n* 36가지 크리스털에 담긴 이야기\n오랜 시간을 지구와 함께해 온 만큼, 보석과 광물들은 우리가 짐작하지도 못할 수많은 이야기들을 지니고 있습니다. 이러한 결정체, 크리스털이 지닌 독특한 이야기와 진동은 우리의 삶에 필요한 통찰력 있는 교훈을 주기도 하고, 우리 내면의 지혜를 깨닫는 데 도움을 주기도 합니다.\n견고하고 아름다운 박스 구성으로 만나는 《크리스털 오라클》과 36장의 크리스털 오라클카드를 통해 크리스털의 조언을 얻고, 자아 발견을 향해 떠나는 여정에 필요한 크리스털 에너지를 찾아보세요.\n이 책에서는 우리가 살아가는 데 꼭 필요한 소금부터 에메랄드, 루비, 자수정 등을 포함한 총 36가지 크리스털을 만날 수 있습니다.\n\n* 36장의 크리스털 오라클카드\n책 속의 36가지 크리스털을 전부 크리스털 오라클카드로 만날 수 있습니다! 이 오라클카드를 활용하면 크리스털과 손쉽게 깊은 유대를 쌓을 수 있어요. 크리스털과 친밀함을 쌓을수록 크리스털이 좀 더 깊은 곳에 품고 있는 의미들 또한 발견할 수 있답니다.\n책에서 소개하는 오라클카드 배열법을 따라 크리스털이 들려주는 조언들을 리딩해 보세요!\n\n* 이런 분께 추천해요!\n- 타로카드와 오라클카드의 유저&리더\n- 크리스털이 가진 고유의 에너지에 관심 있는 사람\n- 크리스털을 통해 내면의 자신을 들여다보고 싶은 사람"
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 교과서 (SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는)",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496612683",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249661\/32496612683.20220527052806.jpg",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이태호",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"34200",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"프리렉",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20131107",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788965400462",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는 『오라클 교과서』. 오라클 입문자와 현직 개발자를 대상으로 오라클의 기본 개념과 특징을 설명하고 RDBMS의 기능을 제대로 활용할 수 있는 주요 방법을 제시한다. 다양한 SQL 문 작성 방법을 배운 다음 이를 활용하여 실무에서 이용할 수 있는 수준 높은 SQL 질의문을 만들어보도록 안내하고 있다."
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 SQL (취준생과 비전공자도 쉽게 배우는, 제3판)",
+2022-09-06 15:20:52,127 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32466658967",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246665\/32466658967.20220527055756.jpg",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"문성기",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"다올미디어",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20190125",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788997587339",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"이 책은 SQL에 대한 너무 무겁고 방대한 메뉴얼이나 너무 빈약한 입문서들 그리고 관련 과목과 혼합되어 낮은 비중으로 다루어지는 서적들이 가장 기본적이고 중요한 SQL에 대한 이해도를 떨어뜨리는 중요한 원인이라 파악되었다. 그래서 본서는 가능한 SQL만으로 범위를 한정해서 독자 여러분이 SQL 자체에 대한 구사 능력을 일정 수준에 이르게 하는 것을 목적으로 쓰였다. \n또한 오라클 기반의 실습 환경을 바탕으로 쓰였지만, 가능한 표준 SQL을 근간으로 상당수의 예제들이 수정 없이 MySQL이나 SQL 서버에 적용되도록 하였다."
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 레벨업 (최고의 전문가 그룹이 알려주는 오라클 실전 100가지 기술)",
+2022-09-06 15:20:52,128 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506569675",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250656\/32506569675.20220527051036.jpg",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"스즈키 겐고",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161220",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788968484681",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"현장에서 일어나는 다양한 문제를 확실하게 해결할 실무 참고서!\n\n오라클 DB는 개발 효율을 높이고 문제를 해결하는 기능을 풍부하게 제공하지만, 그 모든 기능을 제대로 활용할 줄 아는 엔지니어는 많지 않다. 그 탓에 유용하지만 널리 알려지지 않은 기능도 상당수다. \n\n이 책은 일본오라클의 DB 컨설턴트들이 풍부한 현장 경험을 바탕으로 실무에 필요한 100가지 고급 기술을 콕 짚어 소개한다. 성능 관리, 트러블 슈팅, 아키텍처, 개발과 운용, 시스템 테스트, 데이터마이닝의 6개 분야에 대해 현장 실무자에게 필요한 오라클 기능을 엄선해 설명한다.\n \n개발 현장에서 자주 언급되는 각종 난제, 예를 들면 최적의 실행 계획 수립, 메모리 부족 방지, 롤백 시간 예측, 인덱스 효과 검증, 단편화 해소 효과 예측, 시스템 변경의 영향 확인, 실제 환경 부하 재현 테스트, DB를 활용한 통계 해석 등을 실현하려는 고급 개발자에게 매우 유용할 것이다."
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 이펙트 (돈이 되는 미래예측)",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32504141639",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250414\/32504141639.20220527052353.jpg",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이치구",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"올림",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20110415",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788993027211",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"불확실성의 시대, 오라클로 미래를 지배하라!\n\n『오라클 이펙트』는 ‘오라클 이펙트’를 정의하고 그 전모를 파헤친 책이다. 이 책에서 말하는 ‘오라클 이펙트’는 예측을 잘할수록 더 많은 돈을 벌게 되는 현상을 의미한다. 미래의 물결이 요구하는 ‘오라클러’가 되어 부와 권력이 이동하는 흐름을 정확히 읽고 성공으로 가는 오라클을 발견하라고 조언하는 저자는 이를 위해 다가올 미래의 모습들을 조목조목 예시하고, 살아 있는 오라클러들의 면면을 생생하게 소개하였다. 미래예측은 어떻게 가능한 것인지, 그것이 인류의 역사를 어떻게 움직여왔고 수혜의 주인공들은 누구였는지, 지금의 세계 경제에는 어떤 영향력으로 작용하고 있는지, 또 미래를 어떻게 이끌어갈지를 다각도로 조명하였다."
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"차크라 위즈덤 오라클 카드 (당신의 삶을 바꿔줄 완벽한 영적 카드)",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492632048",
+2022-09-06 15:20:52,129 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249263\/32492632048.20220527054020.jpg",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"토리 하트먼",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"26100",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"젠북",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161212",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791195072965",
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"당신의 삶을 바꿔줄 완벽한 영적 카드 『차크라 위즈덤 오라클 카드』."
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		}
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	]
+2022-09-06 15:20:52,130 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - }
+2022-09-06 15:28:53,176 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:33)     - responeseCode : 200
+2022-09-06 15:28:53,177 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:42)     - blog검색 : %EC%98%A4%EB%9D%BC%ED%81%B4
+2022-09-06 15:28:53,178 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - {
+2022-09-06 15:28:53,178 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:28:34 +0900",
+2022-09-06 15:28:53,178 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"total":86,
+2022-09-06 15:28:53,178 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"start":2,
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"display":10,
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	"items":[
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 (입문서)",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441783777",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244178\/32441783777.20220518183834.jpg",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"Michael Abbey",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지샘",
+2022-09-06 15:28:53,179 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"19970315",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788988462096",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":""
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"더 오라클 (사랑, 패션, 친구, 미래에 대한 10대들의 질문에 답하는 마법의 길!)",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32493332337",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249333\/32493332337.20220527075501.jpg",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"엠리스",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"15300",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"지혜의나무",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20071210",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788989182696",
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"삶의 질문들에 대한 답을 제시하는 오라클 카드\n\n〈더 오라클〉은 오라클 카드의 세계로 초대하는 책이다. 오라클 카드는 사랑, 패션, 친구, 미래 등 10대들이 궁금해 하는 질문에 답하는 카드이다. 초자연적이거나 마술적인 힘을 선사하지는 않지만 숨겨진 기회를 밝혀 결정에 도움을 주고, 자신의 생각과 의견을 만날 수 있는 기회를 마련해 준다. 화려한 컬러 삽화로 꾸며진 이 책에는 오라클 카드 25장과 헬프 카드 25장이 포함되어 있다. \n\n1장에서는 오라클이 무엇에 대해 어떻게 작용하는지를 보여주고, 2장에서는 우리가 가장 물어보고 싶어하는 질문들을 제시한다. 3장에는 카드를 통해 안내를 받았던 사람들의 예시와 우리가 이용할 수 있는 여러 종류의 카드 스프레드를 담았다. 4장에서는 카드 점을 시작하여 오라클이 어떻게 대답하는지를 살펴보았으며, 5장에서는 이 질문들을 보다 깊이 있게 다루고 카드를 배열하여 그들의 여러 의미를 알아본다."
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,180 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"선 오라클 (인생을 보여주는 점성술 카드, 개정판)",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492184962",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249218\/32492184962.20220527030005.jpg",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"캐롤라인 스미스",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"27000",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"당그래",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20120610",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788960460294",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"『선 오라클』은 삶의 문제에 대한 답을 점치도록 도움을 주는 신탁 카드이다. 84장의 아름다운 그림이 그려진 카드를 활용하여 황도대를 따라가면서 감추어진 미래를 발견하도록 구성되었다. 독특하고 배우기 쉬운 점성학의 세계를 본문에 담았으며, 극적이면서도 상징적 비유가 풍부한 카드를 별도로 수록하였다."
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"데이터베이스론 (오라클 중심)",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506165205",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250616\/32506165205.20220527034138.jpg",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"여정모",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"엔코아컨설팅",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161201",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788995447420",
+2022-09-06 15:28:53,181 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"[실무에서 유용한 데이터베이스론]은 실전에서 바로 활용가능한 데이터 모델링 스킬을 체계적으로 기술하여 데이터 분야에 종사하고 있거나 직무 역량을 향상시키고자 하는 직장인, 데이터 분야로 진출하고자 하는 학생들을 위한 책이다."
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"크리스털 오라클 (36가지 신비로운 보석과 광물이 전하는 조언들)",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32445016681",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244501\/32445016681.20220527051309.jpg",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"마이아 톨",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한스미디어",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20211103",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791160077308",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"36가지 크리스털이 전하는\n땅의 지혜를 배우는 시간!\n\n* 36가지 크리스털에 담긴 이야기\n오랜 시간을 지구와 함께해 온 만큼, 보석과 광물들은 우리가 짐작하지도 못할 수많은 이야기들을 지니고 있습니다. 이러한 결정체, 크리스털이 지닌 독특한 이야기와 진동은 우리의 삶에 필요한 통찰력 있는 교훈을 주기도 하고, 우리 내면의 지혜를 깨닫는 데 도움을 주기도 합니다.\n견고하고 아름다운 박스 구성으로 만나는 《크리스털 오라클》과 36장의 크리스털 오라클카드를 통해 크리스털의 조언을 얻고, 자아 발견을 향해 떠나는 여정에 필요한 크리스털 에너지를 찾아보세요.\n이 책에서는 우리가 살아가는 데 꼭 필요한 소금부터 에메랄드, 루비, 자수정 등을 포함한 총 36가지 크리스털을 만날 수 있습니다.\n\n* 36장의 크리스털 오라클카드\n책 속의 36가지 크리스털을 전부 크리스털 오라클카드로 만날 수 있습니다! 이 오라클카드를 활용하면 크리스털과 손쉽게 깊은 유대를 쌓을 수 있어요. 크리스털과 친밀함을 쌓을수록 크리스털이 좀 더 깊은 곳에 품고 있는 의미들 또한 발견할 수 있답니다.\n책에서 소개하는 오라클카드 배열법을 따라 크리스털이 들려주는 조언들을 리딩해 보세요!\n\n* 이런 분께 추천해요!\n- 타로카드와 오라클카드의 유저&리더\n- 크리스털이 가진 고유의 에너지에 관심 있는 사람\n- 크리스털을 통해 내면의 자신을 들여다보고 싶은 사람"
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 교과서 (SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는)",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496612683",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249661\/32496612683.20220527052806.jpg",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이태호",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"34200",
+2022-09-06 15:28:53,182 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"프리렉",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20131107",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788965400462",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는 『오라클 교과서』. 오라클 입문자와 현직 개발자를 대상으로 오라클의 기본 개념과 특징을 설명하고 RDBMS의 기능을 제대로 활용할 수 있는 주요 방법을 제시한다. 다양한 SQL 문 작성 방법을 배운 다음 이를 활용하여 실무에서 이용할 수 있는 수준 높은 SQL 질의문을 만들어보도록 안내하고 있다."
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 SQL (취준생과 비전공자도 쉽게 배우는, 제3판)",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32466658967",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246665\/32466658967.20220527055756.jpg",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"문성기",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"다올미디어",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20190125",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788997587339",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"이 책은 SQL에 대한 너무 무겁고 방대한 메뉴얼이나 너무 빈약한 입문서들 그리고 관련 과목과 혼합되어 낮은 비중으로 다루어지는 서적들이 가장 기본적이고 중요한 SQL에 대한 이해도를 떨어뜨리는 중요한 원인이라 파악되었다. 그래서 본서는 가능한 SQL만으로 범위를 한정해서 독자 여러분이 SQL 자체에 대한 구사 능력을 일정 수준에 이르게 하는 것을 목적으로 쓰였다. \n또한 오라클 기반의 실습 환경을 바탕으로 쓰였지만, 가능한 표준 SQL을 근간으로 상당수의 예제들이 수정 없이 MySQL이나 SQL 서버에 적용되도록 하였다."
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 레벨업 (최고의 전문가 그룹이 알려주는 오라클 실전 100가지 기술)",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506569675",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250656\/32506569675.20220527051036.jpg",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"스즈키 겐고",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"28800",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"한빛미디어",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161220",
+2022-09-06 15:28:53,183 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788968484681",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"현장에서 일어나는 다양한 문제를 확실하게 해결할 실무 참고서!\n\n오라클 DB는 개발 효율을 높이고 문제를 해결하는 기능을 풍부하게 제공하지만, 그 모든 기능을 제대로 활용할 줄 아는 엔지니어는 많지 않다. 그 탓에 유용하지만 널리 알려지지 않은 기능도 상당수다. \n\n이 책은 일본오라클의 DB 컨설턴트들이 풍부한 현장 경험을 바탕으로 실무에 필요한 100가지 고급 기술을 콕 짚어 소개한다. 성능 관리, 트러블 슈팅, 아키텍처, 개발과 운용, 시스템 테스트, 데이터마이닝의 6개 분야에 대해 현장 실무자에게 필요한 오라클 기능을 엄선해 설명한다.\n \n개발 현장에서 자주 언급되는 각종 난제, 예를 들면 최적의 실행 계획 수립, 메모리 부족 방지, 롤백 시간 예측, 인덱스 효과 검증, 단편화 해소 효과 예측, 시스템 변경의 영향 확인, 실제 환경 부하 재현 테스트, DB를 활용한 통계 해석 등을 실현하려는 고급 개발자에게 매우 유용할 것이다."
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"오라클 이펙트 (돈이 되는 미래예측)",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32504141639",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250414\/32504141639.20220527052353.jpg",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"이치구",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"0",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"올림",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20110415",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9788993027211",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"불확실성의 시대, 오라클로 미래를 지배하라!\n\n『오라클 이펙트』는 ‘오라클 이펙트’를 정의하고 그 전모를 파헤친 책이다. 이 책에서 말하는 ‘오라클 이펙트’는 예측을 잘할수록 더 많은 돈을 벌게 되는 현상을 의미한다. 미래의 물결이 요구하는 ‘오라클러’가 되어 부와 권력이 이동하는 흐름을 정확히 읽고 성공으로 가는 오라클을 발견하라고 조언하는 저자는 이를 위해 다가올 미래의 모습들을 조목조목 예시하고, 살아 있는 오라클러들의 면면을 생생하게 소개하였다. 미래예측은 어떻게 가능한 것인지, 그것이 인류의 역사를 어떻게 움직여왔고 수혜의 주인공들은 누구였는지, 지금의 세계 경제에는 어떤 영향력으로 작용하고 있는지, 또 미래를 어떻게 이끌어갈지를 다각도로 조명하였다."
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		},
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		{
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"title":"차크라 위즈덤 오라클 카드 (당신의 삶을 바꿔줄 완벽한 영적 카드)",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492632048",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249263\/32492632048.20220527054020.jpg",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"author":"토리 하트먼",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"discount":"26100",
+2022-09-06 15:28:53,184 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"publisher":"젠북",
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"pubdate":"20161212",
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"isbn":"9791195072965",
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 			"description":"당신의 삶을 바꿔줄 완벽한 영적 카드 『차크라 위즈덤 오라클 카드』."
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 		}
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - 	]
+2022-09-06 15:28:53,185 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:46)     - }
+2022-09-06 15:38:24,984 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:34)     - responeseCode : 200
+2022-09-06 15:38:24,986 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:43)     - blog검색 : %EC%98%A4%EB%9D%BC%ED%81%B4
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - {
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	"lastBuildDate":"Tue, 06 Sep 2022 15:37:57 +0900",
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	"total":86,
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	"start":2,
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	"display":10,
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	"items":[
+2022-09-06 15:38:24,987 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"오라클 (입문서)",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32441783777",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244178\/32441783777.20220518183834.jpg",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"Michael Abbey",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"27000",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"지샘",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"19970315",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788988462096",
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":""
+2022-09-06 15:38:24,988 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"더 오라클 (사랑, 패션, 친구, 미래에 대한 10대들의 질문에 답하는 마법의 길!)",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32493332337",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249333\/32493332337.20220527075501.jpg",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"엠리스",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"15300",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"지혜의나무",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20071210",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788989182696",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"삶의 질문들에 대한 답을 제시하는 오라클 카드\n\n〈더 오라클〉은 오라클 카드의 세계로 초대하는 책이다. 오라클 카드는 사랑, 패션, 친구, 미래 등 10대들이 궁금해 하는 질문에 답하는 카드이다. 초자연적이거나 마술적인 힘을 선사하지는 않지만 숨겨진 기회를 밝혀 결정에 도움을 주고, 자신의 생각과 의견을 만날 수 있는 기회를 마련해 준다. 화려한 컬러 삽화로 꾸며진 이 책에는 오라클 카드 25장과 헬프 카드 25장이 포함되어 있다. \n\n1장에서는 오라클이 무엇에 대해 어떻게 작용하는지를 보여주고, 2장에서는 우리가 가장 물어보고 싶어하는 질문들을 제시한다. 3장에는 카드를 통해 안내를 받았던 사람들의 예시와 우리가 이용할 수 있는 여러 종류의 카드 스프레드를 담았다. 4장에서는 카드 점을 시작하여 오라클이 어떻게 대답하는지를 살펴보았으며, 5장에서는 이 질문들을 보다 깊이 있게 다루고 카드를 배열하여 그들의 여러 의미를 알아본다."
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"선 오라클 (인생을 보여주는 점성술 카드, 개정판)",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492184962",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249218\/32492184962.20220527030005.jpg",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"캐롤라인 스미스",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"27000",
+2022-09-06 15:38:24,989 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"당그래",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20120610",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788960460294",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"『선 오라클』은 삶의 문제에 대한 답을 점치도록 도움을 주는 신탁 카드이다. 84장의 아름다운 그림이 그려진 카드를 활용하여 황도대를 따라가면서 감추어진 미래를 발견하도록 구성되었다. 독특하고 배우기 쉬운 점성학의 세계를 본문에 담았으며, 극적이면서도 상징적 비유가 풍부한 카드를 별도로 수록하였다."
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"데이터베이스론 (오라클 중심)",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506165205",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250616\/32506165205.20220527034138.jpg",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"여정모",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"28800",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"엔코아컨설팅",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20161201",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788995447420",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"[실무에서 유용한 데이터베이스론]은 실전에서 바로 활용가능한 데이터 모델링 스킬을 체계적으로 기술하여 데이터 분야에 종사하고 있거나 직무 역량을 향상시키고자 하는 직장인, 데이터 분야로 진출하고자 하는 학생들을 위한 책이다."
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"크리스털 오라클 (36가지 신비로운 보석과 광물이 전하는 조언들)",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32445016681",
+2022-09-06 15:38:24,990 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3244501\/32445016681.20220527051309.jpg",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"마이아 톨",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"28800",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"한스미디어",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20211103",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9791160077308",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"36가지 크리스털이 전하는\n땅의 지혜를 배우는 시간!\n\n* 36가지 크리스털에 담긴 이야기\n오랜 시간을 지구와 함께해 온 만큼, 보석과 광물들은 우리가 짐작하지도 못할 수많은 이야기들을 지니고 있습니다. 이러한 결정체, 크리스털이 지닌 독특한 이야기와 진동은 우리의 삶에 필요한 통찰력 있는 교훈을 주기도 하고, 우리 내면의 지혜를 깨닫는 데 도움을 주기도 합니다.\n견고하고 아름다운 박스 구성으로 만나는 《크리스털 오라클》과 36장의 크리스털 오라클카드를 통해 크리스털의 조언을 얻고, 자아 발견을 향해 떠나는 여정에 필요한 크리스털 에너지를 찾아보세요.\n이 책에서는 우리가 살아가는 데 꼭 필요한 소금부터 에메랄드, 루비, 자수정 등을 포함한 총 36가지 크리스털을 만날 수 있습니다.\n\n* 36장의 크리스털 오라클카드\n책 속의 36가지 크리스털을 전부 크리스털 오라클카드로 만날 수 있습니다! 이 오라클카드를 활용하면 크리스털과 손쉽게 깊은 유대를 쌓을 수 있어요. 크리스털과 친밀함을 쌓을수록 크리스털이 좀 더 깊은 곳에 품고 있는 의미들 또한 발견할 수 있답니다.\n책에서 소개하는 오라클카드 배열법을 따라 크리스털이 들려주는 조언들을 리딩해 보세요!\n\n* 이런 분께 추천해요!\n- 타로카드와 오라클카드의 유저&리더\n- 크리스털이 가진 고유의 에너지에 관심 있는 사람\n- 크리스털을 통해 내면의 자신을 들여다보고 싶은 사람"
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"오라클 교과서 (SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는)",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32496612683",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249661\/32496612683.20220527052806.jpg",
+2022-09-06 15:38:24,991 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"이태호",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"34200",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"프리렉",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20131107",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788965400462",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"SQL부터 백업과 복구까지 실무형 데이터베이스 개발자를 만드는 『오라클 교과서』. 오라클 입문자와 현직 개발자를 대상으로 오라클의 기본 개념과 특징을 설명하고 RDBMS의 기능을 제대로 활용할 수 있는 주요 방법을 제시한다. 다양한 SQL 문 작성 방법을 배운 다음 이를 활용하여 실무에서 이용할 수 있는 수준 높은 SQL 질의문을 만들어보도록 안내하고 있다."
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"오라클 SQL (취준생과 비전공자도 쉽게 배우는, 제3판)",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32466658967",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3246665\/32466658967.20220527055756.jpg",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"문성기",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"0",
+2022-09-06 15:38:24,992 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"다올미디어",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20190125",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788997587339",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"이 책은 SQL에 대한 너무 무겁고 방대한 메뉴얼이나 너무 빈약한 입문서들 그리고 관련 과목과 혼합되어 낮은 비중으로 다루어지는 서적들이 가장 기본적이고 중요한 SQL에 대한 이해도를 떨어뜨리는 중요한 원인이라 파악되었다. 그래서 본서는 가능한 SQL만으로 범위를 한정해서 독자 여러분이 SQL 자체에 대한 구사 능력을 일정 수준에 이르게 하는 것을 목적으로 쓰였다. \n또한 오라클 기반의 실습 환경을 바탕으로 쓰였지만, 가능한 표준 SQL을 근간으로 상당수의 예제들이 수정 없이 MySQL이나 SQL 서버에 적용되도록 하였다."
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"오라클 레벨업 (최고의 전문가 그룹이 알려주는 오라클 실전 100가지 기술)",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32506569675",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250656\/32506569675.20220527051036.jpg",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"스즈키 겐고",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"28800",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"한빛미디어",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20161220",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788968484681",
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"현장에서 일어나는 다양한 문제를 확실하게 해결할 실무 참고서!\n\n오라클 DB는 개발 효율을 높이고 문제를 해결하는 기능을 풍부하게 제공하지만, 그 모든 기능을 제대로 활용할 줄 아는 엔지니어는 많지 않다. 그 탓에 유용하지만 널리 알려지지 않은 기능도 상당수다. \n\n이 책은 일본오라클의 DB 컨설턴트들이 풍부한 현장 경험을 바탕으로 실무에 필요한 100가지 고급 기술을 콕 짚어 소개한다. 성능 관리, 트러블 슈팅, 아키텍처, 개발과 운용, 시스템 테스트, 데이터마이닝의 6개 분야에 대해 현장 실무자에게 필요한 오라클 기능을 엄선해 설명한다.\n \n개발 현장에서 자주 언급되는 각종 난제, 예를 들면 최적의 실행 계획 수립, 메모리 부족 방지, 롤백 시간 예측, 인덱스 효과 검증, 단편화 해소 효과 예측, 시스템 변경의 영향 확인, 실제 환경 부하 재현 테스트, DB를 활용한 통계 해석 등을 실현하려는 고급 개발자에게 매우 유용할 것이다."
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,993 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"오라클 이펙트 (돈이 되는 미래예측)",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32504141639",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3250414\/32504141639.20220527052353.jpg",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"이치구",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"0",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"올림",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20110415",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9788993027211",
+2022-09-06 15:38:24,994 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"불확실성의 시대, 오라클로 미래를 지배하라!\n\n『오라클 이펙트』는 ‘오라클 이펙트’를 정의하고 그 전모를 파헤친 책이다. 이 책에서 말하는 ‘오라클 이펙트’는 예측을 잘할수록 더 많은 돈을 벌게 되는 현상을 의미한다. 미래의 물결이 요구하는 ‘오라클러’가 되어 부와 권력이 이동하는 흐름을 정확히 읽고 성공으로 가는 오라클을 발견하라고 조언하는 저자는 이를 위해 다가올 미래의 모습들을 조목조목 예시하고, 살아 있는 오라클러들의 면면을 생생하게 소개하였다. 미래예측은 어떻게 가능한 것인지, 그것이 인류의 역사를 어떻게 움직여왔고 수혜의 주인공들은 누구였는지, 지금의 세계 경제에는 어떤 영향력으로 작용하고 있는지, 또 미래를 어떻게 이끌어갈지를 다각도로 조명하였다."
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		},
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		{
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"title":"차크라 위즈덤 오라클 카드 (당신의 삶을 바꿔줄 완벽한 영적 카드)",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"link":"https:\/\/search.shopping.naver.com\/book\/catalog\/32492632048",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"image":"https:\/\/shopping-phinf.pstatic.net\/main_3249263\/32492632048.20220527054020.jpg",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"author":"토리 하트먼",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"discount":"26100",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"publisher":"젠북",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"pubdate":"20161212",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"isbn":"9791195072965",
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 			"description":"당신의 삶을 바꿔줄 완벽한 영적 카드 『차크라 위즈덤 오라클 카드』."
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 		}
+2022-09-06 15:38:24,995 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - 	]
+2022-09-06 15:38:24,996 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:49)     - }

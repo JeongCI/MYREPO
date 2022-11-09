@@ -1,0 +1,19 @@
+CREATE TABLE dept2_del
+AS
+SELECT *
+FROM dept2
+;
+
+SELECT dcode, dname
+FROM dept2_del
+WHERE dcode BETWEEN 1001 AND 1005;
+
+DELETE FROM dept2_del
+WHERE dcode BETWEEN 1001 AND 1005;
+
+SELECT *
+FROM dept2_del
+;
+
+COMMIT;
+ROLLBACK;

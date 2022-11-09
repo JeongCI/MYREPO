@@ -1,0 +1,901 @@
+2022-08-22 11:47:17,840 DEBUG [main] ed06.Log4JTest    (Log4JTest.java:10)     - Hello, world!
+2022-08-22 12:46:15,020 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:30)     - responeseCode : 400
+2022-08-22 12:47:14,984 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:30)     - responeseCode : 200
+2022-08-22 14:07:04,882 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:30)     - responeseCode : 200
+2022-08-22 14:10:21,650 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:30)     - responeseCode : 200
+2022-08-22 14:19:18,294 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:19:18,295 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%84%9C%EA%B0%95%EB%8C%80+%EB%A7%9B%EC%A7%91
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:18:21 +0900",
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":18985,
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":10,
+2022-08-22 14:19:18,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 대흥역 맛집 &apos;김숙성&apos; 고깃집에서 육체성 깨달은 날",
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/hello_heejae?Redirect=Log&logNo=222846076975",
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오늘은 <b>서강대 맛집<\/b>인 김숙성에 다녀왔다. 한국인에게 삼겹살이란 역시 주기적으로 섭취해줘야 하는... 맛집 치면 고깃집이랄 게 딱히 없었는데 새로 생긴 건지 여기 근처 사는 사람들은 좋겠다. 나 서강대... ",
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"내게 불어오는 그대 향기♪",
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/hello_heejae",
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[대흥역]나만알고싶은 <b>서강대맛집<\/b> 도꼭지(삼치구이,제육볶음... ",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/happybeans07?Redirect=Log&logNo=222219291942",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"마지막까지 퍼펙트 그 자체였다는 말씀 드려요 헿 기린님도 음청 만족했던 도꼭지 마포점이었습니당! 하 또가고싶다용!!!! #마포맛집 #<b>서강대맛집<\/b> #신촌맛집 #대흥역맛집 #솥밥맛집 #삼치맛집 #제육맛집 #한식맛집",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"욕망의 레이나 블로그",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/happybeans07",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210125"
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>\/신수동 맛집] 요수정, 한식과 이탈리안의 콜라보!... ",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/namyj6?Redirect=Log&logNo=222794546063",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#요수정 #오마카세 #오마카세맛집 #가성비오마카세 #믿고맡김 #<b>서강대맛집<\/b> #서강대데이트 #서강대역맛집 #서강대파스타 #신수동맛집 #대흥동맛집 #서울오마카세 #기념일데이트 #광흥창맛집 #대흥맛집 #신촌맛집... ",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"먹고 마시는 게 인생의 낙",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/namyj6",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220630"
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 맛집 김숙성 목살이 맛있는 <b>서강대 맛집<\/b> 끝판왕",
+2022-08-22 14:19:18,298 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/allsoli?Redirect=Log&logNo=222852890928",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#대흥역맛집 #<b>서강대맛집<\/b> #김숙성 오늘 소개할 맛집도 역시나 <b>서강대 맛집<\/b>으로 대흥역 주변에 위치해 있는데요 여자친구가 서강대 학생이다 보니까 주변을 자주 가게 되더라고요 목살로 유명한 대흥역 맛집이... ",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"이탁후의 위닝스토리",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/allsoli",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220820"
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 김숙성 스페셜세트 GOGO!",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dbwls0315?Redirect=Log&logNo=222852690296",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"25일간 숙성하는 돼지고기 <b>서강대 맛집<\/b> 김숙성 글 · 사진 · 영상 © 진냥 비 오는 금요일, 이런 날에는... 많은 서강대앞 대흥역 맛집이었다. 한 10분쯤 기다린 후에 매장으로 입성~ 내부에 들어서면 정면에 오픈인... ",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"진냥의 세상살이",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dbwls0315",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220819"
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대맛집<\/b> &apos;불굴의떡볶이&apos; 신촌 분식집 추천",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jjw3493?Redirect=Log&logNo=222176122251",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오픈한지 얼마 안되었지만, 이 집 떡볶이 정말 잘해요 : ) 불굴의떡볶이 <b>서강대맛집<\/b> '불굴의떡볶이'에서... 신촌역 근처 떡볶이 맛집 '불굴의떡볶이'를 접해보고나서 정말 맛있게 먹방찍고나서 기분좋에 리뷰를... ",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"윤DAY지",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jjw3493",
+2022-08-22 14:19:18,299 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20201216"
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"4월 특집_ <b>서강대 맛집<\/b> 정복(탐방) 기",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/vipp0925?Redirect=Log&logNo=222706031050",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"정든그릇 (시간순으로) <b>서강대<\/b> 2호 <b>맛집<\/b>. 1호는 3월에 갔던 쌀국숫집. 명란 크림우동을 먹었지만 면이 우동은 아니었다. 사진처럼 명란도 많고 엄청 맛있었다! 양은 딱 보통. 시그니처 메뉴인 모둠까스가 굉장히... ",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여기서 행복하기",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/vipp0925",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220420"
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>] 돼파 - 남성렬 셰프의 담양식 돼지갈비와... ",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sielle83?Redirect=Log&logNo=222627769820",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광흥창역 서강대 뒷골목에 위치한 돼파 2대째 내려오는 분당의 명물 홍박사생고기와 남성렬... <b>서강대 맛집<\/b> 돼파 메뉴판 돼지갈비, 해장국, 대파국수, 공기밥 메뉴 뭐 시킬지 고민할 필요도 없이 자연스럽게... ",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여의도 직장인 문썬의 밥상 (舊 을지로)",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sielle83",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220122"
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역\/<b>서강대 맛집<\/b>: 고기집 &apos;김숙성&apos;에서 인생 목살 먹고 옴",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/irenew0w?Redirect=Log&logNo=222841764798",
+2022-08-22 14:19:18,300 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이용시 서강대 근처 공용주차장 이용 가게 외관에서부터 레트로 느낌 뿜뿜했던 대흥역 고기집 맛집 김숙성. 우리는 일요일 저녁 먹기 좀 이른 시간에 갔는데도 가게 안에 사람이 많았다. 대흥역\/<b>서강대 맛집<\/b>인... ",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Extreme life★",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/irenew0w",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 <b>서강대 맛집<\/b> &apos;계고기집&apos; 닭갈비 진짜 감탄하며 먹음",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/bernays10?Redirect=Log&logNo=222836944400",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"대흥역 <b>서강대 맛집<\/b> 계고기집.. 닭갈비가 넘 맛있어서 지금도 머릿속을 돌아요.. 조만간 꼭 다시 갈... 대흥역 맛집 계고기집 소금구이 먼저 나옵니다 이게 2인분이에요 양이 적은 편은 아니라서 먼저 맘에... ",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"귤집아들의 행복탐구생활",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/bernays10",
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220801"
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:19:18,301 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:21:25,334 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:21:25,336 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%84%9C%EA%B0%95%EB%8C%80+%EB%A7%9B%EC%A7%91
+2022-08-22 14:21:25,337 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Naver Open API - blog ::&apos;서강대 맛집&apos;</title><link>https://search.naver.com</link><description>Naver Search Result</description><lastBuildDate>Mon, 22 Aug 2022 14:21:19 +0900</lastBuildDate><total>18985</total><start>1</start><display>10</display><item><title>&lt;b&gt;서강대 맛집&lt;/b&gt; 대흥역 맛집 &amp;apos;김숙성&amp;apos; 고깃집에서 육체성 깨달은 날</title><link>https://blog.naver.com/hello_heejae?Redirect=Log&amp;logNo=222846076975</link><description>오늘은 &lt;b&gt;서강대 맛집&lt;/b&gt;인 김숙성에 다녀왔다. 한국인에게 삼겹살이란 역시 주기적으로 섭취해줘야 하는... 맛집 치면 고깃집이랄 게 딱히 없었는데 새로 생긴 건지 여기 근처 사는 사람들은 좋겠다. 나 서강대... </description><bloggername>내게 불어오는 그대 향기♪</bloggername><bloggerlink>https://blog.naver.com/hello_heejae</bloggerlink><postdate>20220811</postdate></item><item><title>[대흥역]나만알고싶은 &lt;b&gt;서강대맛집&lt;/b&gt; 도꼭지(삼치구이,제육볶음... </title><link>https://blog.naver.com/happybeans07?Redirect=Log&amp;logNo=222219291942</link><description>마지막까지 퍼펙트 그 자체였다는 말씀 드려요 헿 기린님도 음청 만족했던 도꼭지 마포점이었습니당! 하 또가고싶다용!!!! #마포맛집 #&lt;b&gt;서강대맛집&lt;/b&gt; #신촌맛집 #대흥역맛집 #솥밥맛집 #삼치맛집 #제육맛집 #한식맛집</description><bloggername>욕망의 레이나 블로그</bloggername><bloggerlink>https://blog.naver.com/happybeans07</bloggerlink><postdate>20210125</postdate></item><item><title>[&lt;b&gt;서강대 맛집&lt;/b&gt;/신수동 맛집] 요수정, 한식과 이탈리안의 콜라보!... </title><link>https://blog.naver.com/namyj6?Redirect=Log&amp;logNo=222794546063</link><description>#요수정 #오마카세 #오마카세맛집 #가성비오마카세 #믿고맡김 #&lt;b&gt;서강대맛집&lt;/b&gt; #서강대데이트 #서강대역맛집 #서강대파스타 #신수동맛집 #대흥동맛집 #서울오마카세 #기념일데이트 #광흥창맛집 #대흥맛집 #신촌맛집... </description><bloggername>먹고 마시는 게 인생의 낙</bloggername><bloggerlink>https://blog.naver.com/namyj6</bloggerlink><postdate>20220630</postdate></item><item><title>대흥역 맛집 김숙성 목살이 맛있는 &lt;b&gt;서강대 맛집&lt;/b&gt; 끝판왕</title><link>https://blog.naver.com/allsoli?Redirect=Log&amp;logNo=222852890928</link><description>#대흥역맛집 #&lt;b&gt;서강대맛집&lt;/b&gt; #김숙성 오늘 소개할 맛집도 역시나 &lt;b&gt;서강대 맛집&lt;/b&gt;으로 대흥역 주변에 위치해 있는데요 여자친구가 서강대 학생이다 보니까 주변을 자주 가게 되더라고요 목살로 유명한 대흥역 맛집이... </description><bloggername>이탁후의 위닝스토리</bloggername><bloggerlink>https://blog.naver.com/allsoli</bloggerlink><postdate>20220820</postdate></item><item><title>&lt;b&gt;서강대 맛집&lt;/b&gt; 김숙성 스페셜세트 GOGO!</title><link>https://blog.naver.com/dbwls0315?Redirect=Log&amp;logNo=222852690296</link><description>25일간 숙성하는 돼지고기 &lt;b&gt;서강대 맛집&lt;/b&gt; 김숙성 글 · 사진 · 영상 © 진냥 비 오는 금요일, 이런 날에는... 많은 서강대앞 대흥역 맛집이었다. 한 10분쯤 기다린 후에 매장으로 입성~ 내부에 들어서면 정면에 오픈인... </description><bloggername>진냥의 세상살이</bloggername><bloggerlink>https://blog.naver.com/dbwls0315</bloggerlink><postdate>20220819</postdate></item><item><title>&lt;b&gt;서강대맛집&lt;/b&gt; &amp;apos;불굴의떡볶이&amp;apos; 신촌 분식집 추천</title><link>https://blog.naver.com/jjw3493?Redirect=Log&amp;logNo=222176122251</link><description>오픈한지 얼마 안되었지만, 이 집 떡볶이 정말 잘해요 : ) 불굴의떡볶이 &lt;b&gt;서강대맛집&lt;/b&gt; &apos;불굴의떡볶이&apos;에서... 신촌역 근처 떡볶이 맛집 &apos;불굴의떡볶이&apos;를 접해보고나서 정말 맛있게 먹방찍고나서 기분좋에 리뷰를... </description><bloggername>윤DAY지</bloggername><bloggerlink>https://blog.naver.com/jjw3493</bloggerlink><postdate>20201216</postdate></item><item><title>4월 특집_ &lt;b&gt;서강대 맛집&lt;/b&gt; 정복(탐방) 기</title><link>https://blog.naver.com/vipp0925?Redirect=Log&amp;logNo=222706031050</link><description>정든그릇 (시간순으로) &lt;b&gt;서강대&lt;/b&gt; 2호 &lt;b&gt;맛집&lt;/b&gt;. 1호는 3월에 갔던 쌀국숫집. 명란 크림우동을 먹었지만 면이 우동은 아니었다. 사진처럼 명란도 많고 엄청 맛있었다! 양은 딱 보통. 시그니처 메뉴인 모둠까스가 굉장히... </description><bloggername>여기서 행복하기</bloggername><bloggerlink>https://blog.naver.com/vipp0925</bloggerlink><postdate>20220420</postdate></item><item><title>[&lt;b&gt;서강대 맛집&lt;/b&gt;] 돼파 - 남성렬 셰프의 담양식 돼지갈비와... </title><link>https://blog.naver.com/sielle83?Redirect=Log&amp;logNo=222627769820</link><description>광흥창역 서강대 뒷골목에 위치한 돼파 2대째 내려오는 분당의 명물 홍박사생고기와 남성렬... &lt;b&gt;서강대 맛집&lt;/b&gt; 돼파 메뉴판 돼지갈비, 해장국, 대파국수, 공기밥 메뉴 뭐 시킬지 고민할 필요도 없이 자연스럽게... </description><bloggername>여의도 직장인 문썬의 밥상 (舊 을지로)</bloggername><bloggerlink>https://blog.naver.com/sielle83</bloggerlink><postdate>20220122</postdate></item><item><title>대흥역/&lt;b&gt;서강대 맛집&lt;/b&gt;: 고기집 &amp;apos;김숙성&amp;apos;에서 인생 목살 먹고 옴</title><link>https://blog.naver.com/irenew0w?Redirect=Log&amp;logNo=222841764798</link><description>이용시 서강대 근처 공용주차장 이용 가게 외관에서부터 레트로 느낌 뿜뿜했던 대흥역 고기집 맛집 김숙성. 우리는 일요일 저녁 먹기 좀 이른 시간에 갔는데도 가게 안에 사람이 많았다. 대흥역/&lt;b&gt;서강대 맛집&lt;/b&gt;인... </description><bloggername>Extreme life★</bloggername><bloggerlink>https://blog.naver.com/irenew0w</bloggerlink><postdate>20220812</postdate></item><item><title>대흥역 &lt;b&gt;서강대 맛집&lt;/b&gt; &amp;apos;계고기집&amp;apos; 닭갈비 진짜 감탄하며 먹음</title><link>https://blog.naver.com/bernays10?Redirect=Log&amp;logNo=222836944400</link><description>대흥역 &lt;b&gt;서강대 맛집&lt;/b&gt; 계고기집.. 닭갈비가 넘 맛있어서 지금도 머릿속을 돌아요.. 조만간 꼭 다시 갈... 대흥역 맛집 계고기집 소금구이 먼저 나옵니다 이게 2인분이에요 양이 적은 편은 아니라서 먼저 맘에... </description><bloggername>귤집아들의 행복탐구생활</bloggername><bloggerlink>https://blog.naver.com/bernays10</bloggerlink><postdate>20220801</postdate></item></channel></rss>
+2022-08-22 14:26:13,551 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:26:13,553 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%84%9C%EA%B0%95%EB%8C%80+%EB%A7%9B%EC%A7%91
+2022-08-22 14:26:13,553 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:26:13 +0900",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":18985,
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":10,
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 대흥역 맛집 &apos;김숙성&apos; 고깃집에서 육체성 깨달은 날",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/hello_heejae?Redirect=Log&logNo=222846076975",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오늘은 <b>서강대 맛집<\/b>인 김숙성에 다녀왔다. 한국인에게 삼겹살이란 역시 주기적으로 섭취해줘야 하는... 맛집 치면 고깃집이랄 게 딱히 없었는데 새로 생긴 건지 여기 근처 사는 사람들은 좋겠다. 나 서강대... ",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"내게 불어오는 그대 향기♪",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/hello_heejae",
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:26:13,554 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[대흥역]나만알고싶은 <b>서강대맛집<\/b> 도꼭지(삼치구이,제육볶음... ",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/happybeans07?Redirect=Log&logNo=222219291942",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"마지막까지 퍼펙트 그 자체였다는 말씀 드려요 헿 기린님도 음청 만족했던 도꼭지 마포점이었습니당! 하 또가고싶다용!!!! #마포맛집 #<b>서강대맛집<\/b> #신촌맛집 #대흥역맛집 #솥밥맛집 #삼치맛집 #제육맛집 #한식맛집",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"욕망의 레이나 블로그",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/happybeans07",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210125"
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>\/신수동 맛집] 요수정, 한식과 이탈리안의 콜라보!... ",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/namyj6?Redirect=Log&logNo=222794546063",
+2022-08-22 14:26:13,555 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#요수정 #오마카세 #오마카세맛집 #가성비오마카세 #믿고맡김 #<b>서강대맛집<\/b> #서강대데이트 #서강대역맛집 #서강대파스타 #신수동맛집 #대흥동맛집 #서울오마카세 #기념일데이트 #광흥창맛집 #대흥맛집 #신촌맛집... ",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"먹고 마시는 게 인생의 낙",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/namyj6",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220630"
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 맛집 김숙성 목살이 맛있는 <b>서강대 맛집<\/b> 끝판왕",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/allsoli?Redirect=Log&logNo=222852890928",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#대흥역맛집 #<b>서강대맛집<\/b> #김숙성 오늘 소개할 맛집도 역시나 <b>서강대 맛집<\/b>으로 대흥역 주변에 위치해 있는데요 여자친구가 서강대 학생이다 보니까 주변을 자주 가게 되더라고요 목살로 유명한 대흥역 맛집이... ",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"이탁후의 위닝스토리",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/allsoli",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220820"
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 김숙성 스페셜세트 GOGO!",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dbwls0315?Redirect=Log&logNo=222852690296",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"25일간 숙성하는 돼지고기 <b>서강대 맛집<\/b> 김숙성 글 · 사진 · 영상 © 진냥 비 오는 금요일, 이런 날에는... 많은 서강대앞 대흥역 맛집이었다. 한 10분쯤 기다린 후에 매장으로 입성~ 내부에 들어서면 정면에 오픈인... ",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"진냥의 세상살이",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dbwls0315",
+2022-08-22 14:26:13,556 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220819"
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대맛집<\/b> &apos;불굴의떡볶이&apos; 신촌 분식집 추천",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jjw3493?Redirect=Log&logNo=222176122251",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오픈한지 얼마 안되었지만, 이 집 떡볶이 정말 잘해요 : ) 불굴의떡볶이 <b>서강대맛집<\/b> '불굴의떡볶이'에서... 신촌역 근처 떡볶이 맛집 '불굴의떡볶이'를 접해보고나서 정말 맛있게 먹방찍고나서 기분좋에 리뷰를... ",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"윤DAY지",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jjw3493",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20201216"
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"4월 특집_ <b>서강대 맛집<\/b> 정복(탐방) 기",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/vipp0925?Redirect=Log&logNo=222706031050",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"정든그릇 (시간순으로) <b>서강대<\/b> 2호 <b>맛집<\/b>. 1호는 3월에 갔던 쌀국숫집. 명란 크림우동을 먹었지만 면이 우동은 아니었다. 사진처럼 명란도 많고 엄청 맛있었다! 양은 딱 보통. 시그니처 메뉴인 모둠까스가 굉장히... ",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여기서 행복하기",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/vipp0925",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220420"
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>] 돼파 - 남성렬 셰프의 담양식 돼지갈비와... ",
+2022-08-22 14:26:13,557 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sielle83?Redirect=Log&logNo=222627769820",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광흥창역 서강대 뒷골목에 위치한 돼파 2대째 내려오는 분당의 명물 홍박사생고기와 남성렬... <b>서강대 맛집<\/b> 돼파 메뉴판 돼지갈비, 해장국, 대파국수, 공기밥 메뉴 뭐 시킬지 고민할 필요도 없이 자연스럽게... ",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여의도 직장인 문썬의 밥상 (舊 을지로)",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sielle83",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220122"
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역\/<b>서강대 맛집<\/b>: 고기집 &apos;김숙성&apos;에서 인생 목살 먹고 옴",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/irenew0w?Redirect=Log&logNo=222841764798",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이용시 서강대 근처 공용주차장 이용 가게 외관에서부터 레트로 느낌 뿜뿜했던 대흥역 고기집 맛집 김숙성. 우리는 일요일 저녁 먹기 좀 이른 시간에 갔는데도 가게 안에 사람이 많았다. 대흥역\/<b>서강대 맛집<\/b>인... ",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Extreme life★",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/irenew0w",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 <b>서강대 맛집<\/b> &apos;계고기집&apos; 닭갈비 진짜 감탄하며 먹음",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/bernays10?Redirect=Log&logNo=222836944400",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"대흥역 <b>서강대 맛집<\/b> 계고기집.. 닭갈비가 넘 맛있어서 지금도 머릿속을 돌아요.. 조만간 꼭 다시 갈... 대흥역 맛집 계고기집 소금구이 먼저 나옵니다 이게 2인분이에요 양이 적은 편은 아니라서 먼저 맘에... ",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"귤집아들의 행복탐구생활",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/bernays10",
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220801"
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:26:13,558 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:26:13,559 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:29:24,294 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 400
+2022-08-22 14:29:24,296 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%84%9C%EA%B0%95%EB%8C%80+%EB%A7%9B%EC%A7%91
+2022-08-22 14:29:24,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:29:24,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"errorMessage":"Incorrect query request (잘못된 쿼리요청입니다.)",
+2022-08-22 14:29:24,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"errorCode":"SE01"
+2022-08-22 14:29:24,297 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:29:52,537 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:29:52,539 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%84%9C%EA%B0%95%EB%8C%80+%EB%A7%9B%EC%A7%91
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:29:52 +0900",
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":18985,
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":20,
+2022-08-22 14:29:52,540 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 대흥역 맛집 &apos;김숙성&apos; 고깃집에서 육체성 깨달은 날",
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/hello_heejae?Redirect=Log&logNo=222846076975",
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오늘은 <b>서강대 맛집<\/b>인 김숙성에 다녀왔다. 한국인에게 삼겹살이란 역시 주기적으로 섭취해줘야 하는... 맛집 치면 고깃집이랄 게 딱히 없었는데 새로 생긴 건지 여기 근처 사는 사람들은 좋겠다. 나 서강대... ",
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"내게 불어오는 그대 향기♪",
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/hello_heejae",
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,541 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[대흥역]나만알고싶은 <b>서강대맛집<\/b> 도꼭지(삼치구이,제육볶음... ",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/happybeans07?Redirect=Log&logNo=222219291942",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"마지막까지 퍼펙트 그 자체였다는 말씀 드려요 헿 기린님도 음청 만족했던 도꼭지 마포점이었습니당! 하 또가고싶다용!!!! #마포맛집 #<b>서강대맛집<\/b> #신촌맛집 #대흥역맛집 #솥밥맛집 #삼치맛집 #제육맛집 #한식맛집",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"욕망의 레이나 블로그",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/happybeans07",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210125"
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>\/신수동 맛집] 요수정, 한식과 이탈리안의 콜라보!... ",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/namyj6?Redirect=Log&logNo=222794546063",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#요수정 #오마카세 #오마카세맛집 #가성비오마카세 #믿고맡김 #<b>서강대맛집<\/b> #서강대데이트 #서강대역맛집 #서강대파스타 #신수동맛집 #대흥동맛집 #서울오마카세 #기념일데이트 #광흥창맛집 #대흥맛집 #신촌맛집... ",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"먹고 마시는 게 인생의 낙",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/namyj6",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220630"
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 맛집 김숙성 목살이 맛있는 <b>서강대 맛집<\/b> 끝판왕",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/allsoli?Redirect=Log&logNo=222852890928",
+2022-08-22 14:29:52,542 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#대흥역맛집 #<b>서강대맛집<\/b> #김숙성 오늘 소개할 맛집도 역시나 <b>서강대 맛집<\/b>으로 대흥역 주변에 위치해 있는데요 여자친구가 서강대 학생이다 보니까 주변을 자주 가게 되더라고요 목살로 유명한 대흥역 맛집이... ",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"이탁후의 위닝스토리",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/allsoli",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220820"
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대 맛집<\/b> 김숙성 스페셜세트 GOGO!",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dbwls0315?Redirect=Log&logNo=222852690296",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"25일간 숙성하는 돼지고기 <b>서강대 맛집<\/b> 김숙성 글 · 사진 · 영상 © 진냥 비 오는 금요일, 이런 날에는... 많은 서강대앞 대흥역 맛집이었다. 한 10분쯤 기다린 후에 매장으로 입성~ 내부에 들어서면 정면에 오픈인... ",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"진냥의 세상살이",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dbwls0315",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220819"
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대맛집<\/b> &apos;불굴의떡볶이&apos; 신촌 분식집 추천",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jjw3493?Redirect=Log&logNo=222176122251",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오픈한지 얼마 안되었지만, 이 집 떡볶이 정말 잘해요 : ) 불굴의떡볶이 <b>서강대맛집<\/b> '불굴의떡볶이'에서... 신촌역 근처 떡볶이 맛집 '불굴의떡볶이'를 접해보고나서 정말 맛있게 먹방찍고나서 기분좋에 리뷰를... ",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"윤DAY지",
+2022-08-22 14:29:52,543 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jjw3493",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20201216"
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"4월 특집_ <b>서강대 맛집<\/b> 정복(탐방) 기",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/vipp0925?Redirect=Log&logNo=222706031050",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"정든그릇 (시간순으로) <b>서강대<\/b> 2호 <b>맛집<\/b>. 1호는 3월에 갔던 쌀국숫집. 명란 크림우동을 먹었지만 면이 우동은 아니었다. 사진처럼 명란도 많고 엄청 맛있었다! 양은 딱 보통. 시그니처 메뉴인 모둠까스가 굉장히... ",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여기서 행복하기",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/vipp0925",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220420"
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>서강대 맛집<\/b>] 돼파 - 남성렬 셰프의 담양식 돼지갈비와... ",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sielle83?Redirect=Log&logNo=222627769820",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광흥창역 서강대 뒷골목에 위치한 돼파 2대째 내려오는 분당의 명물 홍박사생고기와 남성렬... <b>서강대 맛집<\/b> 돼파 메뉴판 돼지갈비, 해장국, 대파국수, 공기밥 메뉴 뭐 시킬지 고민할 필요도 없이 자연스럽게... ",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여의도 직장인 문썬의 밥상 (舊 을지로)",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sielle83",
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220122"
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,544 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역\/<b>서강대 맛집<\/b>: 고기집 &apos;김숙성&apos;에서 인생 목살 먹고 옴",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/irenew0w?Redirect=Log&logNo=222841764798",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이용시 서강대 근처 공용주차장 이용 가게 외관에서부터 레트로 느낌 뿜뿜했던 대흥역 고기집 맛집 김숙성. 우리는 일요일 저녁 먹기 좀 이른 시간에 갔는데도 가게 안에 사람이 많았다. 대흥역\/<b>서강대 맛집<\/b>인... ",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Extreme life★",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/irenew0w",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 <b>서강대 맛집<\/b> &apos;계고기집&apos; 닭갈비 진짜 감탄하며 먹음",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/bernays10?Redirect=Log&logNo=222836944400",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"대흥역 <b>서강대 맛집<\/b> 계고기집.. 닭갈비가 넘 맛있어서 지금도 머릿속을 돌아요.. 조만간 꼭 다시 갈... 대흥역 맛집 계고기집 소금구이 먼저 나옵니다 이게 2인분이에요 양이 적은 편은 아니라서 먼저 맘에... ",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"귤집아들의 행복탐구생활",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/bernays10",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220801"
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[대흥역 맛집] 25일 숙성 고기 <b>서강대 맛집<\/b> 김숙성",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/benja7391?Redirect=Log&logNo=222831779529",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"먼저, 대흥역&amp;<b>서강대 맛집<\/b> 김숙성 위치부터 살펴보시죠 :) 대흥역 4번 출구 기준 도보 3분 서강대역 1분... 김숙성은 새로 오픈한지 얼마 안된 따끈한 대흥역(<b>서강대<\/b>) <b>맛집<\/b>인데요 ~ 저는 개인적으로 왜 이곳에... ",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Benjamin 지식공유채널",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/benja7391",
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220727"
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,545 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대<\/b>역\/경의선숲길 파스타<b>맛집<\/b> 치즈요리 전문점 브릭시",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/grinpindor16?Redirect=Log&logNo=222848751726",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"ㅎㅎ 오늘은 경의선숲길\/<b>서강대맛집<\/b>으로알려지고 치즈요리전문점이면서 스테이크와 파스타맛집인... 위치해서 서강대학생들한테 맛집으로 소문난것 같았답니다 ㅋㅋ 저희는 필리치즈스테이크, 치즈버팔로윙... ",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"삶은계란의 다양한 삶",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/grinpindor16",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220815"
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대맛집<\/b> 멕시칸푸드 티키타코",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sato_a?Redirect=Log&logNo=222505096319",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"서강대 앞에 있는 맛집 티키타코 사실 이 근처에 가고싶은 식당들이 몇개 있었는데 생각보다 거리가... 맛표현도 잘 못하겠다...ㅎㅎ 암튼 <b>서강대맛집<\/b> 티키타코 일요일은 휴무이니 잘 피해서 가면 된다... ",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"서버를 찾지 못하였습니다.",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sato_a",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210914"
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[신촌\/<b>서강대 맛집<\/b>] 베트남 현지 느낌 가득한 포옹남 쌀국수",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/skli0612?Redirect=Log&logNo=222407128084",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"[신촌\/<b>서강대 맛집<\/b>] 포옹남 쌀국수 안녕하세요 에이풋입니다 :) 저번에 지나가다가 새로 생긴 신상... 신촌\/서강대 쌀국수 맛집 포옹남 메뉴판\/가격 쌀국수 9,500원 최근 포스팅 보고 간 건데 메뉴가 살짝... ",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"에이풋의 풋풋한 세계여행",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/skli0612",
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210623"
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,546 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"경의선숲길\/<b>서강대<\/b> 베트남쌀국수 <b>맛집<\/b> 포옹남",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/flyhyun_k?Redirect=Log&logNo=222410927291",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"외관의 서강대 베트남쌀국수 맛집 포옹남! 여기가 서울인지 동남아 한복판인지 헷갈릴 정도로 현지... 맛난 음식 먹으면서 간접적으로나마 동남아 여행 기분도 느끼고 싶으시다면 <b>서강대 맛집<\/b> 포옹남 와보시는... ",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"양갱의 현실뷰티",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/flyhyun_k",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210626"
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"포옹남 l 진짜 베트남에 온 것 같은 느낌_<b>서강대<\/b> 앞 쌀국수 <b>맛집<\/b>",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/hosu0920?Redirect=Log&logNo=222718061847",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":": 사람도 많지 않고 하지만 그린그린하고 평화롭고 가볼만한 카페나 식당들도 제법 있으니까요_ #쌀국수맛집 #<b>서강대맛집<\/b> #포옹남서강대점 #쌀국수맛집 #베트남쌀국수맛집",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"방송하고 여행하고 기록하는_hosulake",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/hosu0920",
+2022-08-22 14:29:52,547 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220503"
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"대흥역 맛집 버거낫 - 수제버거와 커피를 동시에 파는 <b>서강대 맛집<\/b>",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/idhsssh?Redirect=Log&logNo=222465007618",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"지난 주에는 대흥동에서 일하는 친구와 약속이 있어, 오랜만에 대흥역 맛집에 가기로 했습니다. <b>서강대 맛집<\/b>으로도 알려진 버거낫은 대흥역 바로 근처에 위치해 있는데요. 경의선숲길 초입과도 같은 위치에... ",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"달지우 블로그",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/idhsssh",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210811"
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>서강대맛집<\/b> 김숙성  대흥역맛집 에서 숙성고기의 진수를... ",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jems80?Redirect=Log&logNo=222846150646",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이대 맛집과 분위기가 확연히 다른 <b>서강대맛집<\/b> 김숙성 서울 마포구 광성로 6길 14 070-8894-1666 신촌역이나 광흥창 역에서 가시거나 마을버스 바로 앞에 정류장이 있어요 바로 맞은편에 서강대가 자리잡고 있고요... ",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"물처럼 바람처럼",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jems80",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"마포\/<b>서강대맛집<\/b> 깔끔한 국물의 평양식 만둣국 [옥정]",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jj96smc?Redirect=Log&logNo=222834168598",
+2022-08-22 14:29:52,548 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"서강대 정문쪽에서 대략 5분 이내로 걷다보면 삼익아파트 맞은편에 위치한 [옥정] 동네 알만한 사람들만... 선선해지면 또 가야지~~ #<b>서강대맛집<\/b> #신수동맛집 #신수동평양식만둣국 #마포평양식만둣국맛집... ",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"일상의 아타락시아",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jj96smc",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220729"
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[신수동맛집] 가성비 최고의 퓨전 코스요리 * <b>서강대 맛집<\/b>... ",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/may77?Redirect=Log&logNo=222357818613",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"지난주, 친한 동생과 다녀온 <b>서강대 맛집<\/b>, 신수동 맛집 소개해드릴게요~! 맛집에 빠삭한 동생이라 믿고 따라갔습니다 :) 요수정 이런 곳이에용 ㅎㅎ 아파트 밑에 있더라구요~ 순서대로 테라스, 1층, 2층... ",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Seyoon&apos;s diary",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/may77",
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210520"
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:29:52,549 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:30:32,608 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:30:32,609 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%8B%A0%EC%B4%8C+%EB%A7%9B%EC%A7%91
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:30:32 +0900",
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":151677,
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":20,
+2022-08-22 14:30:32,611 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌맛집<\/b> 단체예약도 쌉가능한 1997오늘통닭",
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/ssongjiyo?Redirect=Log&logNo=222770421447",
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오늘은 #<b>신촌맛집<\/b> 1997 #오늘통닭 소개드리려고 하는데요. 옛날 후라이드치킨형태도 있고 단짠... <b>신촌맛집<\/b> 오늘통닭 요기는 1층부터 3층까지 있었는데 생각보다 규모가 엄청 크더라고요! 그런데 대관도 된다니... ",
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Jihoney&apos;s blog",
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/ssongjiyo",
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220614"
+2022-08-22 14:30:32,612 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"신촌점심으로 <b>신촌맛집<\/b>인 라화쿵부에서 마라탕, 꿔바로우 냠냠!",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sigk00?Redirect=Log&logNo=222854616812",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"02-3144-7807 \/ 매일11:00 - 23:00 - 볶음요리는 11시 반부터 요리 가능합니다- <b>신촌맛집<\/b>, 신촌점심으로 야무지게 해결한 라화쿵부 신촌점의 정보도 가지고 왔습니다. 매일 운영하는 곳이네요! 다만 볶음요리만 11시... ",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"쑝쑝쑝",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sigk00",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220822"
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"신촌 비건 마라탕 맛집 | <b>신촌 맛집<\/b> 추천 호탕마라탕 탄탄면... ",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/moonyo1002?Redirect=Log&logNo=222816136676",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"신촌 비건 마라탕 맛집 | <b>신촌 맛집<\/b> 추천 호탕마라탕 탄탄면 계란부추만두 필수 신촌 비건 마라탕 맛집 | <b>신촌 맛집<\/b> 추천 호탕마라탕 탄탄면 계란부추만두 필수 <b>신촌 맛집<\/b>, 호탕마라탕. 믿고 따라오시라고요.... ",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"문요의 제맘대로 쓰는 일상",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/moonyo1002",
+2022-08-22 14:30:32,613 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220717"
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>신촌맛집<\/b>\/라멘] 부탄츄",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/pjy9293?Redirect=Log&logNo=222809929868",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌맛집<\/b>이라는 놈들은 여기 다모여있군... 미분당은 그때도 세명정도 웨이팅있더라 평일 6시되기 10분... 신촌에 웨이팅 있는 맛집 세개가 붙어있다는게 신기했다. 나는 느끼한거 좋아해서 잘맞았는데 기름진거... ",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"맛집블로그라기보단 먹은집블로그",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/pjy9293",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220713"
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 소바연구소 돈가스와 소바 모두 굿!",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dahaeyoo?Redirect=Log&logNo=222840407633",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌 맛집<\/b> 소바연구소인데 돈가스도 옴총 맛있다잉!! 바삭바삭, ㅎㅎ 굶주린 배를 채웁니다. 사실 신촌역 맛집 돈가스 검색했을때 또 다른 곳이 나와서 갔더니 .. (현백 바로 앞) 그 곳은 웨이팅이 어마어마..... ",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"유다의 하루 :)",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dahaeyoo",
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220807"
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,614 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[서울 신촌역] <b>신촌맛집<\/b>, 신촌마라탕 라화쿵부 신촌점 ! 마라맛... ",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/1st_vintage?Redirect=Log&logNo=222822833697",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌맛집<\/b>,신촌역맛집,신촌마라탕,신촌점심맛집,신촌혼밥,연세대맛집,신촌점심 에-하 (에브리바디 하이라는 뜻) 간만에 친구와 마라탕을 조지러 신촌으로 갔습니다 빠-밤 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ... ",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"少女之夢",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/1st_vintage",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220721"
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌맛집<\/b> \/ 비아37 단호박크림 뇨끼 밀키트를 집에서도 즐겨보자!",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/hak1000help?Redirect=Log&logNo=222837618018",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"좋고 맛집의 그 맛을 그대로 재현할 수 있는 <b>신촌맛집<\/b> 메뉴 델꼬 와봣숩니다래 캬캬 <b>신촌맛집<\/b> 비아37 단호박크림 뇨끼 밀키트를 집에서도 즐겨보자! 빤빰 당일배송 식품으로 빠르게 도착완료 캬 좋다 좋아... ",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"유닝댁",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/hak1000help",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220802"
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"미쉐린가이드 <b>신촌 맛집<\/b> 정육면체 탄탄면 줄서기",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/resource2?Redirect=Log&logNo=222813302888",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌 맛집<\/b> 미슐랭가이드 빕구르망 매장인 정육면체 입니다. 미쉐린 가이드는 매년 고급 레스토랑과 가볍게 즐길 수 있는 빕구르망 매장을 선정해서 맛집 소개를 하는데요. 코시국 전부터 이곳 신촌 정육면체는... ",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"공익연계마케터 \/ 나눔실천특별위원회",
+2022-08-22 14:30:32,615 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/resource2",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220716"
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> [카츠업]  줄을 설만한 가치가 있는 식당",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/ops1200?Redirect=Log&logNo=222714795803",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"돈까스를 같이 먹는 구성도 나쁘지 않을것같다 요즘 맛있는 돈까스 집들이 많이생기는 것같아서 돈까스를 좋아하는 입장으로서는 매우 행복한 일이다 오늘도 잘먹었습니다!!! #<b>신촌맛집<\/b> #신촌혼밥 #신촌밥집",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"먹는데 진심인 오사장",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/ops1200",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220428"
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"연대 고기집  쟁반집 8292 <b>신촌 맛집<\/b>인걸!",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/200041719?Redirect=Log&logNo=222838435501",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"귀염이맘이에요 이번 주에 부모님댁 들리면서 <b>신촌 맛집<\/b> 쟁반집8292(신촌점) 다녀왔어요. 쟁반집 8292는 가성비 고기집으로 주머니가 가벼운 학생들이 경제적인 비용으로 식사할 수 있는 착한 식당이에요.... ",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"귀염이의 lovely house",
+2022-08-22 14:30:32,616 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/200041719",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220803"
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌맛집<\/b> 타코몽 &quot;오코노미야끼 맛집&quot; 인정!!!!! (귀여운... ",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/ivory___?Redirect=Log&logNo=222840844528",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#오코노미야끼맛집 #홍대맛집 #<b>신촌맛집<\/b> 2009년 오픈한 타코몽 신촌과 홍대 사이에 위치한 아담한 가게 체인점은 운영하지 않는다 ⚠️동일한 상호를 쓰는 가게 주의⚠️ 예약❌ 주차❌ 웨이팅⭕️ 대기실... ",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"IVORY SHOP",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/ivory___",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220806"
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 이석덕생면파스타 최강 가성비 데이트 추천",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/kizaki56?Redirect=Log&logNo=222781449554",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"다양한 식당에서 생면부터 다 즐겨봤지만 여기 같은 가성비는 처음이었어요. 그런데 서비스도 좋고 맛도 좋아서 데이트 하시려는 분들에게 강추천드립니다! #<b>신촌맛집<\/b> #이석덕생면파스타 #신촌데이트 #신촌파스타",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"몽몽의 먹어야 사는 블로그",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/kizaki56",
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220622"
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,617 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b>, 복성 백종원 3대천왕 우승 인생짬뽕",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/lemonic119?Redirect=Log&logNo=222845719450",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌 맛집<\/b>, 복성 백종원 3대천왕 우승 인생짬뽕 비가 추적추적 내리던 퇴근길, 얼큰한 짬뽕이 먹고싶어서 짬뽕 맛집을 찾아보다가 신촌역에 백종원 3대천왕 우승을 한 맛집이 있다고해서 바로 방문해보았어요... ",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Mood Indigo",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/lemonic119",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 추천, 돈코츠라멘과 멘치카츠가 존맛탱 :: 카라멘야",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/tkdwjd04?Redirect=Log&logNo=222854556752",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"분들이 친절해요♥ [영업시간] 매일 11:30~21:30 (브레이크타임 15:30~17:00 \/주말은 브레이크타임 없음❌) [근처역] 2호선 신촌역에서 도보 5분 #카라멘야 #<b>신촌맛집<\/b>추천 #신촌점심 #신촌혼술 #신촌혼밥 #연세대맛집",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"잡동사니",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/tkdwjd04",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220822"
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌맛집<\/b> &lt;프레퍼스 다이어트 푸드&gt; 고단백 식단",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/elissacho?Redirect=Log&logNo=222804697523",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"다이어트가 필요하지만 그렇다고 쫄쫄 굶을수는 없쟈냐ㅠ 그러던 중 이웃님 블로그 포스팅을 발견한 <b>신촌맛집<\/b> #프레퍼스 신촌 젊음의 거리에 위치하고 있다. 퇴근길에 들려서 테이크아웃 해올 생각으로... ",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"원쏘이블로그",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/elissacho",
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220708"
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,618 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 연대 고기집 쟁반집8292에서 우쟁반 소고기 구워먹죠",
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/manae86?Redirect=Log&logNo=222833707964",
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"image <b>신촌맛집<\/b> 연대고기집 쟁반집8292 신촌점 우쟁반 굽굽 새송이버섯도 불판위에 올려서 구워주고요 마늘은 소스통에 같이 지글지글 익으라고 풍덩 잘 익은 소고기는 한점 한점 체반위에 올려두고 여유롭게... ",
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"♡홈브런치하는 동동마미♡",
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/manae86",
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220729"
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,619 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b>, 연대맛집으로 소문난 치킨집 오늘통닭!",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/naokyai?Redirect=Log&logNo=222709452559",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#<b>신촌맛집<\/b> #신촌치킨 #신촌통닭맛집 #신촌단체모임 #연대맛집 #연대치킨 #연대통닭맛집 #연대단체모임 #서울3대치킨 #오늘통닭 #오늘통닭신촌직영점 *본 포스팅은 업체로부터 식사권만을 제공받아 체험... ",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"똑똑",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/naokyai",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220423"
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 70년 전통 서서갈비 연남서식당",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/cozy95?Redirect=Log&logNo=222226636854",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"16,000원 #<b>신촌맛집<\/b> #연남서식당 #서서갈비 #연남서서갈비 #아포의맛집 #아포의맛집탐방 #서서먹는갈비집... 아무튼 신촌 일대에서 맛있는 갈빗집을 찾는다면 <b>신촌 맛집<\/b> 연남서식당을 한번 찾아보는 것도 괜찮을... ",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"아포의 맛집 탐방...德 不 孤 必 有 隣",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/cozy95",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210131"
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신촌 맛집<\/b> 연대 고기집 쟁반집8292",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/kml0516?Redirect=Log&logNo=222765281417",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>신촌 맛집<\/b> 연대 고기집 쟁반집8292 ⓒ 2022.래미 all rights reserved. All Day 11:00 - 24:00 단체석, 주차, 배달 ,예약, 무선 인터넷 제로페이, 국민지원금 신촌역 3번출구에서 파리바게트 골목으로 들어가서 좌측으로 쭈욱... ",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"래미의 공간",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/kml0516",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220608"
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>신촌 맛집<\/b>] 소바연구소_내돈내산 맛집",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/pinkumin?Redirect=Log&logNo=222754217249",
+2022-08-22 14:30:32,620 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"***함께 보면 좋은 글*** https:\/\/blog.naver.com\/pinkumin\/222800275028 #<b>신촌맛집<\/b> #신촌데이트 #<b>신촌맛집<\/b>내돈내산 #소바연구소 #소바연구소웨이팅 #신촌오빠랑 #마포맛집 #마포구맛집 #소바 #소바맛집 #여름별미... ",
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"핑크빛 세상 콩콩,",
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/pinkumin",
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220531"
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:30:32,621 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:30:46,192 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:30:46,194 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EC%8B%A0%EA%B8%88%ED%98%B8+%EB%A7%9B%EC%A7%91
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:30:46 +0900",
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":3977,
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":20,
+2022-08-22 14:30:46,196 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b>역 초밥 스시옥 단골이 되기에 충분한 우리동네 <b>맛집<\/b>",
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/star2hehehe?Redirect=Log&logNo=222790905484",
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"저희 아파트 근방에는 맛집이랄만한 것이 없어서 동네 카페에 검색해보면 도보 15분 정도 주로 왕십리나 <b>신금호 맛집<\/b>을 추천하더라구요. 그 중 자주 봤던 신금호 초밥 맛집이 스시옥입니다. 신혼 초창기... ",
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"루나의 세상탐구",
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/star2hehehe",
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220627"
+2022-08-22 14:30:46,197 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b>역 초밥 찐<b>맛집<\/b>: 스시옥 ft. 셰프스페셜초밥 카이센동",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/ray_s?Redirect=Log&logNo=222810315884",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"지금까지 너무나도 신선한 스시와 카이센동 찐 <b>맛집<\/b> <b>신금호<\/b>역 스시옥 이었습니다^.~ 화-일 11:30 - 22:00 브레이크타임 15:00 - 17:00 라스트오더 21:30 정기휴무 월요일",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"류블로그",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/ray_s",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220713"
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[일상\/<b>맛집<\/b>]<b>신금호<\/b>역 제주 흑돼지 삼겹살 <b>맛집<\/b> \/ <b>신금호<\/b>역... ",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/lovely_think?Redirect=Log&logNo=222833703550",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"오늘 포스팅은 <b>신금호<\/b>역에 위치한 금호돼지집 \/ 제주 생고기 전문 식당 방문 포스팅이다.. ^^ 보통... 싶어 <b>신금호<\/b>역에 제주생고기전문 금호 돼지집을 방문해 제주 흑돈 삼겹살을 맛있게 먹고 왔다.... ",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"고마워요 소울메이트",
+2022-08-22 14:30:46,198 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/lovely_think",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220729"
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"스시옥 <b>신금호<\/b>역 초밥 스시 <b>맛집<\/b> 내돈내산 솔직리뷰입니다!",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/rlaqudwn13?Redirect=Log&logNo=222827177826",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"#<b>신금호맛집<\/b> #신금호역맛집 #성동구맛집 #서울맛집 #초밥맛집 #스시맛집 #초밥 #스시 #일식 #맛집리뷰 #내돈내산 #솔직후기 #맛집탐방 안녕하세요~^_^ 사시하라 입니다! 오늘은 어제 큰누나 생일 기념 다녀온... ",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"삿시의 토기운 집합소",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/rlaqudwn13",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220724"
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[서울\/<b>신금호<\/b>] <b>신금호<\/b>역 <b>맛집<\/b> 프랑스 가정식 ‘오부이용’",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/js_hyunee?Redirect=Log&logNo=222849339804",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"캐치테이블에서 예약하고 가는 것을 추천한다. 신금호역 맛집 ‘오부이용’ 내돈내산 후기 끝 #금호동 #금호역 #<b>신금호<\/b> #<b>맛집<\/b> #오부이용 #금호동맛집 #신금호역맛집 #캐치테이블",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"hifromsu",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/js_hyunee",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220816"
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호 맛집<\/b> 1번지정육식당 약수역 소고기",
+2022-08-22 14:30:46,199 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/vudod1?Redirect=Log&logNo=222778810844",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"바로 <b>신금호 맛집<\/b> '1번지정육식당 약수' 입니다 퀄리티 높은 냉장육 소고기 맛집으로 알려진 곳이더군요 약수역 5번 출구에서 도보로 1분 거리에 있으며, 약수대지구대와 근접한 곳에 위치했습니다... ",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"데미안의 리뷰찾기",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/vudod1",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220619"
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호 맛집<\/b>, 가성비 좋은 고기집 @1번지 정육식당 추천❤",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/eszzang1011?Redirect=Log&logNo=222388815288",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"1번지 정육식당 <b>신금호 맛집<\/b>, 약수역 맛집 위치 서울 중구 동호로5길 12 1층 약수역5번 출구 약 200m... 진짜 신금호역, 약수역 가성비 맛집인듯!! 우삼겹 먼저 구워봅니다 ㅋㅋㅋ 진짜 부드러워서 파절이랑... ",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"은쪼리월드❤️",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/eszzang1011",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210607"
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b> 마포숯불갈비 돼지갈비 블루리본 <b>맛집<\/b>",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/syp_park?Redirect=Log&logNo=222734813848",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"손님이 적은 시간이 있다면 그 때 다시 꼭 가고싶네요. #<b>신금호맛집<\/b> #금호맛집 #신금호돼지갈비 #금호동맛집 #신금호마포숯불갈비 #신금호역맛집 #간장게장맛집 #신금호고기집추천 #내돈내산",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"두부의 일상 일기",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/syp_park",
+2022-08-22 14:30:46,200 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220516"
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b>역 삼겹살 <b>맛집<\/b> 금호돼지집 |  제주산 흑돼지를 금호동에서",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/myc97913?Redirect=Log&logNo=222840688640",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"일단 고기 질이 너무 좋아서 저는 추천합니다 :) 동네라 가깝기도 하고 재방문의사 100% 가족들이랑 다시 방문할 예정입니다. #금호동2가삼겹살 #금호동2가<b>맛집<\/b> #<b>신금호<\/b>역삼겹살 #<b>신금호<\/b>역<b>맛집<\/b>",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"달님 일기☽",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/myc97913",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220805"
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>신금호 맛집<\/b>] 금호동 맛집 올드핸즈 맛보다!",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/tayadikimi?Redirect=Log&logNo=222726312986",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"지나가다가 예쁜 외관의 건물이 있길래 쓱- 들어가봤습니다 ㅎㅎㅎㅎㅎ 금호동맛집 <b>신금호맛집<\/b> 스테이크 전문점 '올드핸즈' #금호동맛집 #<b>신금호맛집<\/b> #금호동스테이크 #올드핸즈 #스테이크전문점... ",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"웰컴투마이 며니월드",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/tayadikimi",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220512"
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b>역 고깃집 두툼한 제주 흑돈 삼겹살 <b>맛집<\/b> 금호돼지집",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/longwoody27?Redirect=Log&logNo=222838511618",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"찰떡이다 푸짐하고 신선한 고기와 야채를 즐길 수 있어 무척 좋았어요 꼭 방문해보세요 그럼 이만 롱~바!! #<b>신금호<\/b>역<b>맛집<\/b> #<b>신금호<\/b>역삼겹살 #금호동2가<b>맛집<\/b> #금호동2가삼겹살 #제주흑돈삼겹살<b>맛집<\/b> #제주흑돼지삼겹살",
+2022-08-22 14:30:46,201 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"롱구&apos;s 블롱구",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/longwoody27",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220803"
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[성동\/금호] 금호돼지집 - <b>신금호<\/b>역 제주 흑돼지 삼겹살 <b>맛집<\/b>... ",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/msinga?Redirect=Log&logNo=222846123950",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"맛은 물론 사장님들이 너무 너무 친절하시고 매장이 전반적으로 청결해서 기분좋게 먹을 수 있었던 금호돼지집 금호동 2가 <b>맛집<\/b>, <b>신금호<\/b>역 <b>맛집<\/b>으로 강력 추천 드립니다!",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"C&apos;est la vie",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/msinga",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b> 스시<b>맛집<\/b> - 스시옥, 연어초밥, 제주흑돼지돈까스 추천",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/piy1019?Redirect=Log&logNo=222850944528",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"스시옥 위치 #스시옥 서울 성동구 금호로 151 2층 위치는 딱 신금호역 5거리에 있어요. 마치 역에... 스시옥 사시마정식 #라파엘맛집 #<b>신금호맛집<\/b> #금호동맛집 #스시옥 #스시맛집 #연어초밥맛집 #돈까스맛집",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Inee&apos;s free life~",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/piy1019",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220817"
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>신금호<\/b>역 <b>맛집<\/b> 나혼자산다 성훈 강다니엘 옥수동묵은지김치찜",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/blue8313?Redirect=Log&logNo=222844183516",
+2022-08-22 14:30:46,202 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"영업시간 매일 00:00 ~ 24:00 연중무휴 연락처 0507-1314-2991 주소 서울 성동구 금호산길 66-1 2층 #신금호역맛집 #성동김치찜맛집 #금호동배달 #금호동맛집 #<b>신금호맛집<\/b> #금호동김치찜 #신금호김치찜 #신금호배달맛집",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"YOLO BuBu Story",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/blue8313",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220809"
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"서양주막 <b>신금호<\/b>역 찐<b>맛집<\/b> 와인바추천 와인뷔페",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jejeje16?Redirect=Log&logNo=222839639317",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"갈게여 #서양주막 #서양주막와인뷔페 #서울와인뷔페 #서울무제한와인 #서울와인샵 #신금호와인바 #금호와인바 #금호와인샵 #신금호와인샵 #금호서양주막 #<b>신금호맛집<\/b> #금호맛집 #금남시장맛집... ",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"햅삐로그",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jejeje16",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220804"
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"금호동2가<b>맛집<\/b>, <b>신금호<\/b>역<b>맛집<\/b> :: 금호돼지집",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/08520258?Redirect=Log&logNo=222825754235",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"바로 금호동2가<b>맛집<\/b>, <b>신금호<\/b>역<b>맛집<\/b>으로 추천하는 '금호돼지집'인데요. 고기의 맛은 물론이고, 어마어마하게 친절하셨기에! 고깃집은 아무래도 기름때가 곳곳에 있기 마련인데 진짜 깨끗하고 깔끔한... ",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"SHOW MUST GO ON-",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/08520258",
+2022-08-22 14:30:46,203 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220723"
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"성수 <b>신금호<\/b>역 스테이크 <b>맛집<\/b> 올드핸즈 오픈기념 애플파이까지",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jenoleeluv?Redirect=Log&logNo=222749825005",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"내 꿈은 그냥 언제가 될지는 모르지만 성동구에 살아보는 것. 이유는 이렇게 먹을 곳이 많으니까. 스엠이 있어서 애들을 보게될 지 모르니까...? #<b>신금호<\/b>역<b>맛집<\/b> #성수<b>맛집<\/b> #<b>신금호<\/b>역스테이크<b>맛집<\/b> #올드핸즈",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"스틸고 아이돌 뉴스",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jenoleeluv",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220528"
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"오부이용_<b>신금호<\/b>역<b>맛집<\/b>, 미쉐린 가이드 서울 2022 프랑스 음식",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/skyfox1011?Redirect=Log&logNo=222724556639",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"미쉐린 가이드 서울 2022 오부이용 <b>신금호<\/b>역<b>맛집<\/b> 요즘 서울에 볼일이 많아서 자주 오는구나. 지하철도 타고 마을버스도 타고 걷고 또 걷고. 돌아다니다 오늘 점심 메뉴를 무얼 먹을까 하다가 <b>신금호<\/b>역 쪽에 있는... ",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"시간을 담는 상자",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/skyfox1011",
+2022-08-22 14:30:46,204 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220508"
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"가성비 좋은 소고기는 <b>신금호<\/b>역 <b>맛집<\/b> 1번지정육식당에서",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/freemeadow?Redirect=Log&logNo=222648739591",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"가성비 좋은 소고기 맛집으로 소고기 원없이 먹어보고 싶은 분들은 방문해보시면 좋을 것 같습니다~ #신금호역맛집 #1번지정육식당 #소고기맛집 #약수맛집 #약수역맛집 #<b>신금호맛집<\/b> #가성비소고기",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"ZERO TO TEN",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/freemeadow",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220216"
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"금호동 <b>신금호<\/b>역  \/ 숨은 동네 <b>맛집<\/b> &quot;차이니포&quot; 베트남음식점",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/shinjongh?Redirect=Log&logNo=222777695057",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"(지도에 검색해보니 보문역에도 직영점인지 체인점인지 모르겠지만 같은 차이니포가 있네요) 영업시간: 11:30 - 20:00 (일요일 휴무) #<b>신금호맛집<\/b> #신금호음식점 #신금호쌀국수 #금호동맛집 가게 이름인 &quot;차이니포... ",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"달신의 고군분투기",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/shinjongh",
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220617"
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:30:46,205 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 14:31:48,477 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:32)     - responeseCode : 200
+2022-08-22 14:31:48,479 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:41)     - blog검색 : %EA%B8%88%ED%98%B8%EB%8F%99+%EB%A7%9B%EC%A7%91
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - {
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"lastBuildDate":"Mon, 22 Aug 2022 14:31:48 +0900",
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"total":42870,
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"start":1,
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"display":20,
+2022-08-22 14:31:48,481 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	"items":[
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"고소한 숙성삼겹을 소금에 콕! <b>금호동맛집<\/b> 산청화로",
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/un1formly?Redirect=Log&logNo=222846172484",
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"타고 금호동으로 건너왔어요 서울에 몇 년간 살면서 처음 와 본 동네...! 그리고 <b>금호동맛집<\/b>이라고... 가성비 맛집이라는 얘기가 대부분인 것 같았지만 저는 맛있는데다가 친절한데다가 저렴하기까지 한 건데... ",
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"작은 해수욕장의 빙수 천재",
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/un1formly",
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220812"
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,482 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주<b>금호동맛집<\/b> 입호강 오마카세 추천 &apos;긴자상회&apos;",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/wgdw1534?Redirect=Log&logNo=222765249480",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"추천드려요~ 맛있는 메뉴가 많은 광주 이자카야 찾으신다면 광주 <b>금호동맛집<\/b> 긴자상회 추천드려요~! #광주<b>금호동맛집<\/b> #긴자상회 #광주금호동오마카세 #광주금호동이자카야 #광주금호동술집 #광주금호지구맛집",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"&apos;◡&apos; 먹고 여행하고 기록하는 일상",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/wgdw1534",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220608"
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 진한 우대갈비의 맛",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/fromantic?Redirect=Log&logNo=222787049512",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"광주 <b>금호동 맛집<\/b> 화원짚불구이 금호점으로 불렀죠~~~후후 금호동 복잡하신거아시죠? 주차공간 찾기... 광주 <b>금호동 맛집<\/b> 우대갈비의 찐 맛을 느낄수 있어서 친구도 저도 둘다 반해버린 맛집이에요. 고기가... ",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"찍고 먹고 리뷰하라",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/fromantic",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220624"
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 요리하는집",
+2022-08-22 14:31:48,483 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/chkl20000?Redirect=Log&logNo=222838577608",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"싱싱하고 맛나고 양많고 가격 착한 광주 <b>금호동 맛집<\/b> 횟집 요리하는집 !! 다음에도 미리 예약하고 가서 10프로 할인 받고 먹으렵니당 ㅎㅎ 금호 먹거리촌 맛집 인정 !! 이상 솔직리뷰 였습니다.",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"솔직한 맛집 리뷰어 ^.^",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/chkl20000",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220803"
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동<\/b> 파스타 <b>맛집<\/b> 모티프 뷰도 좋고 맛도 좋고!",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/inho1914?Redirect=Log&logNo=222851038621",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>금호동맛집<\/b> 금호동파스타맛집 모티프 메뉴 주문은 테이블마다 있는 태블릿pc로 하면 되어요!. 그러다보니 메뉴 찍는건 좀 한계가 있어서 이렇게만 찍어왔네요!. 안되는 메뉴가 있어서 좀 아쉬웠는데, 다음에... ",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"백부엉이 일상 블로그⊙♡⊙",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/inho1914",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220817"
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 모티프 신상핫플 레스토랑 와인바 오픈",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/minnnui?Redirect=Log&logNo=222686002691",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"레스토랑 <b>맛집<\/b> <b>금호동<\/b> 모티프 에요 ! 양식이 주 인 곳이고, 카페도 함께 하는곳이라 다양한 음료와 음식을 함께 접할 수 있어서 정말 좋았어요, 그리고 여기에 와인까지 많은 종류를 보유하고 있어서 데이트하러... ",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"MinuDay, ఇ",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/minnnui",
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220329"
+2022-08-22 14:31:48,484 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"북받쳤던 속초 <b>금호동 맛집<\/b>",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sungshim100?Redirect=Log&logNo=222787385444",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"속초 <b>금호동 맛집<\/b>의 모듬회도 한 점을 집어서 간장을 묻혀서 맛봤는데요. 탱글탱글함은 기본이고 담백함까지 퍼펙트해, 역시 찐으로 맛집이구나 깨닫게 만드는 소중한 한입이더라고요. 살얼음 육수에 가득... ",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"==쿨맨남성의원==",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sungshim100",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220625"
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> 우대갈비부터 육회까지 맛잔치",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/2247100?Redirect=Log&logNo=222738242557",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"전 금호동 근처에 일이 있어서 오랜만에 <b>금호동 맛집<\/b> 화원짚불구이 찾았답니다 : ) 오늘도 맛있게 먹은... ㅎㅎ 금호동 볶음밥 맛집이라고 해도 손색없을 맛을 자랑하는 이 볶음밥 레알 제가 지인들에게 이 볶음밥... ",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"안나제이메이크업-메이크업에 감성을 담다",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/2247100",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220519"
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동<\/b> 중식 <b>맛집<\/b> 역시 실망시키지 않는 신락원금호점",
+2022-08-22 14:31:48,485 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/feelluvei?Redirect=Log&logNo=222668504911",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"유리설탕옷 제대로 입은 후식으로 주신 신락원맛탕까지 맛있게 먹고 갑니다~~~ #<b>금호동맛집<\/b> #금호동중식맛집 #신락원금호점 #신락원 #금호동신락원 #금호점신락원 #금호동중국집 #금호동중국요리 #금호동코스요리",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"겸지의 뭉게뭉게 구름여행",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/feelluvei",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220310"
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동<\/b> 파스타 <b>맛집<\/b> &apos;모티프 (MOTIF)&apos;",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/dori_0325?Redirect=Log&logNo=222845843109",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"한다 <b>금호동 맛집<\/b> '모티프' ! 버섯 샐러드는 둘 다 큰 기대를 안 했는데 너무 맛있고 이게 청경채인지... 진짜 금호동 브런치 맛집 !! 고추장크림 파스타 이 메뉴 고른 이유는 진짜 TMI인데 제가 커피프린스 1호점... ",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"11:11, dorilog",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/dori_0325",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>맛집<\/b> <b>금호동<\/b> 갈비 무한리필 명륜진사갈비 광주금호점",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/runtob?Redirect=Log&logNo=222839669216",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"파채 없으면 고기 안 먹는 아들들ㅋㅋㅋ 입맛은 이미 30대 후반임 이렇게 저렴한 가격에 숯불까지 제공해 주는 <b>금호동<\/b> 갈비 <b>맛집<\/b>. 사실 갈비 맛의 절반은 숯불이잖아요. 두툼한 고기를 척척 올려봅니다.... ",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"준브라더스와 세상사는 이야기",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/runtob",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220805"
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 도야짬뽕 깔끔한 중국집",
+2022-08-22 14:31:48,486 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/wksdlsgkssj?Redirect=Log&logNo=222852310187",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"기억해두었다가 이번에 다녀왔던 광주 <b>금호동 맛집<\/b>을 소개 해보려구요! 금호동 중국집 도야짬뽕은 서광병원 옆라인 먹자골목에 있어요 빨간색 문과 반짝이는 조명이 화려해서 바로 알아볼 수 있었죠. 가까운... ",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"천방지축 빙글빙글 영지네 하루",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/wksdlsgkssj",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220819"
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"<b>금호동 맛집<\/b> 화원짚불구이 고기집 우대갈비 최고시다",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/jiwon4348?Redirect=Log&logNo=222665351029",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"금호동 고기집 화원짚불구이 우대갈비에 볶음밥까지 아주 최고야! 우대갈비 예전부터 정말 궁금했는데 드디어 먹고왔습니다 흐흐 <b>금호동 맛집<\/b>인 화원짚불구이는 우대갈비 맛있기로 이미 유명한 곳이더라구요!... ",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"져니콩의 애정블로그",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/jiwon4348",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220306"
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"성동구 <b>금호동<\/b> 금호역 고기 <b>맛집<\/b> &apos;산청화로&apos;",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sujinjoung7?Redirect=Log&logNo=222849214476",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"성동구 금호동 금호역 고기 맛집 '산청화로' #성동구맛집 #<b>금호동맛집<\/b> #금호역맛집 #고기맛집 #맛집 #산청화로 오늘이 있기까지 감사한 마음인 오늘 이제 여름의 끝자락인 것 같아요..! 꾸리꾸리한 날씨랑 습하고... ",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"수딩 놀이터:)",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sujinjoung7",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220815"
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"[<b>금호동 맛집<\/b>] 키친오늘 - 주당들을 위한 아지트! 100% 예약제... ",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sielle83?Redirect=Log&logNo=222758161850",
+2022-08-22 14:31:48,487 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"키친오늘 \/ 성동구 장터5길 9-1 (금호동3가 981-6) 어플 케치테이블 통해 예약 가능 영업시간 18:00-22:00... 단독룸팟 <b>금호동 맛집<\/b> 키친오늘 2022년 5월 메뉴판 모둠회, 어란파스타, 라구파스타만 빼고 전 메뉴가 싹 다... ",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"여의도 직장인 문썬의 밥상 (舊 을지로)",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sielle83",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220607"
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주<b>금호동<\/b> 양갈비 <b>맛집<\/b> 마선생 마라탕 맛있네요",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/lyj177?Redirect=Log&logNo=222480640870",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"이상 광주금호동 양갈비맛집 마선생 마라탕에서 양고기맛에 푹 빠진날 포스팅이였습니다 잇님 건강하세요~ 감사합니다 #<b>금호동맛집<\/b> #광주<b>금호동맛집<\/b> #금호동양갈비맛집 #마선생마라탕 #광주금호동양갈비... ",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"행복찾기교육진흥원 강사양성 및 지역역량강화교육",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/lyj177",
+2022-08-22 14:31:48,488 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20210823"
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동<\/b> 분식 <b>맛집<\/b> 가성비값 계화네튀김 l 내돈내산... ",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/qqlwla28?Redirect=Log&logNo=222834619417",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"<b>금호동 맛집<\/b> 계화네튀김이 순대는 내장 없이 찰순대만 판매하고 있으니 참고하시구용ㅎㅎ 금호동에... bb 튀김 맛집으로 인정합니당 '-' 오늘은 광주 <b>금호동 맛집<\/b> 계화네튀김을 리뷰해 보았습니당ㅎㅎ 엄청... ",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"봉스데이 (맛집탐방러)",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/qqlwla28",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220730"
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"광주 <b>금호동 맛집<\/b> 화원 짚불구이 우대갈비 짚불삼겹살",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/ycru?Redirect=Log&logNo=222656340032",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"금호동 먹자골목에 위치하고 있어요. 금호 주차 빌딩 건물이라 주차 걱정이 없습니다. <b>금호동 맛집<\/b>... 신상 맛집 답게 인테리어 좋고 가게도 깔끔하고 유명 맛집이 되려면 맛도 중요하고 인테리어도 한몫... ",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"Harmony",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/ycru",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220224"
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"@<b>금호동<\/b> 프렌치 <b>맛집<\/b> \/ 오부이용 (+핑크자리 예약꿀팁)",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/vnfskfka?Redirect=Log&logNo=222846032374",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"어느덧 세번째 방문인, 금호동 프렌치 맛집 오부이용을 오랜만에 소개드려요 - 원래 작년 10월 쯤... 필수인 <b>금호동 맛집<\/b> 오부이용 ♥양파 스프 ♥토종닭 블랑케트 ♥돼지뼈등심 스테이크와 양배추 메인... ",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"언틸지니",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/vnfskfka",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220811"
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		},
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		{
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"title":"소울 충만했던 <b>금호동맛집<\/b> 소울보이",
+2022-08-22 14:31:48,489 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"link":"https:\/\/blog.naver.com\/sssel?Redirect=Log&logNo=222737700658",
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"description":"그렇게 한시간여를 달려 <b>금호동<\/b>에 위치한 소울보이에 도착하였습니다. 전날 숙취로 인해 지친기색에... <b>맛집<\/b>포스팅인데;; 맛에대한것도 없고 엉망징창입니다. 그냥 너무 즐겁고 행복한 기억 사진과 짧은... ",
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggername":"찍고 뜯고 맛보고 즐기는 밉상진상박상 살색",
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"bloggerlink":"https:\/\/blog.naver.com\/sssel",
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 			"postdate":"20220519"
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 		}
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - 	]
+2022-08-22 14:31:48,490 DEBUG [main] ed07.NaverBlogSearch (NaverBlogSearch.java:45)     - }
+2022-08-22 15:35:34,935 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:36:21,680 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:36:21,682 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2FinallyMain.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:37:23,770 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:37:40,953 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:38:03,980 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:38:03,982 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:27)     - 3.1
+2022-08-22 15:38:14,311 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:38:14,316 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2C:\DCOM_0725\03_JAVA\WorkSpace2\J09\src\com\pcwk\ehr\ed10\pfinally\FinallyMain99.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:38:48,424 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:38:48,426 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2C:\DCOM_0725\03_JAVA\WorkSpace2\J09\src\com\pcwk\ehr\ed10\pfinally\FinallyMain99.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:38:48,426 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:29)     - 3.1
+2022-08-22 15:39:00,938 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:39:00,939 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2C:\DCOM_0725\03_JAVA\WorkSpace2\J09\src\com\pcwk\ehr\ed10\pfinally\FinallyMain99.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:39:00,939 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:29)     - 3.1
+2022-08-22 15:39:00,940 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:32)     - 프로그램 종료
+2022-08-22 15:39:42,191 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:39:42,193 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2C:\DCOM_0725\03_JAVA\WorkSpace2\J09\src\com\pcwk\ehr\ed10\pfinally\FinallyMain99.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:39:42,193 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:29)     - 3.1 finally
+2022-08-22 15:39:42,193 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:32)     - 프로그램 종료
+2022-08-22 15:40:57,902 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:40:57,903 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:29)     - 3.1 finally
+2022-08-22 15:40:57,903 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:32)     - 프로그램 종료
+2022-08-22 15:41:01,199 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:16)     - 1
+2022-08-22 15:41:01,200 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:19)     - 2C:\DCOM_0725\03_JAVA\WorkSpace2\J09\src\com\pcwk\ehr\ed10\pfinally\FinallyMain99.java (지정된 파일을 찾을 수 없습니다)
+2022-08-22 15:41:01,200 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:29)     - 3.1 finally
+2022-08-22 15:41:01,201 DEBUG [main] pfinally.FinallyMain (FinallyMain.java:32)     - 프로그램 종료

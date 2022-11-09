@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.pcwk.ehr.ed01.arraylist.Ex04ArrayList&apos; to &apos;Ex04ArrayListDel&apos;&#x0D;&#x0A;- Original project: &apos;J13&apos;&#x0D;&#x0A;- Original element: &apos;com.pcwk.ehr.ed01.arraylist.Ex04ArrayList&apos;&#x0D;&#x0A;- Renamed element: &apos;com.pcwk.ehr.ed01.arraylist.Ex04ArrayListDel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex04ArrayList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.pcwk.ehr.ed01.arraylist{Ex04ArrayList.java[Ex04ArrayList" matchStrategy="1" name="Ex04ArrayListDel" qualified="false" references="true" similarDeclarations="false" stamp="1661495977850" textual="false" version="1.0"/>
+</session>

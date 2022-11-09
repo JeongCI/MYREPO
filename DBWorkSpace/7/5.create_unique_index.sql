@@ -1,0 +1,3 @@
+-- 인덱스 생성
+CREATE UNIQUE INDEX MEMBER_EMAIL_UKR
+ON MEMBER(email asc);

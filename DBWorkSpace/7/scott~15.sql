@@ -1,0 +1,2 @@
+TRUNCATE TABLE emp_hw;
+DROP TABLE emp_hw;

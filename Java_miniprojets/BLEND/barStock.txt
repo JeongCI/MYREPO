@@ -1,0 +1,11 @@
+jin/10
+tonic/60
+vodka/0
+rum/0
+tequila/0
+triplesec/0
+sweetandsourmix/0
+coke/0
+syrup/0
+lemonjuice/0
+sparklingwater/0

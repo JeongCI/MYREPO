@@ -1,0 +1,6 @@
+--ADD_MONTHS : 주어진 날짜에 개월을 더함(뺄 수 있음)
+SELECT SYSDATE,
+       ADD_MONTHS(SYSDATE, 2) "SYSDATE+2",
+       ADD_MONTHS(SYSDATE, -2) "SYSDATE-2"
+FROM dual
+;

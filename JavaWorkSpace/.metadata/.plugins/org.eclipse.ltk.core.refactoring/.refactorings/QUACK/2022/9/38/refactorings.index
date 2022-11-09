@@ -1,0 +1,20 @@
+1663044650038	Rename type 'SocketServer'
+1663047540164	Rename type 'SendThead'
+1663047553794	Rename type 'SendThread'
+1663047589137	Rename type 'ClientSend'
+1663047596809	Rename type 'ServerSend'
+1663047600651	Rename type 'ServerSend1'
+1663048926238	Delete element
+1663048949204	Rename type 'ReceiveThread'
+1663050160339	Rename package 'chat'
+1663050446279	Rename type 'Call'
+1663050618623	Delete element
+1663113626673	Delete elements
+1663137958361	Delete elements
+1663137981476	Delete element
+1663200215593	Copy package
+1663200235272	Copy folder
+1663202227011	Delete elements
+1663207353213	Rename type 'Main'
+1663207502291	Rename type 'Server'
+1663289905921	Copy compilation units

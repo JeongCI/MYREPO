@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TcpIpClient.java&apos; to &apos;J17/src/com.pcwk.ehr.ed05.chatting&apos;&#x0D;&#x0A;- Original project: &apos;J16&apos;&#x0D;&#x0A;- Destination element: &apos;J17/src/com.pcwk.ehr.ed05.chatting&apos;&#x0D;&#x0A;- Original element: &apos;com.pcwk.ehr.ed06.socket.TcpIpClient.java&apos;" description="Copy compilation unit" destination="=J17/src&lt;com.pcwk.ehr.ed05.chatting" element1="/src&lt;com.pcwk.ehr.ed06.socket{TcpIpClient.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661996256889" units="1" version="1.0"/>
+</session>

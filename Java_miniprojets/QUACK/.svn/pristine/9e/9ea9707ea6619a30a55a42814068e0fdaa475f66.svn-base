@@ -1,0 +1,77 @@
+package project.quack.domain;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+import project.quack.beep.Beep;
+import project.quack.chat01.ChatMain;
+import project.quack.game.AlligatorTeeth_Game;
+import project.quack.game.todays_fortune;
+import project.quack.test.MenuDaoTest;
+
+public class Mainscreen {
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		MenuDaoTest mdt = new MenuDaoTest();
+		AlligatorTeeth_Game atg=new AlligatorTeeth_Game();
+		ChatMain chatMain = new ChatMain();
+		Beep beep = new Beep();
+		 todays_fortune tf=new  todays_fortune();
+		// 메인 화면 메모장 읽어 오기
+ 
+		int i;
+		int staff; // 직원호출 코드
+		while (true) {
+			try {
+				FileInputStream fis = new FileInputStream("C:\\DCOM_0725\\03_JAVA\\workspace2\\QUACK\\mainscreen.txt");
+				Scanner s = new Scanner(fis);
+				while (s.hasNext())
+					System.out.println(s.nextLine());
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			i = sc.nextInt();
+
+			if (i == 1) {
+				// -------주문 하기------------
+				System.out.println("test1"); // 나중에 지우기
+			} else if (i == 2) {
+				// ------주문 내역(장바구니)-------
+				// ------인원 수 입력 받고 더치페이 계산--------
+				System.out.println("test2"); // 나중에 지우기
+			} else if (i == 3) {
+				// ---------직원 호출------------
+				System.out.println("카운터 문의 : 1 / 벨 : 2");
+				staff = sc.nextInt();
+				if(staff == 1) {
+					try {
+						chatMain.main(args);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				} else if (staff == 2) {
+					beep.main(args);
+				}
+				
+		
+			} else if (i == 4) {
+				System.out.println("1. 악어이빨 게임💣💣💣💣💣");
+				System.out.println("2. 오늘의 운세※※※※※");
+				i=sc.nextInt();
+				if(i==1) {
+				atg.main(args);
+				}
+				if(i==2) {
+				tf.main(args);
+				}
+			} else if (i == 1234) {
+				mdt.main(args);
+			}
+
+		}
+	}
+
+}
