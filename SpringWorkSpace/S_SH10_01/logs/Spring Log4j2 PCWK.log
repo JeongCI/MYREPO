@@ -1,0 +1,12 @@
+[2022-11-21 10:13:17.539] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-21 10:13:17.544] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-21 10:13:17.546] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=2022-11-21 10:13:19, toString()=com.pcwk.ehr.user.dao.UserVO@712ca57b]
+[2022-11-21 10:13:17.546] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: get
+[2022-11-21 10:13:17.546] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │7(ms)초
+[2022-11-21 10:13:17.546] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 10:13:17.547] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:203) - │               upgradeLevels               │
+[2022-11-21 10:13:17.547] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:204) - └───────────────────────────────────────────┘
+[2022-11-21 10:13:17.548] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:227) - ┌───────────────────────────────────────────┐
+[2022-11-21 10:13:17.548] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:228) - │                 tearDown                  │
+[2022-11-21 10:13:17.548] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:229) - └───────────────────────────────────────────┘

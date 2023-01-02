@@ -1,0 +1,191 @@
+[2022-11-21 11:40:27.688] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:111) - 3. cnt: 5
+[2022-11-21 11:40:27.694] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getCount
+[2022-11-21 11:40:27.694] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │61(ms)초
+[2022-11-21 11:40:27.694] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.698] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.698] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:82) - 1. sql log 
+SELECT  u_id,      			
+        name,        			
+        passwd,               
+        u_level,              
+        login,                
+        recommend,            
+        email,                
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      			
+WHERE u_id like ? || '%'      
+ORDER BY u_id			        
+
+[2022-11-21 11:40:27.698] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:83) - 2. param log 
+p11
+[2022-11-21 11:40:27.706] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@7bc9e6ab]
+[2022-11-21 11:40:27.706] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@5488b5c5]
+[2022-11-21 11:40:27.706] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@4248ed58]
+[2022-11-21 11:40:27.707] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@712ca57b]
+[2022-11-21 11:40:27.707] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@4564e94b]
+[2022-11-21 11:40:27.707] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getAll
+[2022-11-21 11:40:27.707] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │8(ms)초
+[2022-11-21 11:40:27.707] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.707] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:224) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:225) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@5488b5c5]
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 이상무11_02
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 4322
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 2
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 50
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 0
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: ckddls13@gmail.com
+[2022-11-21 11:40:27.708] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: p11_02
+[2022-11-21 11:40:27.709] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:241) - 3. flag : 1
+[2022-11-21 11:40:27.710] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doUpdate
+[2022-11-21 11:40:27.710] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-21 11:40:27.710] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.710] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:95) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.710] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:96) - │sendUpgradeEmail: ckddls13@gmail.com,이상무11_02
+[2022-11-21 11:40:27.710] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:97) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.710] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.710] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:224) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:225) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@712ca57b]
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 이상무11_04
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 4324
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 3
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 52
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 30
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: ckddls13@gmail.com
+[2022-11-21 11:40:27.711] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: p11_04
+[2022-11-21 11:40:27.712] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:241) - 3. flag : 1
+[2022-11-21 11:40:27.712] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doUpdate
+[2022-11-21 11:40:27.712] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-21 11:40:27.712] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.712] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:95) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.713] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:96) - │sendUpgradeEmail: ckddls13@gmail.com,이상무11_04
+[2022-11-21 11:40:27.713] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:97) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.715] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.715] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-21 11:40:27.715] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@1dd6d4b7]
+[2022-11-21 11:40:27.715] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_01
+[2022-11-21 11:40:27.716] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@1a1ed4e5]
+[2022-11-21 11:40:27.716] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-21 11:40:27.716] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-21 11:40:27.716] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.717] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.717] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-21 11:40:27.717] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@6f6a7463]
+[2022-11-21 11:40:27.717] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_02
+[2022-11-21 11:40:27.718] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:30, toString()=com.pcwk.ehr.user.domain.UserVO@1c6e0a08]
+[2022-11-21 11:40:27.718] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-21 11:40:27.718] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-21 11:40:27.718] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.718] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:217) - SILVER==SILVER
+[2022-11-21 11:40:27.718] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.718] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-21 11:40:27.719] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@1bdaa23d]
+[2022-11-21 11:40:27.719] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_03
+[2022-11-21 11:40:27.720] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@6dba847b]
+[2022-11-21 11:40:27.720] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-21 11:40:27.720] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-21 11:40:27.720] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.720] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.720] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-21 11:40:27.720] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=52, recommend=30, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@79f227a9]
+[2022-11-21 11:40:27.720] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_04
+[2022-11-21 11:40:27.722] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:30, toString()=com.pcwk.ehr.user.domain.UserVO@1efdcd5]
+[2022-11-21 11:40:27.722] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-21 11:40:27.722] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-21 11:40:27.722] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.723] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:217) - GOLD==GOLD
+[2022-11-21 11:40:27.723] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.723] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-21 11:40:27.723] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@6ca320ab]
+[2022-11-21 11:40:27.723] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_05
+[2022-11-21 11:40:27.724] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=2022-11-21 11:40:29, toString()=com.pcwk.ehr.user.domain.UserVO@1623bbe5]
+[2022-11-21 11:40:27.724] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-21 11:40:27.724] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-21 11:40:27.724] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.724] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:203) - │               upgradeLevels               │
+[2022-11-21 11:40:27.724] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:204) - └───────────────────────────────────────────┘
+[2022-11-21 11:40:27.725] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:227) - ┌───────────────────────────────────────────┐
+[2022-11-21 11:40:27.726] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:228) - │                 tearDown                  │
+[2022-11-21 11:40:27.726] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:229) - └───────────────────────────────────────────┘

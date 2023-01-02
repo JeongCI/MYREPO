@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    
+    <!-- UserServiceImpl -->
+    <bean id="userService" class="com.pcwk.ehr.user.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+    <!-- setter통한 주입: AbstractDriverBasedDataSource.java, SimpleDriverDataSource.java(driverClass) -->
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@192.168.3.101:1521:XE"/>
+        <property name="username" value="SPRING"/>
+        <property name="password" value="pcwk"/>
+    </bean>
+        
+    <!-- <bean id="connectionMaker" class="com.pcwk.ehr.DConnectionMaker"/> -->
+    
+    <bean id="userDao" class="com.pcwk.ehr.UserDaoImpl">
+    <!-- setter통한 주입 
+        connectionMaker : set생략하고, 첫 글자를 소문자로 변환
+        ref:setConnectionMaker(ConnectionMaker connectionMaker)
+    -->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>    
+
+</beans>

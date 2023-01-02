@@ -1,0 +1,286 @@
+[2022-11-18 15:42:58.766] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:42:58.771] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │0(ms)초
+[2022-11-18 15:42:58.771] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:42:58.771] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:42:58.771] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:42:58.772] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@4cc61eb1]
+[2022-11-18 15:42:58.773] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:42:58.774] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:42:58.774] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-18 15:42:58.774] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:42:58.774] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:42:58.774] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-18 15:42:58.774] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@6492fab5]
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-18 15:42:58.775] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-18 15:42:58.782] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-18 15:42:58.783] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: add
+[2022-11-18 15:42:58.783] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │8(ms)초
+[2022-11-18 15:42:58.783] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:42:58.783] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:42:58.783] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:101) - 1. sql log 
+SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+
+[2022-11-18 15:42:58.783] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:102) - 2. param log 
+UserVO [uId=p11, name=이상무_search, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@436390f4]
+[2022-11-18 15:42:58.783] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:105) - 2.1. args : p11
+[2022-11-18 15:42:58.841] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:108) - 3. cnt: 1
+[2022-11-18 15:42:58.842] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getCount
+[2022-11-18 15:42:58.842] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │58(ms)초
+[2022-11-18 15:42:58.842] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:42:58.843] DEBUG JUserDao.tearDown(JUserDao.java:251) - =tearDown()======================
+[2022-11-18 15:42:58.843] DEBUG JUserDao.tearDown(JUserDao.java:252) - =================================
+[2022-11-18 15:43:01.329] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-18 15:43:01.338] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c9754d8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3bf7ca37, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@79079097, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d1c00d0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b2bac3f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4e08711f, org.springframework.test.context.event.EventPublishingTestExecutionListener@bcec361]
+[2022-11-18 15:43:01.783] DEBUG JUserDao.setUp(JUserDao.java:51) - =setUp()======================
+[2022-11-18 15:43:01.785] DEBUG JUserDao.setUp(JUserDao.java:52) - context : org.springframework.context.support.GenericApplicationContext@5c90e579, started on Fri Nov 18 15:43:01 KST 2022
+[2022-11-18 15:43:01.787] DEBUG JUserDao.setUp(JUserDao.java:53) - dao : com.pcwk.ehr.user.dao.UserDaoImpl@3243b914
+[2022-11-18 15:43:01.787] DEBUG JUserDao.setUp(JUserDao.java:54) - ==============================
+[2022-11-18 15:43:01.789] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:01.790] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:43:01.791] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@6492fab5]
+[2022-11-18 15:43:02.287] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-18 15:43:02.287] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:43:02.288] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │497(ms)초
+[2022-11-18 15:43:02.288] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.288] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.288] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:43:02.288] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4321, level=SILVER, login=50, recommend=2, email=ckdddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@1d572e62]
+[2022-11-18 15:43:02.289] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:43:02.289] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:43:02.289] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-18 15:43:02.289] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.289] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.290] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:43:02.290] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@29caf222]
+[2022-11-18 15:43:02.290] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:43:02.290] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:43:02.291] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │0(ms)초
+[2022-11-18 15:43:02.291] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.291] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.291] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:43:02.291] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@46cf05f7]
+[2022-11-18 15:43:02.292] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:43:02.292] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:43:02.292] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │0(ms)초
+[2022-11-18 15:43:02.292] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.292] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.292] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:43:02.292] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@5851bd4f]
+[2022-11-18 15:43:02.293] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:43:02.293] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:43:02.293] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │0(ms)초
+[2022-11-18 15:43:02.293] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.294] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@6492fab5]
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:43:02.294] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:43:02.295] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-18 15:43:02.295] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-18 15:43:02.302] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-18 15:43:02.302] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: add
+[2022-11-18 15:43:02.302] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │8(ms)초
+[2022-11-18 15:43:02.302] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.302] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:43:02.303] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:101) - 1. sql log 
+SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+
+[2022-11-18 15:43:02.303] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:102) - 2. param log 
+UserVO [uId=p11, name=이상무_search, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@5949eba8]
+[2022-11-18 15:43:02.303] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:105) - 2.1. args : p11
+[2022-11-18 15:43:02.358] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:108) - 3. cnt: 1
+[2022-11-18 15:43:02.358] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getCount
+[2022-11-18 15:43:02.358] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │55(ms)초
+[2022-11-18 15:43:02.359] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:43:02.360] DEBUG JUserDao.tearDown(JUserDao.java:251) - =tearDown()======================
+[2022-11-18 15:43:02.360] DEBUG JUserDao.tearDown(JUserDao.java:252) - =================================
+[2022-11-18 15:47:55.862] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-18 15:47:55.873] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c9754d8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3bf7ca37, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@79079097, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d1c00d0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b2bac3f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4e08711f, org.springframework.test.context.event.EventPublishingTestExecutionListener@bcec361]
+[2022-11-18 15:47:56.361] DEBUG JUserDao.setUp(JUserDao.java:51) - =setUp()======================
+[2022-11-18 15:47:56.363] DEBUG JUserDao.setUp(JUserDao.java:52) - context : org.springframework.context.support.GenericApplicationContext@5c90e579, started on Fri Nov 18 15:47:56 KST 2022
+[2022-11-18 15:47:56.364] DEBUG JUserDao.setUp(JUserDao.java:53) - dao : com.pcwk.ehr.user.dao.UserDaoImpl@3243b914
+[2022-11-18 15:47:56.364] DEBUG JUserDao.setUp(JUserDao.java:54) - ==============================
+[2022-11-18 15:47:56.366] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.368] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:47:56.368] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@6492fab5]
+[2022-11-18 15:47:56.938] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-18 15:47:56.939] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:47:56.940] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │570(ms)초
+[2022-11-18 15:47:56.940] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.940] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.940] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:47:56.940] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4321, level=SILVER, login=50, recommend=2, email=ckdddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@1d572e62]
+[2022-11-18 15:47:56.941] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:47:56.941] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:47:56.942] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-18 15:47:56.942] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.942] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.942] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:47:56.942] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@29caf222]
+[2022-11-18 15:47:56.943] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:47:56.943] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:47:56.943] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-18 15:47:56.943] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.943] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.944] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:47:56.944] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@46cf05f7]
+[2022-11-18 15:47:56.945] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:47:56.945] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:47:56.945] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-18 15:47:56.945] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.945] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.945] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-18 15:47:56.945] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4321, level=GOLD, login=100, recommend=31, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@5851bd4f]
+[2022-11-18 15:47:56.947] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-18 15:47:56.947] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: deleteOne
+[2022-11-18 15:47:56.947] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-18 15:47:56.947] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.947] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@6492fab5]
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-18 15:47:56.948] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-18 15:47:56.949] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-18 15:47:56.957] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-18 15:47:56.958] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: add
+[2022-11-18 15:47:56.958] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │10(ms)초
+[2022-11-18 15:47:56.958] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:56.958] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-18 15:47:56.959] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:101) - 1. sql log 
+SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+
+[2022-11-18 15:47:56.959] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:102) - 2. param log 
+UserVO [uId=p11, name=이상무_search, passWd=4321, level=BASIC, login=1, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.dao.UserVO@5949eba8]
+[2022-11-18 15:47:56.959] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:105) - 2.1. args : p11
+[2022-11-18 15:47:57.023] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:108) - 3. cnt: 1
+[2022-11-18 15:47:57.024] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getCount
+[2022-11-18 15:47:57.024] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │65(ms)초
+[2022-11-18 15:47:57.024] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-18 15:47:57.026] DEBUG JUserDao.tearDown(JUserDao.java:251) - =tearDown()======================
+[2022-11-18 15:47:57.026] DEBUG JUserDao.tearDown(JUserDao.java:252) - =================================

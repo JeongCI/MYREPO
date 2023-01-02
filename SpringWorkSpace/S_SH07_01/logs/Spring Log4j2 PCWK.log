@@ -1,0 +1,1447 @@
+[2022-11-16 10:44:05.125] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.166] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 10:44:05.166] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 10:44:05.167] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@50fe837a]
+[2022-11-16 10:44:05.167] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.167] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 10:44:05.167] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.167] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@4f4c4b1a]
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 10:44:05.202] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.202] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.203] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-16 10:44:05.203] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.203] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.244] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 10:44:05.244] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 10:44:05.244] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@56c9bbd8]
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_02
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_02
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4322
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 50
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 10:44:05.245] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.245] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.245] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-16 10:44:05.245] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.245] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.281] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@14f5da2c]
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_03
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_03
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4323
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 2
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 51
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 29
+[2022-11-16 10:44:05.282] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.282] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.283] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-16 10:44:05.283] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.283] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.318] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 10:44:05.318] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 10:44:05.318] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@619bfe29]
+[2022-11-16 10:44:05.318] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_04
+[2022-11-16 10:44:05.318] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_04
+[2022-11-16 10:44:05.319] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4324
+[2022-11-16 10:44:05.319] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 2
+[2022-11-16 10:44:05.319] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 51
+[2022-11-16 10:44:05.319] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 30
+[2022-11-16 10:44:05.319] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.319] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.319] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-16 10:44:05.319] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.319] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@50fe837a]
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 10:44:05.353] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 10:44:05.354] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 10:44:05.354] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 10:44:05.354] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.354] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.354] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-16 10:44:05.354] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.354] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.391] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 10:44:05.391] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:101) - 1. sql log 
+SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+
+[2022-11-16 10:44:05.391] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:102) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@4f071df8]
+[2022-11-16 10:44:05.391] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:105) - 2.1. args : p11
+[2022-11-16 10:44:05.404] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.405] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+]
+[2022-11-16 10:44:05.405] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.405] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.481] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:108) - 3. cnt: 5
+[2022-11-16 10:44:05.481] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:79) - 1. sql log 
+SELECT  u_id,      			
+        name,        			
+        passwd,               
+        u_level,              
+        login,                
+        recommend,            
+        email,                
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      			
+WHERE u_id like ? || '%'      
+ORDER BY u_id			        
+
+[2022-11-16 10:44:05.482] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:80) - 2. param log 
+p11
+[2022-11-16 10:44:05.482] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.482] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,      			
+        name,        			
+        passwd,               
+        u_level,              
+        login,                
+        recommend,            
+        email,                
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      			
+WHERE u_id like ? || '%'      
+ORDER BY u_id			        
+]
+[2022-11-16 10:44:05.482] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.482] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:86) - 3. vo : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@18cc679e]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:86) - 3. vo : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@2e77b8cf]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:86) - 3. vo : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@2c4ca0f9]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:86) - 3. vo : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@67ef029]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:86) - 3. vo : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@7df587ef]
+[2022-11-16 10:44:05.524] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:221) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:222) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@2e77b8cf]
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 이상무11_02
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 4322
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 2
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 50
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 0
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.525] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: p11_02
+[2022-11-16 10:44:05.525] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.525] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+]
+[2022-11-16 10:44:05.525] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.525] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:238) - 3. flag : 1
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:221) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:222) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=51, recommend=30, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@67ef029]
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 이상무11_04
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 4324
+[2022-11-16 10:44:05.561] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 3
+[2022-11-16 10:44:05.562] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 51
+[2022-11-16 10:44:05.562] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: 30
+[2022-11-16 10:44:05.562] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: jci1203@naver.com
+[2022-11-16 10:44:05.562] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:234) - Object param: p11_04
+[2022-11-16 10:44:05.562] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 10:44:05.562] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+]
+[2022-11-16 10:44:05.562] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.562] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.596] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:238) - 3. flag : 1
+[2022-11-16 10:44:05.596] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 10:44:05.596] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 10:44:05.596] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 10:44:05.596] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.596] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-16 10:44:05.596] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.597] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.631] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@578524c3]
+[2022-11-16 10:44:05.631] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:104) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.631] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:105) - │BASIC==BASIC│
+[2022-11-16 10:44:05.631] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:106) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.631] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 10:44:05.631] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_02
+[2022-11-16 10:44:05.631] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_02
+[2022-11-16 10:44:05.631] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.631] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-16 10:44:05.631] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.632] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.666] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@5398edd0]
+[2022-11-16 10:44:05.666] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:104) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.666] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:105) - │SILVER==SILVER│
+[2022-11-16 10:44:05.666] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:106) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.666] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 10:44:05.666] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_03
+[2022-11-16 10:44:05.666] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_03
+[2022-11-16 10:44:05.666] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.666] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-16 10:44:05.666] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.666] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.700] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@61edc883]
+[2022-11-16 10:44:05.700] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:104) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.700] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:105) - │SILVER==SILVER│
+[2022-11-16 10:44:05.700] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:106) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.700] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 10:44:05.700] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_04
+[2022-11-16 10:44:05.700] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_04
+[2022-11-16 10:44:05.700] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.700] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-16 10:44:05.700] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.700] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.744] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=51, recommend=30, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@6928f576]
+[2022-11-16 10:44:05.744] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:104) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.744] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:105) - │GOLD==GOLD│
+[2022-11-16 10:44:05.744] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:106) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.744] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 10:44:05.744] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-16 10:44:05.744] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-16 10:44:05.744] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-16 10:44:05.744] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-16 10:44:05.744] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 10:44:05.745] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 10:44:05.780] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 10:44:06, toString()=com.pcwk.ehr.UserVO@9cd25ff]
+[2022-11-16 10:44:05.780] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:104) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.780] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:105) - │GOLD==GOLD│
+[2022-11-16 10:44:05.780] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:106) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.780] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:97) - │               upgradeLevels               │
+[2022-11-16 10:44:05.780] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:98) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.781] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1840903588] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 10:44:05.781] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@264f218 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-11-16 10:44:05.782] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:112) - ┌───────────────────────────────────────────┐
+[2022-11-16 10:44:05.782] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:113) - │                 tearDown                  │
+[2022-11-16 10:44:05.782] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:114) - └───────────────────────────────────────────┘
+[2022-11-16 10:44:05.782] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1840903588] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 10:44:05.783] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@264f218 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-11-16 10:44:05.783] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@7530ad9c, testMethod = upgradeLevels@JUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 10:44:05.784] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1840903588] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 10:44:05.784] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@264f218 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-11-16 10:44:05.784] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 11:16:25.577] DEBUG SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.581] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-16 11:16:25.587] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-16 11:16:25.602] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JUserServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-16 11:16:25.615] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@223d2c72 declaringClass = 'com.pcwk.ehr.JUserServiceTest', classes = '{}', locations = '{/applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2022-11-16 11:16:25.636] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.637] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JUserServiceTest]: using defaults.
+[2022-11-16 11:16:25.637] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:16:25.640] DEBUG AbstractTestContextBootstrapper.instantiateListeners(AbstractTestContextBootstrapper.java:189) - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+[2022-11-16 11:16:25.645] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40005471, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2cd76f31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@367ffa75, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49438269, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ba2f4ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c1bbc4e, org.springframework.test.context.event.EventPublishingTestExecutionListener@55fe41ea]
+[2022-11-16 11:16:25.646] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.647] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.648] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.648] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.648] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.648] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.654] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.654] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.655] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.655] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.656] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.656] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.658] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 11:16:25.659] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.659] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-16 11:16:25.660] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@1e66f1f5, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-16 11:16:25.661] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2022-11-16 11:16:25.661] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2022-11-16 11:16:25.687] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-16 11:16:25.743] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+[2022-11-16 11:16:25.750] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@10d68fcd
+[2022-11-16 11:16:25.765] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-11-16 11:16:25.786] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-11-16 11:16:25.788] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-11-16 11:16:25.789] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-11-16 11:16:25.789] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-11-16 11:16:25.795] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userService'
+[2022-11-16 11:16:25.798] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userDao'
+[2022-11-16 11:16:25.801] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'dataSource'
+[2022-11-16 11:16:25.871] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) - Storing ApplicationContext [282496973] in cache under key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:25.871] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+[2022-11-16 11:16:25.879] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:25.879] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+[2022-11-16 11:16:25.881] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@1e66f1f5, testMethod = add@JUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 11:16:25.903] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:25.903] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+[2022-11-16 11:16:25.904] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:16:25.904] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:16:25.904] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:16:25.905] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:25.905] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+[2022-11-16 11:16:25.905] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:16:25.905] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:16:25.906] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:16:25.906] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@3fa247d1]
+[2022-11-16 11:16:25.907] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 11:16:25.907] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 11:16:25.909] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 11:16:25.910] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 11:16:26.365] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:16:26.365] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:16:26.365] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5827af16]
+[2022-11-16 11:16:26.365] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 11:16:26.365] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 11:16:26.365] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 11:16:26.366] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 11:16:26.409] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:16:26.409] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:16:26.409] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@636e8cc]
+[2022-11-16 11:16:26.409] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 11:16:26.409] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 11:16:26.409] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 11:16:26.409] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 11:16:26.447] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:16:26.447] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:16:26.447] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@12dae582]
+[2022-11-16 11:16:26.447] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 11:16:26.447] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 11:16:26.447] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 11:16:26.447] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 11:16:26.487] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:16:26.488] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:16:26.488] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@652a7737]
+[2022-11-16 11:16:26.488] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-16 11:16:26.488] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-16 11:16:26.488] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-16 11:16:26.488] DEBUG SimpleDriverDataSource.getConnectionFromDriver(SimpleDriverDataSource.java:142) - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@192.168.3.101:1521:XE]
+[2022-11-16 11:16:26.527] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:16:26.527] DEBUG JUserServiceTest.add(JUserServiceTest.java:84) - │                    add                    │
+[2022-11-16 11:16:26.527] DEBUG JUserServiceTest.add(JUserServiceTest.java:85) - └───────────────────────────────────────────┘
+[2022-11-16 11:16:26.528] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:26.528] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-11-16 11:16:26.529] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:135) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:16:26.529] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:136) - │                 tearDown                  │
+[2022-11-16 11:16:26.529] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:137) - └───────────────────────────────────────────┘
+[2022-11-16 11:16:26.529] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:26.529] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-11-16 11:16:26.530] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@1e66f1f5, testMethod = add@JUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 11:16:26.531] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [282496973] from cache with key [[MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-16 11:16:26.532] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@33f676f6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-11-16 11:16:26.532] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@ae13544 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3d34d211 testClass = JUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-16 11:17:04.831] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:17:04.839] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:17:05.089] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:17:05.089] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:17:05.089] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:17:05.090] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:17:05.090] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:17:05.091] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:17:05.091] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:17:05.583] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:17:05.583] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:17:05.584] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:17:05.628] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:17:05.628] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:17:05.628] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:17:05.684] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:17:05.685] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:17:05.685] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:17:05.734] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:17:05.734] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:17:05.734] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:17:05.799] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:17:05.799] DEBUG JUserServiceTest.add(JUserServiceTest.java:84) - │                    add                    │
+[2022-11-16 11:17:05.799] DEBUG JUserServiceTest.add(JUserServiceTest.java:85) - └───────────────────────────────────────────┘
+[2022-11-16 11:17:05.801] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:135) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:17:05.801] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:136) - │                 tearDown                  │
+[2022-11-16 11:17:05.801] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:137) - └───────────────────────────────────────────┘
+[2022-11-16 11:21:33.806] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:21:33.816] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:21:34.074] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:21:34.075] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:21:34.075] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:21:34.077] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:21:34.077] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:21:34.078] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:21:34.078] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:21:34.639] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:21:34.639] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:21:34.639] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:21:34.692] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:21:34.692] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:21:34.692] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:21:34.750] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:21:34.750] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:21:34.750] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:21:34.797] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:21:34.797] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:21:34.797] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:21:34.840] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:21:34.840] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 11:21:34.841] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:21:34.885] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:21:34.885] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:21:34.885] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:21:34.885] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 11:21:34.885] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 11:21:34.886] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 11:21:34.886] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 11:21:34.886] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 11:21:34.886] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 11:21:34.886] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:21:34.928] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:21:34.928] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:21:34.928] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 11:21:34.928] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 11:21:35.027] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 11:21:35, toString()=com.pcwk.ehr.UserVO@6fa590ba]
+[2022-11-16 11:21:35.028] DEBUG JUserServiceTest.add(JUserServiceTest.java:99) - │                    add                    │
+[2022-11-16 11:21:35.028] DEBUG JUserServiceTest.add(JUserServiceTest.java:100) - └───────────────────────────────────────────┘
+[2022-11-16 11:21:35.029] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:150) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:21:35.029] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:151) - │                 tearDown                  │
+[2022-11-16 11:21:35.029] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:152) - └───────────────────────────────────────────┘
+[2022-11-16 11:22:13.543] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:22:13.553] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:22:13.799] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:13.799] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:22:13.799] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:22:13.800] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:13.800] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:22:13.801] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:13.801] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:22:14.291] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:22:14.291] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:14.291] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:22:14.327] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:14.327] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:14.327] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:22:14.362] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:14.362] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:14.362] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:22:14.401] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:14.401] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:14.401] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@45cff11c]
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 11:22:14.440] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 11:22:14.441] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 11:22:14.441] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 11:22:14.441] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@45cff11c]
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 11:22:14.485] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 11:22:14.486] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:22:14.528] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:22:14.528] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:22:14.528] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 11:22:14.528] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 11:22:14.615] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 11:22:15, toString()=com.pcwk.ehr.UserVO@6fa590ba]
+[2022-11-16 11:22:14.615] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:22:14.615] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-16 11:22:14.615] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-16 11:22:14.651] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 11:22:15, toString()=com.pcwk.ehr.UserVO@7bf9b098]
+[2022-11-16 11:22:14.652] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:152) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:14.653] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:153) - │                 tearDown                  │
+[2022-11-16 11:22:14.653] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:154) - └───────────────────────────────────────────┘
+[2022-11-16 11:22:52.591] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:22:52.600] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:22:52.834] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:52.834] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:22:52.834] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:22:52.835] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:52.835] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:22:52.836] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:52.836] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:22:53.325] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:22:53.325] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:53.325] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:22:53.380] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:53.380] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:53.380] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:22:53.438] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:53.438] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:53.438] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:22:53.477] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:22:53.478] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:22:53.478] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:22:53.518] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:22:53.518] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 11:22:53.519] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 11:22:53.565] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 11:22:53.566] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:22:53.603] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:22:53.603] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:22:53.603] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 11:22:53.603] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 11:22:53.695] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 11:22:54, toString()=com.pcwk.ehr.UserVO@6fa590ba]
+[2022-11-16 11:22:53.695] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:22:53.696] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-16 11:22:53.696] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-16 11:22:53.737] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 11:22:54, toString()=com.pcwk.ehr.UserVO@7bf9b098]
+[2022-11-16 11:22:53.738] DEBUG JUserServiceTest.add(JUserServiceTest.java:102) - │                    add                    │
+[2022-11-16 11:22:53.738] DEBUG JUserServiceTest.add(JUserServiceTest.java:103) - └───────────────────────────────────────────┘
+[2022-11-16 11:22:53.740] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:153) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:22:53.740] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:154) - │                 tearDown                  │
+[2022-11-16 11:22:53.740] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:155) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:20.031] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:23:20.041] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:23:20.302] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:20.303] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:23:20.303] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:20.303] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:20.303] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:23:20.304] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:20.304] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:23:20.871] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:23:20.871] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:20.871] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:23:20.912] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:20.912] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:20.912] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:23:20.947] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:20.947] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:20.947] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:23:20.983] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:20.983] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:20.983] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 11:23:21.018] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 11:23:21.019] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 11:23:21.019] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 11:23:21.019] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 11:23:21.060] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:23:21.094] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:23:21.094] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:23:21.094] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 11:23:21.094] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 11:23:21.175] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 11:23:21, toString()=com.pcwk.ehr.UserVO@6fa590ba]
+[2022-11-16 11:23:21.175] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:23:21.175] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-16 11:23:21.175] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-16 11:23:21.211] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 11:23:21, toString()=com.pcwk.ehr.UserVO@7bf9b098]
+[2022-11-16 11:23:21.211] DEBUG JUserServiceTest.add(JUserServiceTest.java:102) - │                    add                    │
+[2022-11-16 11:23:21.211] DEBUG JUserServiceTest.add(JUserServiceTest.java:103) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:21.212] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:153) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:21.212] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:154) - │                 tearDown                  │
+[2022-11-16 11:23:21.212] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:155) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:56.714] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-16 11:23:56.723] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3857f613, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@198b6731, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c6908d7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9754d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bf7ca37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79079097, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d1c00d0]
+[2022-11-16 11:23:56.955] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:47) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:56.956] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:48) - │                  setUp                    │
+[2022-11-16 11:23:56.956] DEBUG JUserServiceTest.setUp(JUserServiceTest.java:49) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:56.956] DEBUG JUserServiceTest.add(JUserServiceTest.java:76) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:56.956] DEBUG JUserServiceTest.add(JUserServiceTest.java:77) - │                    add                    │
+[2022-11-16 11:23:56.957] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:56.957] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:23:57.435] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:23:57.435] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:57.435] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@2ece4966]
+[2022-11-16 11:23:57.474] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:57.474] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:57.474] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@6111ba37]
+[2022-11-16 11:23:57.509] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:57.509] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:57.509] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=51, recommend=30, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5b11a194]
+[2022-11-16 11:23:57.545] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 0
+[2022-11-16 11:23:57.545] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:120) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-16 11:23:57.545] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:121) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.deleteOne(UserDaoImpl.java:125) - 3. flag : 1
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@5f20155b]
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_01
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_01
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4321
+[2022-11-16 11:23:57.582] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 1
+[2022-11-16 11:23:57.583] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 49
+[2022-11-16 11:23:57.583] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 0
+[2022-11-16 11:23:57.583] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:186) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:187) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.UserVO@1b065145]
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: p11_05
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 이상무11_05
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 4325
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 3
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 53
+[2022-11-16 11:23:57.623] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: 35
+[2022-11-16 11:23:57.624] DEBUG UserDaoImpl.add(UserDaoImpl.java:198) - Object param: jci1203@naver.com
+[2022-11-16 11:23:57.658] DEBUG UserDaoImpl.add(UserDaoImpl.java:202) - 3. flag : 1
+[2022-11-16 11:23:57.658] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:23:57.658] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_01
+[2022-11-16 11:23:57.658] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_01
+[2022-11-16 11:23:57.738] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=2022-11-16 11:23:58, toString()=com.pcwk.ehr.UserVO@6fa590ba]
+[2022-11-16 11:23:57.738] DEBUG UserDaoImpl.get(UserDaoImpl.java:148) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-16 11:23:57.739] DEBUG UserDaoImpl.get(UserDaoImpl.java:149) - 2. param log 
+p11_05
+[2022-11-16 11:23:57.739] DEBUG UserDaoImpl.get(UserDaoImpl.java:152) - 2.1. param args log :p11_05
+[2022-11-16 11:23:57.773] DEBUG UserDaoImpl.get(UserDaoImpl.java:156) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=jci1203@naver.com, regDt=2022-11-16 11:23:58, toString()=com.pcwk.ehr.UserVO@7bf9b098]
+[2022-11-16 11:23:57.773] DEBUG JUserServiceTest.add(JUserServiceTest.java:102) - │                    add                    │
+[2022-11-16 11:23:57.773] DEBUG JUserServiceTest.add(JUserServiceTest.java:103) - └───────────────────────────────────────────┘
+[2022-11-16 11:23:57.774] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:153) - ┌───────────────────────────────────────────┐
+[2022-11-16 11:23:57.774] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:154) - │                 tearDown                  │
+[2022-11-16 11:23:57.774] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:155) - └───────────────────────────────────────────┘

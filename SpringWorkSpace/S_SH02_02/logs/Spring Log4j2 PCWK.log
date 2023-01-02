@@ -1,0 +1,87 @@
+[2022-11-09 10:17:21.914] DEBUG Log4j2Main.main(Log4j2Main.java:12) - ===============================
+[2022-11-09 10:17:21.919] DEBUG Log4j2Main.main(Log4j2Main.java:13) - =Log4j2Main=
+[2022-11-09 10:17:21.919] DEBUG Log4j2Main.main(Log4j2Main.java:14) - ===============================
+[2022-11-09 10:25:28.361] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:22) - =====================================
+[2022-11-09 10:25:28.363] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@291ae
+[2022-11-09 10:25:28.363] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:24) - =====================================
+[2022-11-09 10:25:28.363] DEBUG UserDao.add(UserDao.java:87) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 10:25:28.363] DEBUG UserDao.add(UserDao.java:88) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 10:25:28.463] DEBUG UserDao.add(UserDao.java:97) - 3. flag: 1
+[2022-11-09 10:25:28.464] DEBUG UserDao.add(UserDao.java:102) - 1. DRIVER loading 성공
+[2022-11-09 10:25:28.464] DEBUG UserDao.add(UserDao.java:103) - 2. Connection 성공: oracle.jdbc.driver.T4CConnection@291ae
+[2022-11-09 10:25:28.464] DEBUG UserDaoTest.add(UserDaoTest.java:23) - 등록 성공
+[2022-11-09 10:25:28.464] DEBUG UserDaoTest.add(UserDaoTest.java:27) - =============================================
+[2022-11-09 10:25:28.502] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:22) - =====================================
+[2022-11-09 10:25:28.502] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@6e2829c7
+[2022-11-09 10:25:28.502] DEBUG SimpleConnectionMaker.getConnection(SimpleConnectionMaker.java:24) - =====================================
+[2022-11-09 10:25:28.502] DEBUG UserDao.get(UserDao.java:43) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 10:25:28.502] DEBUG UserDao.get(UserDao.java:44) - 2. param log 
+p11
+[2022-11-09 10:25:28.544] DEBUG UserDao.get(UserDao.java:57) - 3. userVO: UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 10:25:28.545] DEBUG UserDaoTest.add(UserDaoTest.java:31) - 조회 성공
+[2022-11-09 10:41:28.421] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 10:41:28.424] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@291ae
+[2022-11-09 10:41:28.424] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 10:41:28.424] DEBUG UserDao.get(UserDao.java:44) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 10:41:28.424] DEBUG UserDao.get(UserDao.java:45) - 2. param log 
+p11
+[2022-11-09 10:41:28.582] DEBUG UserDao.get(UserDao.java:58) - 3. userVO: UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 10:41:28.584] DEBUG UserDaoTest.get(UserDaoTest.java:49) - 조회 성공
+[2022-11-09 10:41:35.972] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 10:41:35.974] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@291ae
+[2022-11-09 10:41:35.974] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 10:41:35.974] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 10:41:35.974] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 10:41:36.078] DEBUG UserDao.add(UserDao.java:98) - 3. flag: 1
+[2022-11-09 10:41:36.079] DEBUG UserDao.add(UserDao.java:103) - 1. DRIVER loading 성공
+[2022-11-09 10:41:36.079] DEBUG UserDao.add(UserDao.java:104) - 2. Connection 성공: oracle.jdbc.driver.T4CConnection@291ae
+[2022-11-09 10:41:36.079] DEBUG UserDaoTest.add(UserDaoTest.java:24) - 등록 성공
+[2022-11-09 10:41:36.079] DEBUG UserDaoTest.add(UserDaoTest.java:28) - =============================================
+[2022-11-09 10:41:36.126] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 10:41:36.127] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@6e2829c7
+[2022-11-09 10:41:36.127] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 10:41:36.127] DEBUG UserDao.get(UserDao.java:44) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 10:41:36.127] DEBUG UserDao.get(UserDao.java:45) - 2. param log 
+p11
+[2022-11-09 10:41:36.171] DEBUG UserDao.get(UserDao.java:58) - 3. userVO: UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 10:41:36.172] DEBUG UserDaoTest.add(UserDaoTest.java:32) - 조회 성공

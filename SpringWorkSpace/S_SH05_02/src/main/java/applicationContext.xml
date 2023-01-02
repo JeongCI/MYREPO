@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    
+    <!-- 이 설정을 추가하면 스프링 컨테이너는 클래스 패스에 있는 클래스들을 스캔하여 @Component가
+    설정된 클래스들을 자동으로 객체 생성한다.
+    com.pcwk.ehr
+    com.pcwk.ehr.board
+    com.pcwk.ehr.momber -->
+    <context:component-scan base-package="com.pcwk.ehr"></context:component-scan>
+    <bean id="sony" class="com.pcwk.ehr.SonySpeaker"></bean>
+    
+</beans>

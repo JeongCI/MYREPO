@@ -1,0 +1,978 @@
+[2022-11-22 11:03:22.079] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.089] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:123) - 1. sql log 
+DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+
+[2022-11-22 11:03:22.089] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:124) - 2. param : 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@f202d6d]
+[2022-11-22 11:03:22.090] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.090] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [DELETE FROM HR_MEMBER 
+WHERE u_id = ?		
+]
+[2022-11-22 11:03:22.090] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.094] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:128) - 3. flag : 0
+[2022-11-22 11:03:22.094] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doDelete
+[2022-11-22 11:03:22.094] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │5(ms)초
+[2022-11-22 11:03:22.094] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.095] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:189) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:190) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3bb9efbc]
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: p11_01
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 이상무11_01
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 4321
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 1
+[2022-11-22 11:03:22.095] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 49
+[2022-11-22 11:03:22.096] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 0
+[2022-11-22 11:03:22.096] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.096] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.096] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-22 11:03:22.096] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.105] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:205) - 3. flag : 1
+[2022-11-22 11:03:22.105] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-11-22 11:03:22.105] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │10(ms)초
+[2022-11-22 11:03:22.105] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.105] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.105] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:189) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-22 11:03:22.105] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:190) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3ac04654]
+[2022-11-22 11:03:22.105] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: p11_02
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 이상무11_02
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 4322
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 1
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 50
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 0
+[2022-11-22 11:03:22.106] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.106] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.106] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-22 11:03:22.106] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.108] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:205) - 3. flag : 1
+[2022-11-22 11:03:22.108] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-11-22 11:03:22.108] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-22 11:03:22.108] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.108] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.108] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:189) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-22 11:03:22.108] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:190) - 2. param log 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@4074023c]
+[2022-11-22 11:03:22.108] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: p11_03
+[2022-11-22 11:03:22.108] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 이상무11_03
+[2022-11-22 11:03:22.109] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 4323
+[2022-11-22 11:03:22.109] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 2
+[2022-11-22 11:03:22.109] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 51
+[2022-11-22 11:03:22.109] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 29
+[2022-11-22 11:03:22.109] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.109] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.109] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-22 11:03:22.109] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.110] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:205) - 3. flag : 1
+[2022-11-22 11:03:22.110] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-11-22 11:03:22.110] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-22 11:03:22.111] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.111] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:189) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:190) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=52, recommend=30, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3ed0918d]
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: p11_04
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 이상무11_04
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 4324
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 2
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 52
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 30
+[2022-11-22 11:03:22.111] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.111] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.112] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-22 11:03:22.112] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:205) - 3. flag : 1
+[2022-11-22 11:03:22.113] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-11-22 11:03:22.113] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-22 11:03:22.113] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.113] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:189) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:190) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@f202d6d]
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: p11_05
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 이상무11_05
+[2022-11-22 11:03:22.113] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 4325
+[2022-11-22 11:03:22.114] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 3
+[2022-11-22 11:03:22.114] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 53
+[2022-11-22 11:03:22.114] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: 35
+[2022-11-22 11:03:22.114] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:201) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.114] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.114] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd,               
+    u_level,              
+    login,                
+    recommend,            
+    email,                
+    reg_dt                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    ?,                    
+    SYSDATE               
+)                         
+]
+[2022-11-22 11:03:22.114] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.115] DEBUG UserDaoImpl.doSave(UserDaoImpl.java:205) - 3. flag : 1
+[2022-11-22 11:03:22.115] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-11-22 11:03:22.115] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-22 11:03:22.115] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.116] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.116] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:104) - 1. sql log 
+SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+
+[2022-11-22 11:03:22.116] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:105) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321, level=BASIC, login=49, recommend=0, email=jci1203@naver.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@6fd1660]
+[2022-11-22 11:03:22.116] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:108) - 2.1. args : p11
+[2022-11-22 11:03:22.117] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.118] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT COUNT(*) cnt      
+FROM HR_MEMBER           
+WHERE u_id LIKE ? || '%'   
+]
+[2022-11-22 11:03:22.118] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.158] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:111) - 3. cnt: 5
+[2022-11-22 11:03:22.158] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getCount
+[2022-11-22 11:03:22.158] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │42(ms)초
+[2022-11-22 11:03:22.159] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.160] DEBUG AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:370) - Creating new transaction with name [com.pcwk.ehr.user.service.UserServiceImpl.upgradeLevels]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-Exception
+[2022-11-22 11:03:22.161] DEBUG DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:267) - Acquired Connection [jdbc:oracle:thin:@192.168.3.2:1521:XE, UserName=SPRING, Oracle JDBC driver] for JDBC transaction
+[2022-11-22 11:03:22.162] DEBUG DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:285) - Switching JDBC Connection [jdbc:oracle:thin:@192.168.3.2:1521:XE, UserName=SPRING, Oracle JDBC driver] to manual commit
+[2022-11-22 11:03:22.162] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.163] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:82) - 1. sql log 
+SELECT  u_id,      			
+        name,        			
+        passwd,               
+        u_level,              
+        login,                
+        recommend,            
+        email,                
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      			
+WHERE u_id like ? || '%'      
+ORDER BY u_id			        
+
+[2022-11-22 11:03:22.163] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:83) - 2. param log 
+p11
+[2022-11-22 11:03:22.163] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.163] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,      			
+        name,        			
+        passwd,               
+        u_level,              
+        login,                
+        recommend,            
+        email,                
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      			
+WHERE u_id like ? || '%'      
+ORDER BY u_id			        
+]
+[2022-11-22 11:03:22.167] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@3fd2322d]
+[2022-11-22 11:03:22.167] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@56ac5c80]
+[2022-11-22 11:03:22.167] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@69e49a81]
+[2022-11-22 11:03:22.167] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@1023150a]
+[2022-11-22 11:03:22.167] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:89) - 3. vo : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@3ece1e79]
+[2022-11-22 11:03:22.167] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: getAll
+[2022-11-22 11:03:22.167] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │4(ms)초
+[2022-11-22 11:03:22.168] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.168] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:224) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:225) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@56ac5c80]
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 이상무11_02
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 4322
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 2
+[2022-11-22 11:03:22.168] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 50
+[2022-11-22 11:03:22.169] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 0
+[2022-11-22 11:03:22.169] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.169] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: p11_02
+[2022-11-22 11:03:22.169] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.169] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+]
+[2022-11-22 11:03:22.170] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:241) - 3. flag : 1
+[2022-11-22 11:03:22.170] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doUpdate
+[2022-11-22 11:03:22.170] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │2(ms)초
+[2022-11-22 11:03:22.170] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.170] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:95) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.170] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:96) - │sendUpgradeEmail: ckddls13@gmail.com,이상무11_02
+[2022-11-22 11:03:22.170] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:97) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.170] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:224) - 1. sql log 
+UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:225) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@1023150a]
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 이상무11_04
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 4324
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 3
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 52
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: 30
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: ckddls13@gmail.com
+[2022-11-22 11:03:22.171] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:237) - Object param: p11_04
+[2022-11-22 11:03:22.171] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-11-22 11:03:22.171] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [UPDATE hr_member      
+SET name = ?,         
+    passwd = ?,       
+    u_level = ?,      
+    login = ?,        
+    recommend = ?,    
+    email = ?,        
+    reg_dt = SYSDATE  
+WHERE u_id = ?        
+]
+[2022-11-22 11:03:22.172] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:241) - 3. flag : 1
+[2022-11-22 11:03:22.172] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doUpdate
+[2022-11-22 11:03:22.172] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.172] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.172] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:95) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.173] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:96) - │sendUpgradeEmail: ckddls13@gmail.com,이상무11_04
+[2022-11-22 11:03:22.173] DEBUG UserServiceImpl.sendUpgradeEmail(UserServiceImpl.java:97) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.173] DEBUG AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:740) - Initiating transaction commit
+[2022-11-22 11:03:22.173] DEBUG DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:330) - Committing JDBC transaction on Connection [jdbc:oracle:thin:@192.168.3.2:1521:XE, UserName=SPRING, Oracle JDBC driver]
+[2022-11-22 11:03:22.174] DEBUG DataSourceTransactionManager.doCleanupAfterCompletion(DataSourceTransactionManager.java:389) - Releasing JDBC Connection [jdbc:oracle:thin:@192.168.3.2:1521:XE, UserName=SPRING, Oracle JDBC driver] after transaction
+[2022-11-22 11:03:22.174] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.174] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-22 11:03:22.174] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3bb9efbc]
+[2022-11-22 11:03:22.174] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_01
+[2022-11-22 11:03:22.174] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.175] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-22 11:03:22.175] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.176] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_01, name=이상무11_01, passWd=4321, level=BASIC, login=49, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@21f8e55f]
+[2022-11-22 11:03:22.176] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-22 11:03:22.176] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.176] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.176] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.176] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-22 11:03:22.177] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=BASIC, login=50, recommend=0, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3ac04654]
+[2022-11-22 11:03:22.177] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_02
+[2022-11-22 11:03:22.177] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.177] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-22 11:03:22.177] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.178] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_02, name=이상무11_02, passWd=4322, level=SILVER, login=50, recommend=0, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@7048535f]
+[2022-11-22 11:03:22.178] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-22 11:03:22.178] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.178] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.178] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:218) - SILVER==SILVER
+[2022-11-22 11:03:22.178] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.178] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-22 11:03:22.178] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@4074023c]
+[2022-11-22 11:03:22.179] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_03
+[2022-11-22 11:03:22.179] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.179] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-22 11:03:22.179] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.180] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_03, name=이상무11_03, passWd=4323, level=SILVER, login=51, recommend=29, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@e3994ef]
+[2022-11-22 11:03:22.180] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-22 11:03:22.180] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.180] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.180] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.180] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-22 11:03:22.180] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=SILVER, login=52, recommend=30, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@3ed0918d]
+[2022-11-22 11:03:22.180] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_04
+[2022-11-22 11:03:22.180] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.180] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-22 11:03:22.180] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.181] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_04, name=이상무11_04, passWd=4324, level=GOLD, login=52, recommend=30, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@680d4a6a]
+[2022-11-22 11:03:22.181] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-22 11:03:22.181] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.181] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.181] DEBUG JUserServiceTest.checkLevel(JUserServiceTest.java:218) - GOLD==GOLD
+[2022-11-22 11:03:22.181] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.181] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:151) - 1. sql log 
+SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-22 11:03:22.181] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:152) - 2. param log 
+UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=날짜_사용하지 않음, toString()=com.pcwk.ehr.user.domain.UserVO@f202d6d]
+[2022-11-22 11:03:22.181] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:155) - 2.1. param args log :p11_05
+[2022-11-22 11:03:22.181] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-11-22 11:03:22.182] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [SELECT  u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,       
+        recommend,   
+        email,       
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt       
+FROM  hr_member      
+WHERE u_id = ?       
+]
+[2022-11-22 11:03:22.182] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-11-22 11:03:22.183] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:159) - 3. userVO : UserVO [uId=p11_05, name=이상무11_05, passWd=4325, level=GOLD, login=53, recommend=35, email=ckddls13@gmail.com, regDt=2022-11-22 11:03:22, toString()=com.pcwk.ehr.user.domain.UserVO@2f04105]
+[2022-11-22 11:03:22.183] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSelectOne
+[2022-11-22 11:03:22.183] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │1(ms)초
+[2022-11-22 11:03:22.183] DEBUG PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.183] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:204) - │               upgradeLevels               │
+[2022-11-22 11:03:22.183] DEBUG JUserServiceTest.upgradeLevels(JUserServiceTest.java:205) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.184] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [142247393] from cache with key [[MergedContextConfiguration@2d2ffcb7 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-22 11:03:22.184] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@22db8f4 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-11-22 11:03:22.185] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:228) - ┌───────────────────────────────────────────┐
+[2022-11-22 11:03:22.185] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:229) - │                 tearDown                  │
+[2022-11-22 11:03:22.185] DEBUG JUserServiceTest.tearDown(JUserServiceTest.java:230) - └───────────────────────────────────────────┘
+[2022-11-22 11:03:22.185] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [142247393] from cache with key [[MergedContextConfiguration@2d2ffcb7 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-22 11:03:22.185] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@22db8f4 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-11-22 11:03:22.186] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@291b4bf5 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@623a8092, testMethod = upgradeLevels@JUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2d2ffcb7 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-22 11:03:22.186] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [142247393] from cache with key [[MergedContextConfiguration@2d2ffcb7 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-22 11:03:22.187] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@22db8f4 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-11-22 11:03:22.187] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@291b4bf5 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2d2ffcb7 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-22 11:03:22.189] DEBUG AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.context.support.GenericApplicationContext@87a85e1, started on Tue Nov 22 11:03:20 KST 2022
+[2022-11-22 11:06:24.109] DEBUG SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.116] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-22 11:06:24.121] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-22 11:06:24.137] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JUserServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-22 11:06:24.151] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2925bf5b declaringClass = 'com.pcwk.ehr.JUserServiceTest', classes = '{}', locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2022-11-22 11:06:24.173] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.173] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JUserServiceTest]: using defaults.
+[2022-11-22 11:06:24.174] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-22 11:06:24.184] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44a7bfbc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ef37659, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@776b83cc, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37858383, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e268090, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1bb266b3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@306cf3ea, org.springframework.test.context.event.EventPublishingTestExecutionListener@2beee7ff]
+[2022-11-22 11:06:24.186] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.186] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.187] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.187] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.190] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@140c9f39 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-22 11:06:24.192] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.192] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.194] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@140c9f39 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@74455848, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-22 11:06:24.194] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2022-11-22 11:06:24.195] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2022-11-22 11:06:24.223] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-22 11:06:24.322] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 14 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+[2022-11-22 11:06:24.409] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\HelloController.class]
+[2022-11-22 11:06:24.410] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\controller\AnnoController.class]
+[2022-11-22 11:06:24.411] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\dao\AnnoDaoImpl.class]
+[2022-11-22 11:06:24.412] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\service\AnnoServiceImpl.class]
+[2022-11-22 11:06:24.424] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 34 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+[2022-11-22 11:06:24.424] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@50ad3bc1
+[2022-11-22 11:06:24.453] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-11-22 11:06:24.464] DEBUG ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:118) - Could not find class file for introspecting configuration annotations: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+java.io.FileNotFoundException: class path resource [com/pcwk/ehr/aspectj/perform/PerformanceAroundAdvice.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:113) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:287) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+[2022-11-22 11:06:24.527] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxActive' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxIdle' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxWait' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.removeAbandoned' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.removeAbandonedTimeout' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.549] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-11-22 11:06:24.550] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-11-22 11:06:24.551] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-11-22 11:06:24.552] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-11-22 11:06:24.555] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2022-11-22 11:06:24.571] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name 'performanceAroundAdvice' defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+[2022-11-22 11:06:24.573] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37858383] to prepare test instance [com.pcwk.ehr.JUserServiceTest@74455848]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name 'performanceAroundAdvice' defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1607) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1534) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+[2022-11-22 11:06:24.577] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@140c9f39 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-22 11:06:24.578] DEBUG SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.579] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-22 11:06:24.579] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-22 11:06:24.579] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JWebTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-22 11:06:24.580] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@67304a40 declaringClass = 'com.pcwk.ehr.JWebTest', classes = '{}', locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2022-11-22 11:06:24.581] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.582] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JWebTest]: using defaults.
+[2022-11-22 11:06:24.582] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-22 11:06:24.582] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49c6c24f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6fe1b4fb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@79351f41, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c32386d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6399551e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d73fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5023bb8b, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d5f10b2]
+[2022-11-22 11:06:24.583] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.583] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.584] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.585] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@74c79fa2 testClass = JWebTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e0f9063 testClass = JWebTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-22 11:06:24.585] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.585] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JWebTest]
+[2022-11-22 11:06:24.586] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@74c79fa2 testClass = JWebTest, testInstance = com.pcwk.ehr.JWebTest@53bd8fca, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e0f9063 testClass = JWebTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-22 11:06:24.586] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@1e0f9063 testClass = JWebTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2022-11-22 11:06:24.586] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1e0f9063 testClass = JWebTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2022-11-22 11:06:24.587] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-22 11:06:24.606] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 14 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+[2022-11-22 11:06:24.626] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\HelloController.class]
+[2022-11-22 11:06:24.627] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\controller\AnnoController.class]
+[2022-11-22 11:06:24.627] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\dao\AnnoDaoImpl.class]
+[2022-11-22 11:06:24.628] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\service\AnnoServiceImpl.class]
+[2022-11-22 11:06:24.630] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 34 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+[2022-11-22 11:06:24.631] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@7642df8f
+[2022-11-22 11:06:24.632] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-11-22 11:06:24.632] DEBUG ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:118) - Could not find class file for introspecting configuration annotations: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+java.io.FileNotFoundException: class path resource [com/pcwk/ehr/aspectj/perform/PerformanceAroundAdvice.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:113) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:287) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+[2022-11-22 11:06:24.640] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2022-11-22 11:06:24.641] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.641] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxActive' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxIdle' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.maxWait' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.removeAbandoned' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.642] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'jdbc.removeAbandonedTimeout' in PropertySource 'localProperties' with value of type String
+[2022-11-22 11:06:24.643] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-11-22 11:06:24.643] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-11-22 11:06:24.644] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-11-22 11:06:24.644] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-11-22 11:06:24.645] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2022-11-22 11:06:24.648] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name 'performanceAroundAdvice' defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+[2022-11-22 11:06:24.648] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c32386d] to prepare test instance [com.pcwk.ehr.JWebTest@53bd8fca]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name 'performanceAroundAdvice' defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1607) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1534) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+[2022-11-22 11:06:24.651] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@74c79fa2 testClass = JWebTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e0f9063 testClass = JWebTest, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].

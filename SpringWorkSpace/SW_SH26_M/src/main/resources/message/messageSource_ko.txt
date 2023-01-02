@@ -1,0 +1,24 @@
+#common
+message.cmn.language.en = 영어
+message.cmn.language.ko = 한글
+message.cmn.confime.msg = {0} 되었습니다.
+
+#login.jsp
+message.user.login.title = 로그인
+message.user.login.id = 아이디를 입력 하세요
+message.user.login.password =  비번을 입력 하세요
+
+
+#board_list.jsp
+message.board.list.title.freeboard = 자유 게시판
+message.board.list.title.notice = 공지사항
+message.board.list.button.retrieve = 조회
+message.board.list.button.move_to_reg = 등록
+
+message.board.list.table.number = 번호
+message.board.list.table.title = 제목
+message.board.list.table.writer= 작성자
+message.board.list.table.reg_dt = 등록일
+message.board.list.table.view_count   = 조회수
+message.board.list.table.seq   = 순번
+

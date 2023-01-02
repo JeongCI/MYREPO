@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    
+    <bean id="sonySpeaker" class="com.pcwk.ehr.SonySpeaker"></bean>
+    <bean id="appleSpeaker" class="com.pcwk.ehr.AppleSpeaker"></bean>
+            
+    <!-- lazy-init: bean을 바로 생성하지 않고 호출하는 시점에 생성 -->
+    <!-- init-method: 객체 초기화 메서드 -->
+    <!-- destroy-method: 스프링 컨테이너가 객체를 삭제하기 전 호출 -->
+    <!-- scope: prototype : 객체를 호출할 때 마다 새롭게 생성 -->
+    
+    <!-- id naming rule
+        공백을 포함 할 수 없다.
+        특수 기호(#) 사용할 수 없다.
+        영문자로 시작
+        
+     name은 특수문자 제약이 덜하다, 중복도 허용
+        -->
+    
+    <bean id="samsungTV" name="https://cafe.daum.net/pcwk" class="com.pcwk.ehr.SamsungTV"
+        init-method="initMethod"
+        destroy-method="destroyMethod"
+        lazy-init="true"
+        scope="singleton"
+        >
+        <constructor-arg ref="sonySpeaker" index="0"></constructor-arg>
+        <constructor-arg value="500000" index="1"></constructor-arg>        
+    </bean>
+</beans>

@@ -1,0 +1,524 @@
+[2022-12-01 16:06:48.875] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(3, "제목_03") returned 
+[2022-12-01 16:06:48.892] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(4, "내용_03") returned 
+[2022-12-01 16:06:48.892] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(5, 2) returned 
+[2022-12-01 16:06:48.893] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(6, "JCI") returned 
+[2022-12-01 16:06:48.893] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(7, "JCI") returned 
+[2022-12-01 16:06:48.894] INFO 
+			Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. INSERT INTO board ( seq, div, title, contents, read_cnt, reg_dt, reg_id, mod_dt, mod_id ) VALUES 
+( '20221201e529415d6a07412d8872219298p11_03', '10', '제목_03', '내용_03', 2, SYSDATE, 'JCI', SYSDATE, 
+'JCI' )  {executed in 1 ms}
+[2022-12-01 16:06:48.895] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. PreparedStatement.execute() returned false
+[2022-12-01 16:06:48.895] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.getUpdateCount(DelegatingStatement.java:267)
+2. PreparedStatement.getUpdateCount() returned 1
+[2022-12-01 16:06:48.895] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.close(DelegatingStatement.java:168)
+2. PreparedStatement.close() returned 
+[2022-12-01 16:06:48.896] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:72)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.896] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.896] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.clearWarnings(DelegatingConnection.java:331)
+2. Connection.clearWarnings() returned 
+[2022-12-01 16:06:48.896] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.896] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:46) - │flag : 1
+[2022-12-01 16:06:48.896] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:47) - └───────────────────────────────────┘
+[2022-12-01 16:06:48.896] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-12-01 16:06:48.896] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │23(ms)초
+[2022-12-01 16:06:48.897] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-12-01 16:06:48.897] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-12-01 16:06:48.897] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:39) - ┌───────────────────────────────────┐
+[2022-12-01 16:06:48.897] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:40) - │param : BoardVO [seq=20221201e529415d6a07412d8872219298p11_04, div=10, title=제목_04, contents=내용_04, readCnt=3, regDt=, regId=JCI, modDt=, modId=JCI, toString()=DTO [totalCnt=0, num=0]]
+[2022-12-01 16:06:48.897] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:43) - │statement : com.pcwk.ehr.board.doSave
+[2022-12-01 16:06:48.897] DEBUG
+			DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-12-01 16:06:48.897] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.897] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.898] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:114)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.898] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:118)
+2. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@1de9d54
+[2022-12-01 16:06:48.898] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. PreparedStatement.new PreparedStatement returned 
+[2022-12-01 16:06:48.898] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. Connection.prepareStatement(INSERT INTO board (
+    seq,
+    div,
+    title,
+    contents,
+    read_cnt,
+    reg_dt,
+    reg_id,
+    mod_dt,
+    mod_id
+) VALUES (
+    ?,
+    ?,
+    ?,
+    ?,
+    ?,
+    SYSDATE,
+    ?,
+    SYSDATE,
+    ?
+)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@149c3204
+[2022-12-01 16:06:48.899] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(1, "20221201e529415d6a07412d8872219298p11_04") returned 
+[2022-12-01 16:06:48.899] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(2, "10") returned 
+[2022-12-01 16:06:48.899] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(3, "제목_04") returned 
+[2022-12-01 16:06:48.899] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(4, "내용_04") returned 
+[2022-12-01 16:06:48.900] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(5, 3) returned 
+[2022-12-01 16:06:48.900] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(6, "JCI") returned 
+[2022-12-01 16:06:48.900] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(7, "JCI") returned 
+[2022-12-01 16:06:48.902] INFO 
+			Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. INSERT INTO board ( seq, div, title, contents, read_cnt, reg_dt, reg_id, mod_dt, mod_id ) VALUES 
+( '20221201e529415d6a07412d8872219298p11_04', '10', '제목_04', '내용_04', 3, SYSDATE, 'JCI', SYSDATE, 
+'JCI' )  {executed in 1 ms}
+[2022-12-01 16:06:48.903] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. PreparedStatement.execute() returned false
+[2022-12-01 16:06:48.903] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.getUpdateCount(DelegatingStatement.java:267)
+2. PreparedStatement.getUpdateCount() returned 1
+[2022-12-01 16:06:48.903] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.close(DelegatingStatement.java:168)
+2. PreparedStatement.close() returned 
+[2022-12-01 16:06:48.904] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:72)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.904] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.904] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.clearWarnings(DelegatingConnection.java:331)
+2. Connection.clearWarnings() returned 
+[2022-12-01 16:06:48.904] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.904] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:46) - │flag : 1
+[2022-12-01 16:06:48.904] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:47) - └───────────────────────────────────┘
+[2022-12-01 16:06:48.904] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-12-01 16:06:48.905] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │7(ms)초
+[2022-12-01 16:06:48.905] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-12-01 16:06:48.905] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-12-01 16:06:48.905] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:39) - ┌───────────────────────────────────┐
+[2022-12-01 16:06:48.905] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:40) - │param : BoardVO [seq=20221201e529415d6a07412d8872219298p11_05, div=10, title=제목_05, contents=내용_05, readCnt=4, regDt=, regId=JCI, modDt=, modId=JCI, toString()=DTO [totalCnt=0, num=0]]
+[2022-12-01 16:06:48.905] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:43) - │statement : com.pcwk.ehr.board.doSave
+[2022-12-01 16:06:48.905] DEBUG
+			DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-12-01 16:06:48.905] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.905] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.906] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:114)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.906] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:118)
+2. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@1de9d54
+[2022-12-01 16:06:48.906] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. PreparedStatement.new PreparedStatement returned 
+[2022-12-01 16:06:48.906] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. Connection.prepareStatement(INSERT INTO board (
+    seq,
+    div,
+    title,
+    contents,
+    read_cnt,
+    reg_dt,
+    reg_id,
+    mod_dt,
+    mod_id
+) VALUES (
+    ?,
+    ?,
+    ?,
+    ?,
+    ?,
+    SYSDATE,
+    ?,
+    SYSDATE,
+    ?
+)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@497aec8c
+[2022-12-01 16:06:48.907] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(1, "20221201e529415d6a07412d8872219298p11_05") returned 
+[2022-12-01 16:06:48.907] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(2, "10") returned 
+[2022-12-01 16:06:48.907] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(3, "제목_05") returned 
+[2022-12-01 16:06:48.907] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(4, "내용_05") returned 
+[2022-12-01 16:06:48.907] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(5, 4) returned 
+[2022-12-01 16:06:48.908] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(6, "JCI") returned 
+[2022-12-01 16:06:48.908] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(7, "JCI") returned 
+[2022-12-01 16:06:48.909] INFO 
+			Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. INSERT INTO board ( seq, div, title, contents, read_cnt, reg_dt, reg_id, mod_dt, mod_id ) VALUES 
+( '20221201e529415d6a07412d8872219298p11_05', '10', '제목_05', '내용_05', 4, SYSDATE, 'JCI', SYSDATE, 
+'JCI' )  {executed in 1 ms}
+[2022-12-01 16:06:48.910] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. PreparedStatement.execute() returned false
+[2022-12-01 16:06:48.910] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.getUpdateCount(DelegatingStatement.java:267)
+2. PreparedStatement.getUpdateCount() returned 1
+[2022-12-01 16:06:48.910] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.close(DelegatingStatement.java:168)
+2. PreparedStatement.close() returned 
+[2022-12-01 16:06:48.910] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:72)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.911] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.911] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.clearWarnings(DelegatingConnection.java:331)
+2. Connection.clearWarnings() returned 
+[2022-12-01 16:06:48.911] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.911] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:46) - │flag : 1
+[2022-12-01 16:06:48.911] DEBUG
+			BoardDaoImpl.doSave(BoardDaoImpl.java:47) - └───────────────────────────────────┘
+[2022-12-01 16:06:48.911] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doSave
+[2022-12-01 16:06:48.911] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │6(ms)초
+[2022-12-01 16:06:48.911] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-12-01 16:06:48.912] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:15) - ┌───────────────────────────────────────────┐
+[2022-12-01 16:06:48.912] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:79) - ┌───────────────────────────────────┐
+[2022-12-01 16:06:48.912] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:80) - │param : SearchVO [pageSize=10, pageNo=1, searchDiv=, searchWord=, div=20, toString()=DTO [totalCnt=0, num=0]]
+[2022-12-01 16:06:48.912] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:81) - │statement : com.pcwk.ehr.board.doRetrieve
+[2022-12-01 16:06:48.927] DEBUG
+			DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-12-01 16:06:48.927] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.928] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:48.928] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:114)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:48.928] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:118)
+2. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@1de9d54
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. PreparedStatement.new PreparedStatement returned 
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+2. Connection.prepareStatement(SELECT A.*,B.*
+		    FROM (
+		    SELECT TT1.rnum as num,
+		           TT1.seq,
+		           TT1.title,
+		           TT1.read_cnt,
+		           TT1.div,
+		           DECODE(TO_CHAR(TT1.mod_dt,'YYYYMMDD'),TO_CHAR(SYSDATE,'YYYYMMDD')
+		                 ,TO_CHAR(TT1.mod_dt,'HH24:MI'),TO_CHAR(TT1.mod_dt,'YYYY/MM/DD')) mod_dt,
+		           TT1.mod_id
+		    FROM (
+		        SELECT ROWNUM AS rnum, T1.*
+		        FROM (
+		            SELECT *
+		            FROM board
+		            --WHERE(10:제목, 20:내용, 30:등록자)
+		            WHERE div = ?
+		             
+     
+   
+		            ORDER BY mod_dt DESC
+		        )T1
+		          WHERE ROWNUM <= ?*(? - 1) + ?  
+		    )TT1
+		      WHERE rnum >= ?*(? - 1) + 1  
+		)A
+		CROSS JOIN (
+		SELECT COUNT(*) totalCnt
+		FROM board
+		WHERE div = ?
+		 
+     
+   
+		)B) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@acdcf71
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(1, "20") returned 
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(2, 10) returned 
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(3, 1) returned 
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(4, 10) returned 
+[2022-12-01 16:06:48.930] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(5, 10) returned 
+[2022-12-01 16:06:48.932] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
+2. PreparedStatement.setInt(6, 1) returned 
+[2022-12-01 16:06:48.932] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+2. PreparedStatement.setString(7, "20") returned 
+[2022-12-01 16:06:48.976] INFO 
+			Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. SELECT A.*,B.* FROM ( SELECT TT1.rnum as num, TT1.seq, TT1.title, TT1.read_cnt, TT1.div, DECODE(TO_CHAR(TT1.mod_dt,'YYYYMMDD'),TO_CHAR(SYSDATE,'YYYYMMDD') 
+,TO_CHAR(TT1.mod_dt,'HH24:MI'),TO_CHAR(TT1.mod_dt,'YYYY/MM/DD')) mod_dt, TT1.mod_id FROM ( 
+SELECT ROWNUM AS rnum, T1.* FROM ( SELECT * FROM board --WHERE(10:제목, 20:내용, 30:등록자) WHERE 
+div = '20' ORDER BY mod_dt DESC )T1 WHERE ROWNUM <= 10*(1 - 1) + 10 )TT1 WHERE rnum >= 10*(1 
+- 1) + 1 )A CROSS JOIN ( SELECT COUNT(*) totalCnt FROM board WHERE div = '20' )B  {executed in 44 ms}
+[2022-12-01 16:06:48.977] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+2. PreparedStatement.execute() returned true
+[2022-12-01 16:06:48.986] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.getResultSet(DelegatingStatement.java:219)
+2. ResultSet.new ResultSet returned 
+[2022-12-01 16:06:48.986] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.getResultSet(DelegatingStatement.java:219)
+2. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@103082dd
+[2022-12-01 16:06:48.994] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getMetaData(DelegatingResultSet.java:322)
+2. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@782be4eb
+[2022-12-01 16:06:48.994] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getType(DelegatingResultSet.java:394)
+2. ResultSet.getType() returned 1003
+[2022-12-01 16:06:48.995] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.isClosed(DelegatingResultSet.java:688)
+2. ResultSet.isClosed() returned false
+[2022-12-01 16:06:48.995] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+2. ResultSet.next() returned true
+[2022-12-01 16:06:48.996] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(TOTALCNT) returned 3
+[2022-12-01 16:06:48.997] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(seq) returned 2022120118b290a3a4fa4fc99c9ebfc9af-99_02
+[2022-12-01 16:06:48.997] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(num) returned 1
+[2022-12-01 16:06:48.997] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(div) returned 20
+[2022-12-01 16:06:48.998] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(title) returned 제목_02
+[2022-12-01 16:06:48.998] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(read_cnt) returned 1
+[2022-12-01 16:06:48.998] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_dt) returned 16:06
+[2022-12-01 16:06:48.999] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_id) returned admin
+[2022-12-01 16:06:48.999] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.isClosed(DelegatingResultSet.java:688)
+2. ResultSet.isClosed() returned false
+[2022-12-01 16:06:48.999] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+2. ResultSet.next() returned true
+[2022-12-01 16:06:49.000] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(TOTALCNT) returned 3
+[2022-12-01 16:06:49.000] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(seq) returned 20221201397d5afaef8843c7b7e6af910c-08_02
+[2022-12-01 16:06:49.000] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(num) returned 2
+[2022-12-01 16:06:49.001] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(div) returned 20
+[2022-12-01 16:06:49.001] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(title) returned 제목_02
+[2022-12-01 16:06:49.001] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(read_cnt) returned 2
+[2022-12-01 16:06:49.002] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_dt) returned 16:06
+[2022-12-01 16:06:49.002] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_id) returned yoon
+[2022-12-01 16:06:49.002] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.isClosed(DelegatingResultSet.java:688)
+2. ResultSet.isClosed() returned false
+[2022-12-01 16:06:49.002] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+2. ResultSet.next() returned true
+[2022-12-01 16:06:49.003] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(TOTALCNT) returned 3
+[2022-12-01 16:06:49.003] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(seq) returned 2022120118b290a3a4fa4fc99c9ebfc9af-06_01
+[2022-12-01 16:06:49.003] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(num) returned 3
+[2022-12-01 16:06:49.004] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(div) returned 20
+[2022-12-01 16:06:49.004] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(title) returned 제목_01_U
+[2022-12-01 16:06:49.004] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+2. ResultSet.getInt(read_cnt) returned 10
+[2022-12-01 16:06:49.004] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_dt) returned 16:00
+[2022-12-01 16:06:49.005] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+2. ResultSet.getString(mod_id) returned admin10
+[2022-12-01 16:06:49.005] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.isClosed(DelegatingResultSet.java:688)
+2. ResultSet.isClosed() returned false
+[2022-12-01 16:06:49.007] INFO 
+			Log4j2SpyLogDelegator.resultSetCollected(Log4j2SpyLogDelegator.java:390) - 
+|----|-----------------------------------------|--------|---------|----|-------|--------|---------|
+|num |seq                                      |title   |read_cnt |div |mod_dt |mod_id  |totalcnt |
+|----|-----------------------------------------|--------|---------|----|-------|--------|---------|
+|1   |2022120118b290a3a4fa4fc99c9ebfc9af-99_02 |제목_02   |1        |20  |16:06  |admin   |3        |
+|2   |20221201397d5afaef8843c7b7e6af910c-08_02 |제목_02   |2        |20  |16:06  |yoon    |3        |
+|3   |2022120118b290a3a4fa4fc99c9ebfc9af-06_01 |제목_01_U |10       |20  |16:00  |admin10 |3        |
+|----|-----------------------------------------|--------|---------|----|-------|--------|---------|
+
+[2022-12-01 16:06:49.007] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+2. ResultSet.next() returned false
+[2022-12-01 16:06:49.007] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingResultSet.close(DelegatingResultSet.java:187)
+2. ResultSet.close() returned void
+[2022-12-01 16:06:49.009] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getMetaData(DelegatingConnection.java:345)
+2. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@1de9d54
+[2022-12-01 16:06:49.009] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingStatement.close(DelegatingStatement.java:168)
+2. PreparedStatement.close() returned 
+[2022-12-01 16:06:49.010] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.PoolableConnection.close(PoolableConnection.java:72)
+2. Connection.isClosed() returned false
+[2022-12-01 16:06:49.010] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:49.010] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.clearWarnings(DelegatingConnection.java:331)
+2. Connection.clearWarnings() returned 
+[2022-12-01 16:06:49.010] INFO 
+			Log4j2SpyLogDelegator.methodReturned(Log4j2SpyLogDelegator.java:197) -  org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+2. Connection.getAutoCommit() returned true
+[2022-12-01 16:06:49.011] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:84) - │vo : BoardVO [seq=2022120118b290a3a4fa4fc99c9ebfc9af-99_02, div=20, title=제목_02, contents=null, readCnt=1, regDt=null, regId=null, modDt=16:06, modId=admin, toString()=DTO [totalCnt=3, num=1]]
+[2022-12-01 16:06:49.011] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:84) - │vo : BoardVO [seq=20221201397d5afaef8843c7b7e6af910c-08_02, div=20, title=제목_02, contents=null, readCnt=2, regDt=null, regId=null, modDt=16:06, modId=yoon, toString()=DTO [totalCnt=3, num=2]]
+[2022-12-01 16:06:49.011] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:84) - │vo : BoardVO [seq=2022120118b290a3a4fa4fc99c9ebfc9af-06_01, div=20, title=제목_01_U, contents=null, readCnt=10, regDt=null, regId=null, modDt=16:00, modId=admin10, toString()=DTO [totalCnt=3, num=3]]
+[2022-12-01 16:06:49.011] DEBUG
+			BoardDaoImpl.doRetrieve(BoardDaoImpl.java:86) - └───────────────────────────────────┘
+[2022-12-01 16:06:49.011] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:23) - │method: doRetrieve
+[2022-12-01 16:06:49.011] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:24) - │99(ms)초
+[2022-12-01 16:06:49.011] DEBUG
+			PerformanceAroundAdvice.performanceAdvice(PerformanceAroundAdvice.java:25) - └───────────────────────────────────────────┘
+[2022-12-01 16:06:49.012] DEBUG
+			DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1190820921] from cache with key [[MergedContextConfiguration@7a675056 testClass = JWebBoardDao, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-12-01 16:06:49.012] DEBUG
+			DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@6e6fce47 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-12-01 16:06:49.013] DEBUG
+			DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1190820921] from cache with key [[MergedContextConfiguration@7a675056 testClass = JWebBoardDao, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-12-01 16:06:49.013] DEBUG
+			DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@6e6fce47 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-12-01 16:06:49.014] DEBUG
+			AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@15ca7889 testClass = JWebBoardDao, testInstance = com.pcwk.ehr.board.JWebBoardDao@76ed1b7c, testMethod = doRetrieve@JWebBoardDao, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7a675056 testClass = JWebBoardDao, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-12-01 16:06:49.015] DEBUG
+			DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1190820921] from cache with key [[MergedContextConfiguration@7a675056 testClass = JWebBoardDao, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-12-01 16:06:49.015] DEBUG
+			DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@6e6fce47 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-12-01 16:06:49.015] DEBUG
+			AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@15ca7889 testClass = JWebBoardDao, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7a675056 testClass = JWebBoardDao, locations = '{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-12-01 16:06:49.018] DEBUG
+			AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.context.support.GenericApplicationContext@46fa7c39, started on Thu Dec 01 16:06:47 KST 2022

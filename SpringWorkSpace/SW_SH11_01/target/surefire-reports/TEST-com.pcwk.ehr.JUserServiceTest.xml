@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.pcwk.ehr.JUserServiceTest" time="1.411" errors="1" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ITSC\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\DCOM_0725\06_Spring\WorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf580566786018240272.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/lib/amd64;C:\app\ITSC\product\21c\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\ITSC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\ITSC\AppData\Roaming\npm;C:\Users\ITSC\AppData\Local\Programs\Fiddler;C:\apache-maven-3.8.6\bin;;C:\DCOM_0725\06_Spring\App\sts-bundle\sts-3.9.13.RELEASE;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ITSC"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ITSC"/>
+    <property name="java.class.path" value="C:\DCOM_0725\06_Spring\App\sts-bundle\sts-3.9.13.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs C:\apache-maven-3.8.6\conf\settings.xml test -Dstyle.color=always"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.pcwk.ehr.JUserServiceTest" name="add" time="0.469">
+    <skipped/>
+    <system-out>2022-11-22 11:06:23,969 main DEBUG Apache Log4j Core 2.17.2 initializing configuration XmlConfiguration[location=C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml]
+2022-11-22 11:06:23,972 main DEBUG PluginManager &apos;Core&apos; found 127 plugins
+2022-11-22 11:06:23,972 main DEBUG PluginManager &apos;Level&apos; found 0 plugins
+2022-11-22 11:06:23,976 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2022-11-22 11:06:23,982 main DEBUG PluginManager &apos;TypeConverter&apos; found 26 plugins
+2022-11-22 11:06:23,988 main DEBUG createProperty(name=&quot;logNm&quot;, value=&quot;Spring Log4j2 PCWK&quot;, value=&quot;Spring Log4j2 PCWK&quot;)
+2022-11-22 11:06:23,988 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2022-11-22 11:06:23,988 main DEBUG createProperty(name=&quot;layoutPattern&quot;, value=&quot;[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n&quot;, value=&quot;[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n&quot;)
+2022-11-22 11:06:23,988 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2022-11-22 11:06:23,991 main DEBUG configureSubstitutor(={logNm=Spring Log4j2 PCWK, layoutPattern=[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml))
+2022-11-22 11:06:23,991 main DEBUG PluginManager &apos;Lookup&apos; found 16 plugins
+2022-11-22 11:06:23,991 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-11-22 11:06:23,996 main DEBUG PatternLayout$Builder(pattern=&quot;[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n&quot;, PatternSelector=null, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2022-11-22 11:06:23,997 main DEBUG PluginManager &apos;Converter&apos; found 45 plugins
+2022-11-22 11:06:24,005 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2022-11-22 11:06:24,009 main DEBUG ConsoleAppender$Builder(target=&quot;SYSTEM_OUT&quot;, follow=&quot;null&quot;, direct=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout([%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n), name=&quot;Console_Appender&quot;, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null, ={})
+2022-11-22 11:06:24,011 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2022-11-22 11:06:24,011 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-11-22 11:06:24,011 main DEBUG PatternLayout$Builder(pattern=&quot;[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n&quot;, PatternSelector=null, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2022-11-22 11:06:24,012 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2022-11-22 11:06:24,014 main DEBUG createPolicy(size=&quot;200KB&quot;)
+2022-11-22 11:06:24,015 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2022-11-22 11:06:24,016 main DEBUG TimeBasedTriggeringPolicy$Builder(interval=&quot;1&quot;, modulate=&quot;null&quot;, maxRandomDelay=&quot;null&quot;)
+2022-11-22 11:06:24,016 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2022-11-22 11:06:24,016 main DEBUG createPolicy(={SizeBasedTriggeringPolicy(size=204800), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)})
+2022-11-22 11:06:24,016 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2022-11-22 11:06:24,018 main DEBUG DefaultRolloverStrategy$Builder(max=&quot;10&quot;, min=&quot;null&quot;, fileIndex=&quot;min&quot;, compressionLevel=&quot;null&quot;, ={}, stopCustomActionsOnError=&quot;null&quot;, tempCompressedFilePattern=&quot;null&quot;, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml))
+2022-11-22 11:06:24,018 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2022-11-22 11:06:24,020 main DEBUG RollingFileAppender$Builder(fileName=&quot;logs/Spring Log4j2 PCWK.log&quot;, filePattern=&quot;logs/Spring Log4j2 PCWK_%d{yyyy-MM-dd}_%i.log.gz&quot;, append=&quot;null&quot;, locking=&quot;null&quot;, Policies(CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=204800), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=false)), advertise=&quot;null&quot;, advertiseUri=&quot;null&quot;, createOnDemand=&quot;null&quot;, filePermissions=&quot;null&quot;, fileOwner=&quot;null&quot;, fileGroup=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout([%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %C{1}.%M(%F:%L) - %m%n), name=&quot;File_Appender&quot;, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null, ={})
+2022-11-22 11:06:24,028 main DEBUG Returning file creation time for C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\logs\Spring Log4j2 PCWK.log
+2022-11-22 11:06:24,028 main DEBUG Starting RollingFileManager logs/Spring Log4j2 PCWK.log
+2022-11-22 11:06:24,030 main DEBUG PluginManager &apos;FileConverter&apos; found 2 plugins
+2022-11-22 11:06:24,032 main DEBUG Setting prev file time to 2022-11-22T11:03:22.088+0900
+2022-11-22 11:06:24,032 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=204800), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)])
+2022-11-22 11:06:24,033 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=204800)
+2022-11-22 11:06:24,033 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2022-11-22 11:06:24,034 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2022-11-22 11:06:24,034 main DEBUG createAppenders(={Console_Appender, File_Appender})
+2022-11-22 11:06:24,034 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,035 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,035 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,035 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,035 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2022-11-22 11:06:24,036 main DEBUG LoggerConfig$RootLogger$Builder(additivity=&quot;false&quot;, level=&quot;DEBUG&quot;, levelAndRefs=&quot;null&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,038 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,038 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,038 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,038 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,038 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-22 11:06:24,040 main DEBUG LoggerConfig$Builder(additivity=&quot;false&quot;, level=&quot;DEBUG&quot;, levelAndRefs=&quot;null&quot;, name=&quot;org.springframework&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,040 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,040 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,040 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,041 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,041 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-22 11:06:24,041 main DEBUG LoggerConfig$Builder(additivity=&quot;false&quot;, level=&quot;DEBUG&quot;, levelAndRefs=&quot;null&quot;, name=&quot;org.springframework.core&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,041 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,042 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,042 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,042 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,042 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-22 11:06:24,043 main DEBUG LoggerConfig$Builder(additivity=&quot;false&quot;, level=&quot;DEBUG&quot;, levelAndRefs=&quot;null&quot;, name=&quot;org.springframework.beans&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,043 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,043 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,043 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,043 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,044 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-22 11:06:24,044 main DEBUG LoggerConfig$Builder(additivity=&quot;false&quot;, level=&quot;DEBUG&quot;, levelAndRefs=&quot;null&quot;, name=&quot;org.springframework.context&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,044 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,044 main DEBUG createAppenderRef(ref=&quot;Console_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,044 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-22 11:06:24,045 main DEBUG createAppenderRef(ref=&quot;File_Appender&quot;, level=&quot;null&quot;, Filter=null)
+2022-11-22 11:06:24,045 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-22 11:06:24,045 main DEBUG LoggerConfig$Builder(additivity=&quot;false&quot;, level=&quot;INFO&quot;, levelAndRefs=&quot;null&quot;, name=&quot;org.springframework.web&quot;, includeLocation=&quot;null&quot;, ={Console_Appender, File_Appender}, ={}, Configuration(C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml), Filter=null)
+2022-11-22 11:06:24,045 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2022-11-22 11:06:24,046 main DEBUG createLoggers(={root, org.springframework, org.springframework.core, org.springframework.beans, org.springframework.context, org.springframework.web})
+2022-11-22 11:06:24,047 main DEBUG Configuration XmlConfiguration[location=C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml] initialized
+2022-11-22 11:06:24,047 main DEBUG Starting configuration XmlConfiguration[location=C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml]
+2022-11-22 11:06:24,047 main DEBUG Started configuration XmlConfiguration[location=C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml] OK.
+2022-11-22 11:06:24,047 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2022-11-22 11:06:24,048 main DEBUG OutputStream closed
+2022-11-22 11:06:24,048 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2022-11-22 11:06:24,048 main DEBUG Appender DefaultConsole-1 stopped with status true
+2022-11-22 11:06:24,048 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@10dba097 OK
+2022-11-22 11:06:24,074 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993
+2022-11-22 11:06:24,075 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=StatusLogger
+2022-11-22 11:06:24,076 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=ContextSelector
+2022-11-22 11:06:24,077 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=
+2022-11-22 11:06:24,077 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=org.springframework.beans
+2022-11-22 11:06:24,078 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=org.springframework
+2022-11-22 11:06:24,078 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=org.springframework.web
+2022-11-22 11:06:24,078 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=org.springframework.context
+2022-11-22 11:06:24,078 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Loggers,name=org.springframework.core
+2022-11-22 11:06:24,079 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Appenders,name=File_Appender
+2022-11-22 11:06:24,079 main DEBUG Registering MBean org.apache.logging.log4j2:type=42a57993,component=Appenders,name=Console_Appender
+2022-11-22 11:06:24,081 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2022-11-22 11:06:24,081 main DEBUG Reconfiguration complete for context[name=42a57993] at URI C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@22a637e7) with optional ClassLoader: null
+2022-11-22 11:06:24,081 main DEBUG Shutdown hook enabled. Registering a new one.
+2022-11-22 11:06:24,082 main DEBUG LoggerContext[name=42a57993, org.apache.logging.log4j.core.LoggerContext@22a637e7] started OK.
+[2022-11-22 11:06:24.109] DEBUG SpringJUnit4ClassRunner.&lt;init&gt;(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JUserServiceTest]
+2022-11-22 11:06:24,112 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2022-11-22 11:06:24,112 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+[2022-11-22 11:06:24.116] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-22 11:06:24.121] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-22 11:06:24.137] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JUserServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-22 11:06:24.151] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2925bf5b declaringClass = &apos;com.pcwk.ehr.JUserServiceTest&apos;, classes = &apos;{}&apos;, locations = &apos;{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+[2022-11-22 11:06:24.173] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.173] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JUserServiceTest]: using defaults.
+[2022-11-22 11:06:24.174] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-22 11:06:24.184] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44a7bfbc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ef37659, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@776b83cc, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37858383, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e268090, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1bb266b3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@306cf3ea, org.springframework.test.context.event.EventPublishingTestExecutionListener@2beee7ff]
+[2022-11-22 11:06:24.186] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.186] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.187] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.187] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.188] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.190] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@140c9f39 testClass = JUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = &apos;{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+</system-out>
+  </testcase>
+  <testcase classname="com.pcwk.ehr.JUserServiceTest" name="allOrNothing" time="0.469">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.pcwk.ehr.JUserServiceTest" name="beans" time="0.47">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.pcwk.ehr.JUserServiceTest" name="upgradeLevels" time="0.003">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name &apos;performanceAroundAdvice&apos; defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1542)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1534)
+	... 45 more
+</error>
+    <system-out>[2022-11-22 11:06:24.192] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.192] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JUserServiceTest]
+[2022-11-22 11:06:24.194] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@140c9f39 testClass = JUserServiceTest, testInstance = com.pcwk.ehr.JUserServiceTest@74455848, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = &apos;{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]]].
+[2022-11-22 11:06:24.194] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = &apos;{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+[2022-11-22 11:06:24.195] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@4d910fd6 testClass = JUserServiceTest, locations = &apos;{file:src/main/webapp/WEB-INF/spring/root-context.xml, file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+[2022-11-22 11:06:24.223] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-22 11:06:24.322] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 14 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+[2022-11-22 11:06:24.409] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\HelloController.class]
+[2022-11-22 11:06:24.410] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\controller\AnnoController.class]
+[2022-11-22 11:06:24.411] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\dao\AnnoDaoImpl.class]
+[2022-11-22 11:06:24.412] DEBUG ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [C:\DCOM_0725\06_Spring\WorkSpace\SW_SH11_01\target\classes\com\pcwk\ehr\anno\service\AnnoServiceImpl.class]
+[2022-11-22 11:06:24.424] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 34 bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+[2022-11-22 11:06:24.424] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@50ad3bc1
+[2022-11-22 11:06:24.453] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+[2022-11-22 11:06:24.464] DEBUG ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:118) - Could not find class file for introspecting configuration annotations: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+java.io.FileNotFoundException: class path resource [com/pcwk/ehr/aspectj/perform/PerformanceAroundAdvice.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.&lt;init&gt;(SimpleMetadataReader.java:49) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassUtils.checkConfigurationClassCandidate(ConfigurationClassUtils.java:113) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:287) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+[2022-11-22 11:06:24.527] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.driver&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.url&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.username&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.password&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.547] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.maxActive&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.maxIdle&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.maxWait&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.removeAbandoned&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.548] DEBUG PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key &apos;jdbc.removeAbandonedTimeout&apos; in PropertySource &apos;localProperties&apos; with value of type String
+[2022-11-22 11:06:24.549] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+[2022-11-22 11:06:24.550] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+[2022-11-22 11:06:24.551] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+[2022-11-22 11:06:24.552] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+[2022-11-22 11:06:24.555] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+[2022-11-22 11:06:24.571] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name &apos;performanceAroundAdvice&apos; defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+[2022-11-22 11:06:24.573] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37858383] to prepare test instance [com.pcwk.ehr.JUserServiceTest@74455848]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) ~[?:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) ~[surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) ~[surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) ~[surefire-booter-2.12.4.jar:2.12.4]
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice] for bean with name &apos;performanceAroundAdvice&apos; defined in URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]; nested exception is java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: com.pcwk.ehr.aspectj.perform.PerformanceAroundAdvice
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1607) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1534) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1147) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:933) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 32 more
+</system-out>
+  </testcase>
+</testsuite>

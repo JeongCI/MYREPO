@@ -1,0 +1,86 @@
+[2022-11-09 14:22:10.509] DEBUG Log4j2Main.main(Log4j2Main.java:12) - ===============================
+[2022-11-09 14:22:10.511] DEBUG Log4j2Main.main(Log4j2Main.java:13) - = Log4j2Main =
+[2022-11-09 14:22:10.511] DEBUG Log4j2Main.main(Log4j2Main.java:14) - ===============================
+[2022-11-09 14:22:15.832] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 14:22:15.836] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.annotation.AnnotationConfigApplicationContext@123f1134, started on Wed Nov 09 14:22:15 KST 2022
+[2022-11-09 14:22:15.836] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@76a4ebf2
+[2022-11-09 14:22:15.836] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 14:22:16.331] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 14:22:16.332] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@3eb91815
+[2022-11-09 14:22:16.332] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 14:22:16.332] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 14:22:16.332] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 14:22:16.406] DEBUG UserDao.add(UserDao.java:98) - 3. flag: 1
+[2022-11-09 14:22:16.407] DEBUG UserDao.add(UserDao.java:103) - 1. DRIVER loading 성공
+[2022-11-09 14:22:16.407] DEBUG UserDao.add(UserDao.java:104) - 2. Connection 성공: oracle.jdbc.driver.T4CConnection@3eb91815
+[2022-11-09 14:22:16.407] DEBUG UserDaoTest.add(UserDaoTest.java:35) - 등록 성공
+[2022-11-09 14:22:16.407] DEBUG UserDaoTest.add(UserDaoTest.java:39) - =============================================
+[2022-11-09 14:22:16.456] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 14:22:16.456] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@5cbe877d
+[2022-11-09 14:22:16.456] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 14:22:16.456] DEBUG UserDao.get(UserDao.java:44) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 14:22:16.456] DEBUG UserDao.get(UserDao.java:45) - 2. param log 
+p11
+[2022-11-09 14:22:16.499] DEBUG UserDao.get(UserDao.java:58) - 3. userVO: UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 14:22:16.500] DEBUG UserDaoTest.add(UserDaoTest.java:43) - 조회 성공
+[2022-11-09 15:04:20.015] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - ====================
+[2022-11-09 15:04:20.019] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =context=org.springframework.context.support.GenericXmlApplicationContext@3ec300f1, started on Wed Nov 09 15:04:19 KST 2022
+[2022-11-09 15:04:20.019] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - =dao=com.pcwk.ehr.UserDao@45b4c3a9
+[2022-11-09 15:04:20.019] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - ====================
+[2022-11-09 15:04:20.533] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 15:04:20.534] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@65c7a252
+[2022-11-09 15:04:20.534] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 15:04:20.534] DEBUG UserDao.add(UserDao.java:96) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 15:04:20.534] DEBUG UserDao.add(UserDao.java:97) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 15:04:20.599] DEBUG UserDao.add(UserDao.java:106) - 3. flag: 1
+[2022-11-09 15:04:20.600] DEBUG UserDao.add(UserDao.java:111) - 1. DRIVER loading 성공
+[2022-11-09 15:04:20.600] DEBUG UserDao.add(UserDao.java:112) - 2. Connection 성공: oracle.jdbc.driver.T4CConnection@65c7a252
+[2022-11-09 15:04:20.600] DEBUG UserDaoTest.add(UserDaoTest.java:36) - 등록 성공
+[2022-11-09 15:04:20.600] DEBUG UserDaoTest.add(UserDaoTest.java:40) - =============================================
+[2022-11-09 15:04:20.639] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 15:04:20.639] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@49964d75
+[2022-11-09 15:04:20.639] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 15:04:20.639] DEBUG UserDao.get(UserDao.java:52) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 15:04:20.639] DEBUG UserDao.get(UserDao.java:53) - 2. param log 
+p11
+[2022-11-09 15:04:20.678] DEBUG UserDao.get(UserDao.java:66) - 3. userVO: UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 15:04:20.679] DEBUG UserDaoTest.add(UserDaoTest.java:44) - 조회 성공
+[2022-11-09 15:09:16.812] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [applicationContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.pcwk.ehr.UserDao]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.pcwk.ehr.UserDao.<init>()
+[2022-11-09 15:10:15.982] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - ====================
+[2022-11-09 15:10:15.986] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =context=org.springframework.context.support.GenericXmlApplicationContext@3ec300f1, started on Wed Nov 09 15:10:15 KST 2022
+[2022-11-09 15:10:15.986] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - =dao=com.pcwk.ehr.UserDao@7d20d0b
+[2022-11-09 15:10:15.986] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - ====================

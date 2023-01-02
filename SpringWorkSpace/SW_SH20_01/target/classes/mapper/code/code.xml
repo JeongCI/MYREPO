@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.code">
+
+  <select id="doRetrive" parameterType="CodeVO" resultType="CodeVO">
+    SELECT mst_code as mstCode,
+		       det_code as detCode,
+		       det_name as detName,
+		       seq
+		FROM CMN_CODE
+		<where>
+		  <foreach item="item" index="index" collection="list"
+		    open="mst_code IN(" separator="," close=")">
+		      #{item}
+		  </foreach>
+		</where>
+		AND   USE_YN = '1'
+		ORDER BY mst_code,seq
+  </select>
+  
+</mapper>  

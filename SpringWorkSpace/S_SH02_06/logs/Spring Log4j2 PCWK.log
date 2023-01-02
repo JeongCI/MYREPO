@@ -1,0 +1,186 @@
+[2022-11-09 15:34:55.436] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 15:34:55.440] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 15:34:55 KST 2022
+[2022-11-09 15:34:55.440] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@1e178745
+[2022-11-09 15:34:55.440] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 15:34:55.910] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =====================================
+[2022-11-09 15:34:55.910] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - =Connection = oracle.jdbc.driver.T4CConnection@41a0aa7d
+[2022-11-09 15:34:55.910] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =====================================
+[2022-11-09 15:34:55.910] DEBUG UserDao.add(UserDao.java:96) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 15:34:55.910] DEBUG UserDao.add(UserDao.java:97) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:07:51.195] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:07:51.198] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:07:51 KST 2022
+[2022-11-09 16:07:51.198] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:07:51.198] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:07:51.198] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 16:07:51.199] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:07:53.586] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:07:53.590] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:07:53 KST 2022
+[2022-11-09 16:07:53.590] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:07:53.590] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:07:53.590] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 16:07:53.590] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:07:55.364] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:07:55.368] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:07:55 KST 2022
+[2022-11-09 16:07:55.368] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:07:55.368] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:07:55.368] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 16:07:55.368] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:07:58.634] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:07:58.637] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:07:58 KST 2022
+[2022-11-09 16:07:58.638] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:07:58.638] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:07:58.638] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 16:07:58.638] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:08:45.450] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:08:45.454] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:08:45 KST 2022
+[2022-11-09 16:08:45.454] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:08:45.454] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:08:45.454] DEBUG UserDao.get(UserDao.java:45) - 1. sql log 
+SELECT u_id,   
+       name,   
+       passwd  
+FROM HR_MEMBER 
+WHERE u_id = ? 
+
+[2022-11-09 16:08:45.454] DEBUG UserDao.get(UserDao.java:46) - 2. param log 
+p11
+[2022-11-09 16:12:19.960] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:12:19.963] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:12:19 KST 2022
+[2022-11-09 16:12:19.963] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@355ce81c
+[2022-11-09 16:12:19.963] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:12:19.963] DEBUG UserDao.add(UserDao.java:88) - 1. sql log 
+INSERT INTO hr_member ( 
+    u_id,               
+    name,               
+    passwd              
+) VALUES (              
+    ?,                  
+    ?,                  
+    ?                   
+)                       
+
+[2022-11-09 16:12:19.964] DEBUG UserDao.add(UserDao.java:89) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:15:46.506] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:15:46.509] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:15:46 KST 2022
+[2022-11-09 16:15:46.509] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@3315d2d7
+[2022-11-09 16:15:46.509] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:15:46.510] DEBUG UserDao.add(UserDao.java:89) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?                     
+)                         
+
+[2022-11-09 16:15:46.510] DEBUG UserDao.add(UserDao.java:90) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:16:59.024] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:16:59.027] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:16:58 KST 2022
+[2022-11-09 16:16:59.027] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@3315d2d7
+[2022-11-09 16:16:59.028] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:16:59.438] DEBUG UserDao.add(UserDao.java:89) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?                     
+)                         
+
+[2022-11-09 16:16:59.438] DEBUG UserDao.add(UserDao.java:90) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:16:59.503] DEBUG UserDao.add(UserDao.java:99) - 3. flag:1
+[2022-11-09 16:16:59.503] DEBUG UserDao.add(UserDao.java:104) - 1. DRIVER loading 성공
+[2022-11-09 16:16:59.504] DEBUG UserDao.add(UserDao.java:105) - 2. Connection 성공:oracle.jdbc.driver.T4CConnection@f0c8a99
+[2022-11-09 16:16:59.504] DEBUG UserDaoTest.add(UserDaoTest.java:35) - 등록 성공
+[2022-11-09 16:16:59.504] DEBUG UserDaoTest.add(UserDaoTest.java:39) - =============================================
+[2022-11-09 16:16:59.542] DEBUG UserDao.get(UserDao.java:48) - 1. sql log 
+SELECT  u_id,      
+        name,        
+        passwd       
+FROM  hr_member      
+WHERE u_id = ?       
+
+[2022-11-09 16:16:59.542] DEBUG UserDao.get(UserDao.java:49) - 2. param log 
+p11
+[2022-11-09 16:16:59.583] DEBUG UserDao.get(UserDao.java:62) - 3. userVO 
+UserVO [uId=p11, name=이상무11, passWd=4321]
+[2022-11-09 16:16:59.586] DEBUG UserDaoTest.add(UserDaoTest.java:43) - 조회 성공
+[2022-11-09 16:17:37.694] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - ====================
+[2022-11-09 16:17:37.698] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =context=org.springframework.context.support.GenericXmlApplicationContext@5b0abc94, started on Wed Nov 09 16:17:37 KST 2022
+[2022-11-09 16:17:37.698] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - =dao=com.pcwk.ehr.UserDao@3315d2d7
+[2022-11-09 16:17:37.698] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ====================
+[2022-11-09 16:17:37.698] DEBUG UserDao.add(UserDao.java:89) - 1. sql log 
+INSERT INTO hr_member (   
+    u_id,                 
+    name,                 
+    passwd                
+) VALUES (                
+    ?,                    
+    ?,                    
+    ?                     
+)                         
+
+[2022-11-09 16:17:37.698] DEBUG UserDao.add(UserDao.java:90) - 2. param log 
+UserVO [uId=p11, name=이상무11, passWd=4321]

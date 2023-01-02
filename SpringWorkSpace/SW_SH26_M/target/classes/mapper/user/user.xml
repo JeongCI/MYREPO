@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.user">
+
+  <!-- 등급별 회원수 -->
+  <select id="levelPerMemberCount" resultType="LevelPieVO">
+		WITH W_MEM AS (
+		    SELECT u_level
+		    FROM hr_member
+		)
+		SELECT SUM(DECODE(U_LEVEL,1,1,0) ) AS levelCount, 'BASIC' AS levelName
+		FROM W_MEM
+		UNION ALL
+		SELECT SUM(DECODE(U_LEVEL,2,1,0) ) AS levelCount, 'SILVER' AS levelName
+		FROM W_MEM
+		UNION ALL
+		SELECT SUM(DECODE(U_LEVEL,3,1,0) ) AS levelCount, 'GOLD' AS levelName
+		FROM W_MEM
+  </select>
+  
+  <!-- 비번체크 -->
+  <select id="passCheck" parameterType="UserVO" resultType="int">
+	  SELECT COUNT(*) cnt
+		FROM hr_member
+		WHERE u_id = #{uId}
+		AND passwd = #{passwd}
+  </select>
+  
+  <!-- id중복 체크 -->
+  <select id="idCheck" parameterType="UserVO" resultType="int">
+		SELECT COUNT(*) AS cnt
+		FROM hr_member
+		WHERE u_id = #{uId} 
+  </select>
+  
+  <!-- 회원목록 조회 -->
+  <sql id="searchCondition">
+       <where>
+          <choose>
+             <when test=" '10' == searchDiv and '' != searchWord  ">
+                u_id  LIKE #{searchWord} || '%'
+             </when>
+             <when test=" '20' == searchDiv and '' != searchWord  ">
+                name  LIKE #{searchWord} || '%'
+             </when>
+             <when test=" '30' == searchDiv and '' != searchWord  ">
+                email LIKE #{searchWord} || '%'
+             </when>                                              
+          </choose>
+       </where>  
+  </sql>
+  
+  
+  <select id="doRetrive" resultType="UserVO" parameterType="SearchVO">
+      
+		SELECT A.*,B.*
+		FROM(
+		    SELECT TT1.RNUM as num,
+		           TT1.u_id as "uId",
+		           TT1.name,
+		           TT1.passwd,
+		           TT1.u_level as intLevel,
+		           TT1.login,
+		           TT1.recommend,
+		           TT1.email,
+		           --당일이면 시:분, 그렇치 않으면 년/월/일
+		           DECODE( TO_CHAR(SYSDATE,'YYYY-MM-DD'),  TO_CHAR(TT1.reg_dt,'YYYY-MM-DD')
+		                  ,TO_CHAR(TT1.reg_dt,'HH24:MI')
+		                  ,TO_CHAR(TT1.reg_dt,'YYYY-MM-DD')) as regDt
+		    FROM (
+		        SELECT ROWNUM AS RNUM,T1.*
+		        FROM (
+		            SELECT *
+		            FROM hr_member
+		            --WHERE 조건(검색구분:''(전체),10(u_id),20(name),30(email), 검색어)
+                <include refid="searchCondition"/>
+		            ORDER BY reg_dt DESC
+		        )T1
+		        --종료 번호
+		       <![CDATA[  WHERE ROWNUM <= #{pageSize} * (#{pageNo} - 1) + #{pageSize} ]]>
+		    )TT1
+		     --시작번호
+		    <![CDATA[  WHERE RNUM >= #{pageSize} * (#{pageNo} - 1)+1 ]]>
+		)A
+		CROSS JOIN
+		(
+		    SELECT COUNT(*) totalCnt
+		    FROM hr_member
+		    --WHERE 조건
+		    <include refid="searchCondition"/>
+		)B
+		
+  </select>
+  
+  <update id="doUpdate" parameterType="UserVO" >
+			UPDATE hr_member      
+			SET name     = #{name},    
+				 passwd    = #{passwd},    
+				 u_level   = #{intLevel},    
+				 login     = #{login},    
+				 recommend = #{recommend},    
+				 email     = #{email},    
+				 reg_dt    = SYSDATE  
+			WHERE u_id = #{uId} 
+  </update>
+  
+  <!-- resultMap -->
+  <!-- 
+    column : DB컬럼
+    property: VO 프로퍼티명
+    jdbcType: DB컬럼 타입
+    type: VO
+   -->
+  <resultMap type="UserVO" id="userMap">
+   <result  column="u_id"      property="uId"       />
+   <result  column="name"      property="name"      />
+   <result  column="passwd"    property="passwd"    />
+   <result  column="u_level"   property="intLevel"  />
+   <result  column="login"     property="login"     />
+   <result  column="recommend" property="recommend" />
+   <result  column="email"     property="email"     />
+   <result  column="reg_dt"    property="regDt"     />
+  </resultMap> 
+   
+  
+  <select id="doSelectOne" parameterType="UserVO"  
+    resultMap="userMap">
+    <![CDATA[ 
+    SELECT u_id,      
+           name,      
+           passwd,    
+           u_level,     
+           login,   
+           recommend,   
+           email,   
+           TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt       
+    FROM hr_member    
+    WHERE u_id = #{uId}
+    ]]>
+  </select>
+  <!-- 
+  parameterType, resultType
+  자바 타입의 내장된 별칭 사용 가능
+  Java       Mybatis (소문자)
+  String  -> string
+  Integer -> int, integer
+  Map     -> map
+  HashMap -> hashmap
+  Collection -> collection
+  ArrayList  -> arraylist
+  
+  파라메터 설정
+  ${}, #{}
+  ${} :  자동으로 데이터 타입 처리(PreparedStatement방식)
+  #{} :  문자열 처리를 해주지 않는다.(Statement방식)
+   -->
+  <select id="getCount" parameterType="UserVO" resultType="int">
+	 SELECT COUNT(*) cnt     
+	 FROM hr_member          
+	 WHERE u_id LIKE #{uId} || '%'  
+  </select>
+  <select id="getAll" parameterType="UserVO" resultType="UserVO">
+		SELECT u_id AS "uId",      
+		       name,      
+		       passwd,    
+		       u_level AS intLevel,     
+		       login,   
+		       recommend,   
+		       email,   
+		       TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS regDt       
+		FROM hr_member    
+		WHERE u_id like  #{uId} || '%'
+		ORDER BY u_id     
+  </select>
+
+	<insert id="doSave" parameterType="UserVO">
+		INSERT INTO hr_member (
+			u_id,
+			name,
+			passwd,
+			u_level,
+			login,
+			recommend,
+			email,
+			reg_dt
+		) VALUES (
+			#{uId},
+			#{name},
+			#{passwd},
+			#{intLevel},
+			#{login},
+			#{recommend},
+			#{email},
+			SYSDATE
+		)
+	</insert>
+
+	<delete id="doDelete" parameterType="UserVO">
+		DELETE FROM hr_member
+		WHERE u_id = #{uId}
+	</delete>
+
+
+ 
+
+
+
+
+
+</mapper>  

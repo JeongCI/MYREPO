@@ -1,0 +1,915 @@
+[2022-11-11 12:41:47.579] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:41:47.589] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3eb738bb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5bda8e08, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@185a6e9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f03482, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@9d5509a, org.springframework.test.context.event.EventPublishingTestExecutionListener@179ece50]
+[2022-11-11 12:41:47.639] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [com.pcwk.ehr.JTvTest@62230c58]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:42:03.545] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:42:03.555] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3eb738bb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5bda8e08, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@185a6e9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f03482, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@9d5509a, org.springframework.test.context.event.EventPublishingTestExecutionListener@179ece50]
+[2022-11-11 12:42:03.610] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [com.pcwk.ehr.JTvTest@62230c58]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:42:33.272] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:42:33.281] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3eb738bb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5bda8e08, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@185a6e9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f03482, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@9d5509a, org.springframework.test.context.event.EventPublishingTestExecutionListener@179ece50]
+[2022-11-11 12:42:33.326] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [com.pcwk.ehr.JTvTest@62230c58]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:42:33.334] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [com.pcwk.ehr.JTvTest@1e6454ec]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:44:11.690] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:44:11.701] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@179ece50, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3b0090a4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fa121e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7eac9008, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4116aac9, org.springframework.test.context.event.EventPublishingTestExecutionListener@62ddbd7e]
+[2022-11-11 12:44:11.754] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762] to prepare test instance [com.pcwk.ehr.JTvTest@3738449f]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:44:11.766] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762] to prepare test instance [com.pcwk.ehr.JTvTest@27ff5d15]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:45:25.526] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:45:25.536] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@179ece50, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3b0090a4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fa121e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7eac9008, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4116aac9, org.springframework.test.context.event.EventPublishingTestExecutionListener@62ddbd7e]
+[2022-11-11 12:45:25.584] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762] to prepare test instance [com.pcwk.ehr.JTvTest@3738449f]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:45:25.594] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3cd3e762] to prepare test instance [com.pcwk.ehr.JTvTest@27ff5d15]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/pcwk/ehr/applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+Caused by: java.io.FileNotFoundException: class path resource [com/pcwk/ehr/applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:196) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:203) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:265) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:265) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 26 more
+[2022-11-11 12:46:01.570] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:46:01.579] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f5958c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@233795b6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3eb738bb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bda8e08, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e800aaa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@185a6e9, org.springframework.test.context.event.EventPublishingTestExecutionListener@6f03482]
+[2022-11-11 12:46:01.739] DEBUG JTvTest.setUp(JTvTest.java:21) - ------------------------
+[2022-11-11 12:46:01.739] DEBUG JTvTest.setUp(JTvTest.java:22) - -setUp()-
+[2022-11-11 12:46:01.739] DEBUG JTvTest.setUp(JTvTest.java:23) - ------------------------
+[2022-11-11 12:46:01.740] DEBUG JTvTest.tvTest(JTvTest.java:35) - +++++++++++++++++++++++++
+[2022-11-11 12:46:01.740] DEBUG JTvTest.tvTest(JTvTest.java:36) - -tvTest()-
+[2022-11-11 12:46:01.740] DEBUG JTvTest.tvTest(JTvTest.java:37) - +++++++++++++++++++++++++
+[2022-11-11 12:46:01.741] DEBUG JTvTest.tearDown(JTvTest.java:28) - ------------------------
+[2022-11-11 12:46:01.741] DEBUG JTvTest.tearDown(JTvTest.java:29) - -tearDown()-
+[2022-11-11 12:46:01.741] DEBUG JTvTest.tearDown(JTvTest.java:30) - ------------------------
+[2022-11-11 12:46:01.743] DEBUG JTvTest.setUp(JTvTest.java:21) - ------------------------
+[2022-11-11 12:46:01.744] DEBUG JTvTest.setUp(JTvTest.java:22) - -setUp()-
+[2022-11-11 12:46:01.744] DEBUG JTvTest.setUp(JTvTest.java:23) - ------------------------
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tvTest02(JTvTest.java:42) - +++++++++++++++++++++++++
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tvTest02(JTvTest.java:43) - -tvTest02()-
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tvTest02(JTvTest.java:44) - +++++++++++++++++++++++++
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tearDown(JTvTest.java:28) - ------------------------
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tearDown(JTvTest.java:29) - -tearDown()-
+[2022-11-11 12:46:01.744] DEBUG JTvTest.tearDown(JTvTest.java:30) - ------------------------
+[2022-11-11 12:47:32.375] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 12:47:32.384] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e800aaa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@185a6e9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f03482, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9d5509a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@179ece50, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3b0090a4, org.springframework.test.context.event.EventPublishingTestExecutionListener@3cd3e762]
+[2022-11-11 12:47:32.543] DEBUG JTvTest.setUp(JTvTest.java:29) - ------------------------
+[2022-11-11 12:47:32.543] DEBUG JTvTest.setUp(JTvTest.java:30) - -setUp()-
+[2022-11-11 12:47:32.543] DEBUG JTvTest.setUp(JTvTest.java:31) - ------------------------
+[2022-11-11 12:47:32.544] DEBUG JTvTest.tvTest(JTvTest.java:43) - +++++++++++++++++++++++++
+[2022-11-11 12:47:32.544] DEBUG JTvTest.tvTest(JTvTest.java:44) - -tvTest()-
+[2022-11-11 12:47:32.544] DEBUG JTvTest.tvTest(JTvTest.java:45) - +++++++++++++++++++++++++
+[2022-11-11 12:47:32.545] DEBUG JTvTest.tearDown(JTvTest.java:36) - ------------------------
+[2022-11-11 12:47:32.545] DEBUG JTvTest.tearDown(JTvTest.java:37) - -tearDown()-
+[2022-11-11 12:47:32.545] DEBUG JTvTest.tearDown(JTvTest.java:38) - ------------------------
+[2022-11-11 12:47:32.547] DEBUG JTvTest.setUp(JTvTest.java:29) - ------------------------
+[2022-11-11 12:47:32.547] DEBUG JTvTest.setUp(JTvTest.java:30) - -setUp()-
+[2022-11-11 12:47:32.547] DEBUG JTvTest.setUp(JTvTest.java:31) - ------------------------
+[2022-11-11 12:47:32.547] DEBUG JTvTest.tvTest02(JTvTest.java:50) - +++++++++++++++++++++++++
+[2022-11-11 12:47:32.548] DEBUG JTvTest.tvTest02(JTvTest.java:51) - -tvTest02()-
+[2022-11-11 12:47:32.548] DEBUG JTvTest.tvTest02(JTvTest.java:52) - +++++++++++++++++++++++++
+[2022-11-11 12:47:32.548] DEBUG JTvTest.tearDown(JTvTest.java:36) - ------------------------
+[2022-11-11 12:47:32.548] DEBUG JTvTest.tearDown(JTvTest.java:37) - -tearDown()-
+[2022-11-11 12:47:32.548] DEBUG JTvTest.tearDown(JTvTest.java:38) - ------------------------
+[2022-11-11 14:08:18.496] DEBUG SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.500] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-11 14:08:18.505] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-11 14:08:18.524] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JTvTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-11 14:08:18.539] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@35cabb2a declaringClass = 'com.pcwk.ehr.JTvTest', classes = '{}', locations = '{/applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2022-11-11 14:08:18.559] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.560] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JTvTest]: using defaults.
+[2022-11-11 14:08:18.560] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:08:18.563] DEBUG AbstractTestContextBootstrapper.instantiateListeners(AbstractTestContextBootstrapper.java:189) - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+[2022-11-11 14:08:18.568] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bf7ca37, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@79079097, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b2bac3f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e08711f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@bcec361, org.springframework.test.context.event.EventPublishingTestExecutionListener@26794848]
+[2022-11-11 14:08:18.569] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.570] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.571] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.571] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.571] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.571] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.577] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.577] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.577] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.577] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.578] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.578] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.580] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:08:18.581] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.581] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.582] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-11 14:08:18.583] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2022-11-11 14:08:18.583] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2022-11-11 14:08:18.610] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-11 14:08:18.663] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 1 bean definitions from class path resource [applicationContext.xml]
+[2022-11-11 14:08:18.670] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@6f45df59
+[2022-11-11 14:08:18.685] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-11-11 14:08:18.704] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-11-11 14:08:18.705] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-11-11 14:08:18.706] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-11-11 14:08:18.707] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-11-11 14:08:18.719] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) - Storing ApplicationContext [1866850137] in cache under key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.720] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+[2022-11-11 14:08:18.727] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.727] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+[2022-11-11 14:08:18.730] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = tvTest@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:08:18.734] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.735] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+[2022-11-11 14:08:18.735] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:08:18.735] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:08:18.735] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:08:18.736] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.736] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+[2022-11-11 14:08:18.736] DEBUG JTvTest.tvTest(JTvTest.java:46) - +++++++++++++++++++++++++
+[2022-11-11 14:08:18.736] DEBUG JTvTest.tvTest(JTvTest.java:47) - -tvTest()-
+[2022-11-11 14:08:18.736] DEBUG JTvTest.tvTest(JTvTest.java:48) - +++++++++++++++++++++++++
+[2022-11-11 14:08:18.738] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.738] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-11-11 14:08:18.739] DEBUG JTvTest.tearDown(JTvTest.java:39) - ------------------------
+[2022-11-11 14:08:18.739] DEBUG JTvTest.tearDown(JTvTest.java:40) - -tearDown()-
+[2022-11-11 14:08:18.739] DEBUG JTvTest.tearDown(JTvTest.java:41) - ------------------------
+[2022-11-11 14:08:18.739] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.739] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-11-11 14:08:18.740] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = tvTest@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:08:18.740] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.740] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:08:18.741] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@1807f5a7, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-11 14:08:18.741] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.741] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-11-11 14:08:18.741] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.742] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+[2022-11-11 14:08:18.742] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@1807f5a7, testMethod = tvTest02@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:08:18.742] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.743] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+[2022-11-11 14:08:18.743] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:08:18.743] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:08:18.743] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:08:18.743] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.743] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+[2022-11-11 14:08:18.743] DEBUG JTvTest.tvTest02(JTvTest.java:53) - +++++++++++++++++++++++++
+[2022-11-11 14:08:18.743] DEBUG JTvTest.tvTest02(JTvTest.java:54) - -tvTest02()-
+[2022-11-11 14:08:18.743] DEBUG JTvTest.tvTest02(JTvTest.java:55) - +++++++++++++++++++++++++
+[2022-11-11 14:08:18.744] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.744] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+[2022-11-11 14:08:18.744] DEBUG JTvTest.tearDown(JTvTest.java:39) - ------------------------
+[2022-11-11 14:08:18.744] DEBUG JTvTest.tearDown(JTvTest.java:40) - -tearDown()-
+[2022-11-11 14:08:18.744] DEBUG JTvTest.tearDown(JTvTest.java:41) - ------------------------
+[2022-11-11 14:08:18.744] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.744] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+[2022-11-11 14:08:18.745] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@1807f5a7, testMethod = tvTest02@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:08:18.746] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:08:18.746] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+[2022-11-11 14:08:18.747] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.181] DEBUG SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) - SpringJUnit4ClassRunner constructor called with [class com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.189] DEBUG BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:108) - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-11-11 14:10:08.195] DEBUG BootstrapUtils.createBootstrapContext(BootstrapUtils.java:88) - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-11-11 14:10:08.215] DEBUG BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:143) - Instantiating TestContextBootstrapper for test class [com.pcwk.ehr.JTvTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+[2022-11-11 14:10:08.235] DEBUG AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@35cabb2a declaringClass = 'com.pcwk.ehr.JTvTest', classes = '{}', locations = '{/applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2022-11-11 14:10:08.262] DEBUG ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.263] DEBUG AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) - @TestExecutionListeners is not present for class [com.pcwk.ehr.JTvTest]: using defaults.
+[2022-11-11 14:10:08.263] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:10:08.266] DEBUG AbstractTestContextBootstrapper.instantiateListeners(AbstractTestContextBootstrapper.java:189) - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+[2022-11-11 14:10:08.273] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bf7ca37, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@79079097, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b2bac3f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e08711f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@bcec361, org.springframework.test.context.event.EventPublishingTestExecutionListener@26794848]
+[2022-11-11 14:10:08.274] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.275] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.275] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.275] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.276] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.276] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.282] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.282] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.282] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.282] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.283] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.283] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.286] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - Before test class: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.287] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.287] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.288] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-11 14:10:08.289] DEBUG AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2022-11-11 14:10:08.289] DEBUG AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2022-11-11 14:10:08.321] DEBUG AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:302) - Activating profiles []
+[2022-11-11 14:10:08.395] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 1 bean definitions from class path resource [applicationContext.xml]
+[2022-11-11 14:10:08.402] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericApplicationContext@6f45df59
+[2022-11-11 14:10:08.421] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-11-11 14:10:08.444] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-11-11 14:10:08.446] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-11-11 14:10:08.447] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-11-11 14:10:08.448] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-11-11 14:10:08.463] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) - Storing ApplicationContext [1866850137] in cache under key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.464] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+[2022-11-11 14:10:08.474] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.474] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+[2022-11-11 14:10:08.477] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = tvTest@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.482] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.483] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+[2022-11-11 14:10:08.483] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:10:08.483] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:10:08.484] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:10:08.487] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@6f45df59, started on Fri Nov 11 14:10:08 KST 2022
+[2022-11-11 14:10:08.490] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:10:08.492] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:10:08.492] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@47caedad
+[2022-11-11 14:10:08.492] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.493] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+[2022-11-11 14:10:08.493] DEBUG JTvTest.tvTest(JTvTest.java:52) - +++++++++++++++++++++++++
+[2022-11-11 14:10:08.493] DEBUG JTvTest.tvTest(JTvTest.java:53) - -tvTest()-
+[2022-11-11 14:10:08.493] DEBUG JTvTest.tvTest(JTvTest.java:54) - +++++++++++++++++++++++++
+[2022-11-11 14:10:08.494] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.495] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-11-11 14:10:08.496] DEBUG JTvTest.tearDown(JTvTest.java:45) - ------------------------
+[2022-11-11 14:10:08.496] DEBUG JTvTest.tearDown(JTvTest.java:46) - -tearDown()-
+[2022-11-11 14:10:08.496] DEBUG JTvTest.tearDown(JTvTest.java:47) - ------------------------
+[2022-11-11 14:10:08.496] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.496] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-11-11 14:10:08.497] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@bccb269, testMethod = tvTest@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.497] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.498] DEBUG ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pcwk.ehr.JTvTest]
+[2022-11-11 14:10:08.498] DEBUG DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) - Performing dependency injection for test context [[DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@7bbc8656, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2022-11-11 14:10:08.498] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.498] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-11-11 14:10:08.498] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.499] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+[2022-11-11 14:10:08.499] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@7bbc8656, testMethod = tvTest02@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.499] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.500] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+[2022-11-11 14:10:08.500] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:10:08.500] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:10:08.500] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:10:08.500] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@6f45df59, started on Fri Nov 11 14:10:08 KST 2022
+[2022-11-11 14:10:08.500] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:10:08.501] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:10:08.501] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@7d3e8655
+[2022-11-11 14:10:08.501] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.502] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+[2022-11-11 14:10:08.502] DEBUG JTvTest.tvTest02(JTvTest.java:59) - +++++++++++++++++++++++++
+[2022-11-11 14:10:08.502] DEBUG JTvTest.tvTest02(JTvTest.java:60) - -tvTest02()-
+[2022-11-11 14:10:08.502] DEBUG JTvTest.tvTest02(JTvTest.java:61) - +++++++++++++++++++++++++
+[2022-11-11 14:10:08.502] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.502] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+[2022-11-11 14:10:08.502] DEBUG JTvTest.tearDown(JTvTest.java:45) - ------------------------
+[2022-11-11 14:10:08.502] DEBUG JTvTest.tearDown(JTvTest.java:46) - -tearDown()-
+[2022-11-11 14:10:08.503] DEBUG JTvTest.tearDown(JTvTest.java:47) - ------------------------
+[2022-11-11 14:10:08.503] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.503] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+[2022-11-11 14:10:08.503] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = com.pcwk.ehr.JTvTest@7bbc8656, testMethod = tvTest02@JTvTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.504] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1866850137] from cache with key [[MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-11-11 14:10:08.504] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@72bc6553 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+[2022-11-11 14:10:08.504] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@23348b5d testClass = JTvTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70325e14 testClass = JTvTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-11-11 14:10:08.515] DEBUG AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.context.support.GenericApplicationContext@6f45df59, started on Fri Nov 11 14:10:08 KST 2022
+[2022-11-11 14:10:59.273] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:10:59.282] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fa121e2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7eac9008, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4116aac9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62ddbd7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52ef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ed3ccb2, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a677343]
+[2022-11-11 14:10:59.442] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:10:59.442] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:10:59.442] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:10:59.444] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:10:59 KST 2022
+[2022-11-11 14:10:59.445] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:10:59.445] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:10:59.445] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@23f5b5dc
+[2022-11-11 14:10:59.446] DEBUG JTvTest.tvTest(JTvTest.java:52) - +++++++++++++++++++++++++
+[2022-11-11 14:10:59.446] DEBUG JTvTest.tvTest(JTvTest.java:53) - -tvTest()-
+[2022-11-11 14:10:59.446] DEBUG JTvTest.tvTest(JTvTest.java:54) - +++++++++++++++++++++++++
+[2022-11-11 14:10:59.447] DEBUG JTvTest.tearDown(JTvTest.java:45) - ------------------------
+[2022-11-11 14:10:59.447] DEBUG JTvTest.tearDown(JTvTest.java:46) - -tearDown()-
+[2022-11-11 14:10:59.447] DEBUG JTvTest.tearDown(JTvTest.java:47) - ------------------------
+[2022-11-11 14:10:59.449] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:10:59.449] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:10:59.449] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:10:59.449] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:10:59 KST 2022
+[2022-11-11 14:10:59.449] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:10:59.449] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:10:59.449] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@1500b2f3
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tvTest02(JTvTest.java:59) - +++++++++++++++++++++++++
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tvTest02(JTvTest.java:60) - -tvTest02()-
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tvTest02(JTvTest.java:61) - +++++++++++++++++++++++++
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tearDown(JTvTest.java:45) - ------------------------
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tearDown(JTvTest.java:46) - -tearDown()-
+[2022-11-11 14:10:59.450] DEBUG JTvTest.tearDown(JTvTest.java:47) - ------------------------
+[2022-11-11 14:11:49.179] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:11:49.188] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fa121e2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7eac9008, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4116aac9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62ddbd7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52ef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ed3ccb2, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a677343]
+[2022-11-11 14:11:49.375] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:11:49.376] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:11:49.376] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:11:49.378] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:11:49 KST 2022
+[2022-11-11 14:11:49.378] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:11:49.379] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:11:49.379] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@23f5b5dc
+[2022-11-11 14:11:49.380] DEBUG JTvTest.tvTest(JTvTest.java:53) - +++++++++++++++++++++++++
+[2022-11-11 14:11:49.380] DEBUG JTvTest.tvTest(JTvTest.java:54) - -tvTest()-
+[2022-11-11 14:11:49.380] DEBUG JTvTest.tvTest(JTvTest.java:55) - +++++++++++++++++++++++++
+[2022-11-11 14:11:49.381] DEBUG JTvTest.tearDown(JTvTest.java:46) - ------------------------
+[2022-11-11 14:11:49.381] DEBUG JTvTest.tearDown(JTvTest.java:47) - -tearDown()-
+[2022-11-11 14:11:49.381] DEBUG JTvTest.tearDown(JTvTest.java:48) - ------------------------
+[2022-11-11 14:11:49.383] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:11:49.383] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:11:49.383] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:11:49.383] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:11:49 KST 2022
+[2022-11-11 14:11:49.383] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:11:49.383] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:11:49.384] DEBUG JTvTest.setUp(JTvTest.java:40) - tv01: com.pcwk.ehr.SamsungTV@1500b2f3
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tvTest02(JTvTest.java:60) - +++++++++++++++++++++++++
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tvTest02(JTvTest.java:61) - -tvTest02()-
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tvTest02(JTvTest.java:62) - +++++++++++++++++++++++++
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tearDown(JTvTest.java:46) - ------------------------
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tearDown(JTvTest.java:47) - -tearDown()-
+[2022-11-11 14:11:49.384] DEBUG JTvTest.tearDown(JTvTest.java:48) - ------------------------
+[2022-11-11 14:12:14.056] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:12:14.065] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fa121e2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7eac9008, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4116aac9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62ddbd7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52ef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ed3ccb2, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a677343]
+[2022-11-11 14:12:14.235] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:12:14.236] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:12:14.236] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:12:14.238] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:12:14 KST 2022
+[2022-11-11 14:12:14.239] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:12:14.240] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:12:14.240] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:12:14.240] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:12:14.240] DEBUG JTvTest.setUp(JTvTest.java:41) - tv01: com.pcwk.ehr.SamsungTV@23f5b5dc
+[2022-11-11 14:12:14.240] DEBUG JTvTest.setUp(JTvTest.java:42) - tv02: com.pcwk.ehr.SamsungTV@34bde49d
+[2022-11-11 14:12:14.241] DEBUG JTvTest.tvTest(JTvTest.java:56) - +++++++++++++++++++++++++
+[2022-11-11 14:12:14.241] DEBUG JTvTest.tvTest(JTvTest.java:57) - -tvTest()-
+[2022-11-11 14:12:14.241] DEBUG JTvTest.tvTest(JTvTest.java:58) - +++++++++++++++++++++++++
+[2022-11-11 14:12:14.242] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:12:14.242] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:12:14.242] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:12:14.244] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:12:14.244] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:12:14.244] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:12:14.244] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:12:14 KST 2022
+[2022-11-11 14:12:14.244] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:12:14.244] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:12:14.245] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:12:14.245] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:12:14.245] DEBUG JTvTest.setUp(JTvTest.java:41) - tv01: com.pcwk.ehr.SamsungTV@7eecb5b8
+[2022-11-11 14:12:14.245] DEBUG JTvTest.setUp(JTvTest.java:42) - tv02: com.pcwk.ehr.SamsungTV@126253fd
+[2022-11-11 14:12:14.245] DEBUG JTvTest.tvTest02(JTvTest.java:63) - +++++++++++++++++++++++++
+[2022-11-11 14:12:14.245] DEBUG JTvTest.tvTest02(JTvTest.java:64) - -tvTest02()-
+[2022-11-11 14:12:14.245] DEBUG JTvTest.tvTest02(JTvTest.java:65) - +++++++++++++++++++++++++
+[2022-11-11 14:12:14.245] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:12:14.245] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:12:14.246] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:09.412] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:14:09.421] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fa121e2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7eac9008, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4116aac9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62ddbd7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52ef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ed3ccb2, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a677343]
+[2022-11-11 14:14:09.583] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:09.583] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:09.584] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:09.585] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:14:09 KST 2022
+[2022-11-11 14:14:09.586] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:09.586] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:09.586] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:09.591] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:09.591] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:09.591] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:09.591] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:14:09 KST 2022
+[2022-11-11 14:14:09.591] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:09.591] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:09.591] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:35.120] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:14:35.129] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3cd3e762, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.test.context.event.EventPublishingTestExecutionListener@74e52ef6]
+[2022-11-11 14:14:35.290] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:35.290] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:35.290] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:35.292] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@757277dc, started on Fri Nov 11 14:14:35 KST 2022
+[2022-11-11 14:14:35.292] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:35.293] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:35.293] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:35.297] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:35.297] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:35.297] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:35.297] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@757277dc, started on Fri Nov 11 14:14:35 KST 2022
+[2022-11-11 14:14:35.297] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:35.298] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:35.298] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:54.912] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:14:54.922] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fa121e2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7eac9008, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4116aac9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62ddbd7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52ef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ed3ccb2, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a677343]
+[2022-11-11 14:14:55.083] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:55.083] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:55.083] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:55.085] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:14:55 KST 2022
+[2022-11-11 14:14:55.086] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:14:55.087] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:14:55.087] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:14:55.087] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:14:55.087] DEBUG JTvTest.setUp(JTvTest.java:41) - tv01: com.pcwk.ehr.SamsungTV@23f5b5dc
+[2022-11-11 14:14:55.087] DEBUG JTvTest.setUp(JTvTest.java:42) - tv02: com.pcwk.ehr.SamsungTV@34bde49d
+[2022-11-11 14:14:55.088] DEBUG JTvTest.tvTest(JTvTest.java:56) - +++++++++++++++++++++++++
+[2022-11-11 14:14:55.088] DEBUG JTvTest.tvTest(JTvTest.java:57) - -tvTest()-
+[2022-11-11 14:14:55.088] DEBUG JTvTest.tvTest(JTvTest.java:58) - +++++++++++++++++++++++++
+[2022-11-11 14:14:55.089] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:55.089] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:55.089] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:14:55.091] DEBUG JTvTest.setUp(JTvTest.java:32) - ------------------------
+[2022-11-11 14:14:55.091] DEBUG JTvTest.setUp(JTvTest.java:33) - -setUp()-
+[2022-11-11 14:14:55.091] DEBUG JTvTest.setUp(JTvTest.java:34) - ------------------------
+[2022-11-11 14:14:55.091] DEBUG JTvTest.setUp(JTvTest.java:36) - context: org.springframework.context.support.GenericApplicationContext@e4487af, started on Fri Nov 11 14:14:55 KST 2022
+[2022-11-11 14:14:55.091] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:14:55.092] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:14:55.092] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:14:55.092] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:14:55.092] DEBUG JTvTest.setUp(JTvTest.java:41) - tv01: com.pcwk.ehr.SamsungTV@7eecb5b8
+[2022-11-11 14:14:55.092] DEBUG JTvTest.setUp(JTvTest.java:42) - tv02: com.pcwk.ehr.SamsungTV@126253fd
+[2022-11-11 14:14:55.092] DEBUG JTvTest.tvTest02(JTvTest.java:63) - +++++++++++++++++++++++++
+[2022-11-11 14:14:55.092] DEBUG JTvTest.tvTest02(JTvTest.java:64) - -tvTest02()-
+[2022-11-11 14:14:55.092] DEBUG JTvTest.tvTest02(JTvTest.java:65) - +++++++++++++++++++++++++
+[2022-11-11 14:14:55.093] DEBUG JTvTest.tearDown(JTvTest.java:49) - ------------------------
+[2022-11-11 14:14:55.093] DEBUG JTvTest.tearDown(JTvTest.java:50) - -tearDown()-
+[2022-11-11 14:14:55.093] DEBUG JTvTest.tearDown(JTvTest.java:51) - ------------------------
+[2022-11-11 14:15:49.863] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:15:49.875] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7eac9008, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4116aac9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@62ddbd7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74e52ef6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ed3ccb2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a677343, org.springframework.test.context.event.EventPublishingTestExecutionListener@15de0b3c]
+[2022-11-11 14:15:50.066] DEBUG JTvTest.setUp(JTvTest.java:33) - ------------------------
+[2022-11-11 14:15:50.066] DEBUG JTvTest.setUp(JTvTest.java:34) - -setUp()-
+[2022-11-11 14:15:50.067] DEBUG JTvTest.setUp(JTvTest.java:35) - ------------------------
+[2022-11-11 14:15:50.070] DEBUG JTvTest.setUp(JTvTest.java:37) - context: org.springframework.context.support.GenericApplicationContext@6aaceffd, started on Fri Nov 11 14:15:49 KST 2022
+[2022-11-11 14:15:50.071] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:15:50.072] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:15:50.072] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:15:50.073] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:15:50.073] DEBUG JTvTest.setUp(JTvTest.java:42) - tv01: com.pcwk.ehr.SamsungTV@34bde49d
+[2022-11-11 14:15:50.073] DEBUG JTvTest.setUp(JTvTest.java:43) - tv02: com.pcwk.ehr.SamsungTV@1b1cfb87
+[2022-11-11 14:15:50.073] DEBUG JTvTest.tvTest(JTvTest.java:57) - +++++++++++++++++++++++++
+[2022-11-11 14:15:50.073] DEBUG JTvTest.tvTest(JTvTest.java:58) - -tvTest()-
+[2022-11-11 14:15:50.074] DEBUG JTvTest.tvTest(JTvTest.java:59) - +++++++++++++++++++++++++
+[2022-11-11 14:15:50.074] DEBUG SamsungTV.powerOn(SamsungTV.java:28) - 삼성 TV 전원을 켠다.
+[2022-11-11 14:15:50.074] DEBUG SamsungTV.volumnUp(SamsungTV.java:38) - 삼성 TV 볼륨을 높힌다.
+[2022-11-11 14:15:50.074] DEBUG SamsungTV.volumnDown(SamsungTV.java:43) - 삼성 TV 볼륨을 낮춘다.
+[2022-11-11 14:15:50.074] DEBUG SamsungTV.powerOff(SamsungTV.java:33) - 삼성 TV 전원을 끈다.
+[2022-11-11 14:15:50.075] DEBUG JTvTest.tearDown(JTvTest.java:50) - ------------------------
+[2022-11-11 14:15:50.075] DEBUG JTvTest.tearDown(JTvTest.java:51) - -tearDown()-
+[2022-11-11 14:15:50.075] DEBUG JTvTest.tearDown(JTvTest.java:52) - ------------------------
+[2022-11-11 14:20:52.692] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-11-11 14:20:52.701] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74e52ef6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ed3ccb2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a677343, org.springframework.test.context.support.DirtiesContextTestExecutionListener@15de0b3c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@489115ef, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3857f613, org.springframework.test.context.event.EventPublishingTestExecutionListener@198b6731]
+[2022-11-11 14:20:52.856] DEBUG JTvTest.setUp(JTvTest.java:36) - ------------------------
+[2022-11-11 14:20:52.856] DEBUG JTvTest.setUp(JTvTest.java:37) - -setUp()-
+[2022-11-11 14:20:52.856] DEBUG JTvTest.setUp(JTvTest.java:38) - ------------------------
+[2022-11-11 14:20:52.872] DEBUG JTvTest.setUp(JTvTest.java:42) - context: org.springframework.context.support.GenericXmlApplicationContext@d554c5f, started on Fri Nov 11 14:20:52 KST 2022
+[2022-11-11 14:20:52.872] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:20:52.872] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:20:52.873] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default생성자!
+[2022-11-11 14:20:52.873] DEBUG SamsungTV.initMethod(SamsungTV.java:18) - 삼성 TV initMethod() 메서드!
+[2022-11-11 14:20:52.873] DEBUG JTvTest.setUp(JTvTest.java:47) - tv01: com.pcwk.ehr.SamsungTV@4b520ea8
+[2022-11-11 14:20:52.873] DEBUG JTvTest.setUp(JTvTest.java:48) - tv02: com.pcwk.ehr.SamsungTV@16150369
+[2022-11-11 14:20:52.874] DEBUG JTvTest.tvTest(JTvTest.java:62) - +++++++++++++++++++++++++
+[2022-11-11 14:20:52.874] DEBUG JTvTest.tvTest(JTvTest.java:63) - -tvTest()-
+[2022-11-11 14:20:52.874] DEBUG JTvTest.tvTest(JTvTest.java:64) - +++++++++++++++++++++++++
+[2022-11-11 14:20:52.874] DEBUG SamsungTV.powerOn(SamsungTV.java:28) - 삼성 TV 전원을 켠다.
+[2022-11-11 14:20:52.874] DEBUG SamsungTV.volumnUp(SamsungTV.java:38) - 삼성 TV 볼륨을 높힌다.
+[2022-11-11 14:20:52.874] DEBUG SamsungTV.volumnDown(SamsungTV.java:43) - 삼성 TV 볼륨을 낮춘다.
+[2022-11-11 14:20:52.874] DEBUG SamsungTV.powerOff(SamsungTV.java:33) - 삼성 TV 전원을 끈다.
+[2022-11-11 14:20:52.876] DEBUG JTvTest.tearDown(JTvTest.java:55) - ------------------------
+[2022-11-11 14:20:52.876] DEBUG JTvTest.tearDown(JTvTest.java:56) - -tearDown()-
+[2022-11-11 14:20:52.876] DEBUG JTvTest.tearDown(JTvTest.java:57) - ------------------------
